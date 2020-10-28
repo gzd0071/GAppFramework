@@ -1,0 +1,44 @@
+{
+  "name": "DMLogin",
+  "version": "0.1.0",
+  "summary": "斗米通用登录模块",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://git.corp.doumi.com/middle-end/DMLogin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NonMac": "NonMac@aliyun.com"
+  },
+  "source": {
+    "git": "git@git.corp.doumi.com:middle-end/DMLogin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "default_subspecs": "C",
+  "subspecs": [
+    {
+      "name": "C",
+      "source_files": [
+        "Classes/*.{h,m}",
+        "Classes/logic**/*",
+        "Classes/network/**/*",
+        "Classes/UI/**/*",
+        "Classes/ChinaMobile/**/*",
+        "Classes/FlashVerify/**/*"
+      ],
+      "resources": [
+        "Assets/*.*"
+      ],
+      "xcconfig": {
+        "FRAMEWORK_SEARCH_PATHS": [
+          "${PODS_ROOT}/OneKeyLoginSDK/Classes/移动联通电信/",
+          "${PODS_ROOT}/../doumi_framework_ios/"
+        ]
+      }
+    }
+  ]
+}

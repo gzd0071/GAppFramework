@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+platform :ios, '8.0'
+inhibit_all_warnings!
+install! 'cocoapods',
+  disable_input_output_paths: true,
+  generate_multiple_pod_projects: true
+
+  source 'git@github.com:katongzhong1/ComponentsSpecs.git'
+  source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Example' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+#   Pods for Example
+
+  pod 'DMToken',     :path => '../../DMToken'
+
+  target 'ExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ExampleUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

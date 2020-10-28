@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B80A61EB7882C7FB3429F7AB14AC57 /* DMLSMSValidationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DABB9155FD0B6494F0FEBEE5C7A96D /* DMLSMSValidationVC.m */; };
+		0514A7EE1504F783C08E7308A6E48196 /* BLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 82712A28CB1475DA25CBD84BABFA3813 /* BLogin.m */; };
+		0808E1FB756513D4DC33608E0570D42A /* DMLoginStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB16AF8802504FDEA937DD75E22DA7 /* DMLoginStore.m */; };
+		0815B6494A100D9EB18668348A5D2403 /* DMAlertAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF68E97624E7377A526A3ED7E96B84C /* DMAlertAnimation.m */; };
+		10A0DB5C2DA51B19525739469E889FA3 /* DMLLoginMiddleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 54070AB55B01AB43CEAF82F6A762F46D /* DMLLoginMiddleView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16470283966B15D05B08DA255F64D29A /* DMLoginAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C2627F6FA085643B6EE58570A8843BA /* DMLoginAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1EFA4D59FD44CB6F2283B28D02500503 /* DMLoginBaseAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE418D13E0A526A4DBB9E5F69E6FCD3D /* DMLoginBaseAlertController.m */; };
+		222C271722E7CE716E183D2DC70591D2 /* DMLLoginHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = E98C9A0B95B141E791AA5CB2E351A413 /* DMLLoginHeaderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		26495D7BA61F3C831989D61368C63EDA /* DMCaptchaAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = D305BC218CA250A10B41EEF39266D2A2 /* DMCaptchaAlertView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2A447F02F435BF96ACBA98C68859CC2D /* DMLoginAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3803EBE733927704CA869E6EFA7ED9CE /* DMLoginAlertController.m */; };
+		2C6921D53959662FB81FB5C87748B3ED /* DMLVerifyCodeInputLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 618BAFD3BB19BED25E3CECD82997FC61 /* DMLVerifyCodeInputLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34BA0D99DA376E2A14962E85CDC9F9B4 /* DMLoginCoreLogic+UIConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 24835059D83386A7C650F0C7996EB101 /* DMLoginCoreLogic+UIConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36F9E0AD6525758376CFEE79A2BD6F18 /* DMLLoginHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB74FF5B7963A680BC33B4FF6FC00F38 /* DMLLoginHeaderView.m */; };
+		38DFB47364259CAE5B76300B55930D1C /* DMAlertAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF9FD9A78DB862F6B74176616BA4E09 /* DMAlertAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		408CD1447D8ACC153D5FE475FDB4147D /* CarrierTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAF9716826992BED7FD7C67AC4241D /* CarrierTool.m */; };
+		4DFEAE9E54C6F3AA030BABAEDF91C356 /* DMLVerifyCodeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D12EB4C5610362032281C2ACC27CEA /* DMLVerifyCodeInputView.m */; };
+		53C1FAF2DA352D845B5DE0BDBFB5104F /* DMLWeChatBindPhoneView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB6AC1DB82198F5649ECF177E031EB1 /* DMLWeChatBindPhoneView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5487948DE581C4D0A1FE86A5880A3B32 /* DMLoginCoreLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A59AF9F1740606777B7DF636614D4C3 /* DMLoginCoreLogic.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56C0B685E3234A9DDC9EFAAFAB8EA7F0 /* DMLoginCoreLogic+UIConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 00683C73F19DCA41D794B0FCFF59970E /* DMLoginCoreLogic+UIConfiguration.m */; };
+		5B80D097A54BFE74DF0F899A94E633CA /* DMLOneKeyLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9489580CF0001B8E8A4EBABE911C2C /* DMLOneKeyLoginView.m */; };
+		5CB29E52F60571C2B88294F0E9AD7DC9 /* DMLoginAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = E32298ED6BEEC545448B2A4EF8116056 /* DMLoginAlertController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D3C90C0AAB999FD0235B587670200A1 /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F082CB5D37CFB5A6D8B2DED90BE0517 /* NSTimer+Block.m */; };
+		6C28A97377371E0A0AD192406140D63C /* DMLoginDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = ED1AD69E4E719A6FD0690E9ED4F6B457 /* DMLoginDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		80F679F7E14696C230C1C722D98CEDF9 /* NSTimer+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC0EBEE494943C52E7E92BE60062874 /* NSTimer+Block.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		84024C4330E71BC8CEEBD66B972A6A13 /* DMCaptchaAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = B608C82E7A30DE1BD10FCA1152F40BF5 /* DMCaptchaAlertController.m */; };
+		90AD8B631480AA550D0DC4A7151D6D1A /* DMLSMSValidationVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC62632366B45BB24956A989510DC45 /* DMLSMSValidationVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9B5530D460EDA8C1B50764CA907A53C5 /* BLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 703D5A30B32BF7730744D0770D688957 /* BLogin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7A31E48A434CCF16B0F730EC19F0877 /* LoginCoreVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B22E2D4AB3D880D6C324618ADD1E542 /* LoginCoreVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA961F81FF0637AD324ABBD7DB9488A6 /* DMLoginBaseAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AE0A5FE7ED368C40DDB64698CBD7AA /* DMLoginBaseAlertController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ABF45A026D72A5B325C7D3D1983B0516 /* DMLoginNetWork.h in Headers */ = {isa = PBXBuildFile; fileRef = EB44FB8B45F29EDCFC37C1F4B83DE78A /* DMLoginNetWork.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF6ABED09BC10C012D0ABAB480D36DEC /* DMLoginCoreLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 866BE97F2A1654F1E0D83A08D6B854BF /* DMLoginCoreLogic.m */; };
+		B19D55574E9A15A93F89C8A19A77C975 /* DMLoginAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F9DF087D63A0B96B4C38D20EAD69C7E /* DMLoginAlertView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1AFB436F14E9C985F95F536AC3C45EE /* DMCaptchaAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB94AD81A112FA2138FAEE156D42E5FF /* DMCaptchaAlertView.m */; };
+		B233D421F4B92460675602934CDBC513 /* DMLoginAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B80C49E9B36CA27D5373C10EEF78290 /* DMLoginAlertView.m */; };
+		B7271195804629239BACBD15A472CED6 /* DMLoginBaseAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 975C3659D070FE0E43E719AF183E7A46 /* DMLoginBaseAlertView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B866F183BC981D91BAA5382FA3E70309 /* DMLoginStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3DD8C4F74FDD504EC3169FBF95BC4A /* DMLoginStore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BCDAFF99DC2690688D2CD6E964610CF1 /* DMLWeChatBindPhoneVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 543438AE2652DCEDF20E1CB90AA7A703 /* DMLWeChatBindPhoneVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BEEC83E5D2AB616016124B9F4DFB02B5 /* DMLWeChatBindPhoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B4D6D00157EFAB6BBFF6CD895DA7D0 /* DMLWeChatBindPhoneVC.m */; };
+		C3AF569D3D07532A7E40320A7677514B /* DMLLoginBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CFAA6F901A743363DE66028FAB4EE6 /* DMLLoginBottomView.m */; };
+		CAC8E4012B6F4470F36E3752710BD0DD /* DMCaptchaAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B9447BB9ECC2F903D2977FDD387C48 /* DMCaptchaAlertController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC0D65778CDC22372B1AAE55DF8DC69E /* DMLoginNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5772130678C700471B09174072B250 /* DMLoginNetWork.m */; };
+		D14211FC7CB55F01EF5DB7FE159B8039 /* LoginCoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB2A595C281029B81EA48651309CB2D /* LoginCoreVC.m */; };
+		D373C88F28DA2AABE2AF1A4E3629BB7A /* UIView+LoginUIViewPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 004FAE3C2B30DFE8B20922DD62016459 /* UIView+LoginUIViewPosition.m */; };
+		D43FF74FB2160F9343A8832A1F9010D8 /* DMLoginBaseAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FDEB010BBC77023BBD8E8D6ABD177E /* DMLoginBaseAlertView.m */; };
+		DACC6DE3E3FDDC3167AE1EEE61DE740D /* DMLVerifyCodeInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EFEAF3ECBD1ABFEFB7AD7258074901 /* DMLVerifyCodeInputView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB6753E848ACA0987DF5CBE88B03B652 /* DMLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 929F9FD4C47CC6D06CC5F4F539CE2454 /* DMLogin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDF62996050DA1A8DAB439B82F5522C7 /* DMLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B885FC535A6CC54558DF3D7097BA89A /* DMLogin-dummy.m */; };
+		E42DEB96329FEBB3DD6B947A0E25D515 /* DMLLoginBottomView.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7DC0F427E70F068A7985291BF16A33 /* DMLLoginBottomView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E442F816355E5EF12AA43E12F72EF7C5 /* CarrierTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 40EE638CC868C7F1232509F2BC20CC28 /* CarrierTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5FBE2C8FD5EE5054A4F299D3FBA2854 /* DMLLoginMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 197E4BF4FDE97C98FBC704D628EA38D3 /* DMLLoginMiddleView.m */; };
+		E9231A1FFFE215B2895272C8DCF3E9B2 /* DMLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AA1B56A5B4F348D9F9A6A1A2AF128E /* DMLogin.m */; };
+		F0C00CB51CC2864BC564E5C5FF3C07B7 /* DMLVerifyCodeInputLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 733A4A3899247F666371D7D0D07EA234 /* DMLVerifyCodeInputLabel.m */; };
+		F168CD696AEBF9C39549A90A4382CB68 /* DMLOneKeyLoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D56E3AD0C028D5F07E5B35160ABCAD /* DMLOneKeyLoginView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F668074CDEF22700E0C0ACB3710E6D91 /* DMLoginAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF52A9BBFD15096C17513117AADA4F69 /* DMLoginAdapter.m */; };
+		FBEF3EB9105789C27044CDA31F32A713 /* UIView+LoginUIViewPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D71BC0957C0AC92C4AD286DA854163 /* UIView+LoginUIViewPosition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE3ED6295ADA02C864482EB20C3B7355 /* DMLWeChatBindPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 356A562A67B60A1AEDBC9DC9C7F93606 /* DMLWeChatBindPhoneView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		004FAE3C2B30DFE8B20922DD62016459 /* UIView+LoginUIViewPosition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LoginUIViewPosition.m"; sourceTree = "<group>"; };
+		00683C73F19DCA41D794B0FCFF59970E /* DMLoginCoreLogic+UIConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DMLoginCoreLogic+UIConfiguration.m"; sourceTree = "<group>"; };
+		0319235865708821A74D63684C527126 /* dml_alert_cancel_selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dml_alert_cancel_selected@2x.png"; path = "Assets/dml_alert_cancel_selected@2x.png"; sourceTree = "<group>"; };
+		06D56E3AD0C028D5F07E5B35160ABCAD /* DMLOneKeyLoginView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMLOneKeyLoginView.h; sourceTree = "<group>"; };
+		07AA1B56A5B4F348D9F9A6A1A2AF128E /* DMLogin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLogin.m; path = Classes/DMLogin.m; sourceTree = "<group>"; };
+		080139DD3E0E5E3663A38C4F4C2DB80F /* onekeyCenterImg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onekeyCenterImg@3x.png"; path = "Assets/onekeyCenterImg@3x.png"; sourceTree = "<group>"; };
+		0B885FC535A6CC54558DF3D7097BA89A /* DMLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DMLogin-dummy.m"; sourceTree = "<group>"; };
+		0C2627F6FA085643B6EE58570A8843BA /* DMLoginAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLoginAdapter.h; path = Classes/DMLoginAdapter.h; sourceTree = "<group>"; };
+		197E4BF4FDE97C98FBC704D628EA38D3 /* DMLLoginMiddleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMLLoginMiddleView.m; sourceTree = "<group>"; };
+		19AFA8732564D6017A74A8CF7FAA28A2 /* dml_alert_bg_captcha.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dml_alert_bg_captcha.png; path = Assets/dml_alert_bg_captcha.png; sourceTree = "<group>"; };
+		1B3DD8C4F74FDD504EC3169FBF95BC4A /* DMLoginStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLoginStore.h; path = Classes/DMLoginStore.h; sourceTree = "<group>"; };
+		1DB6AC1DB82198F5649ECF177E031EB1 /* DMLWeChatBindPhoneView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMLWeChatBindPhoneView.h; sourceTree = "<group>"; };
+		24835059D83386A7C650F0C7996EB101 /* DMLoginCoreLogic+UIConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMLoginCoreLogic+UIConfiguration.h"; sourceTree = "<group>"; };
+		2FB2A595C281029B81EA48651309CB2D /* LoginCoreVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoginCoreVC.m; sourceTree = "<group>"; };
+		2FF68E97624E7377A526A3ED7E96B84C /* DMAlertAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMAlertAnimation.m; sourceTree = "<group>"; };
+		310EB7310C59464695D04F2D3CDD070A /* onekeyBtnGray.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = onekeyBtnGray.png; path = Assets/onekeyBtnGray.png; sourceTree = "<group>"; };
+		356A562A67B60A1AEDBC9DC9C7F93606 /* DMLWeChatBindPhoneView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMLWeChatBindPhoneView.m; sourceTree = "<group>"; };
+		365311D267FCCAA3428D420FD8F9E200 /* 登录页点缀@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "登录页点缀@2x.png"; path = "Assets/登录页点缀@2x.png"; sourceTree = "<group>"; };
+		3803EBE733927704CA869E6EFA7ED9CE /* DMLoginAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMLoginAlertController.m; sourceTree = "<group>"; };
+		38CA372C08A3BABC5E0D7CFBE44309EA /* dml_alert_cancel_normal@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dml_alert_cancel_normal@3x.png"; path = "Assets/dml_alert_cancel_normal@3x.png"; sourceTree = "<group>"; };
+		3C083E4ED6292C708B43A49F4EE2672B /* dml_alert_confirm_selected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dml_alert_confirm_selected@3x.png"; path = "Assets/dml_alert_confirm_selected@3x.png"; sourceTree = "<group>"; };
+		3EB6FF6EAD44B6D66A457FF7CB165729 /* onekeyClose@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onekeyClose@3x.png"; path = "Assets/onekeyClose@3x.png"; sourceTree = "<group>"; };
+		3F9DF087D63A0B96B4C38D20EAD69C7E /* DMLoginAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMLoginAlertView.h; sourceTree = "<group>"; };
+		3FADE1B8E9EE15923E3426206E12A6E9 /* onekeyBtnYellow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = onekeyBtnYellow.png; path = Assets/onekeyBtnYellow.png; sourceTree = "<group>"; };
+		3FC62632366B45BB24956A989510DC45 /* DMLSMSValidationVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMLSMSValidationVC.h; sourceTree = "<group>"; };
+		40EE638CC868C7F1232509F2BC20CC28 /* CarrierTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarrierTool.h; path = Classes/CarrierTool.h; sourceTree = "<group>"; };
+		425E5BE25222FE1739FC93FC3192A424 /* blank.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = blank.png; path = Assets/blank.png; sourceTree = "<group>"; };
+		42DBAB3D2F84D9172B16BF952735EC9D /* dml_alert_confirm_selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dml_alert_confirm_selected@2x.png"; path = "Assets/dml_alert_confirm_selected@2x.png"; sourceTree = "<group>"; };
+		4AEAF9716826992BED7FD7C67AC4241D /* CarrierTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarrierTool.m; path = Classes/CarrierTool.m; sourceTree = "<group>"; };
+		53DABB9155FD0B6494F0FEBEE5C7A96D /* DMLSMSValidationVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMLSMSValidationVC.m; sourceTree = "<group>"; };
+		54070AB55B01AB43CEAF82F6A762F46D /* DMLLoginMiddleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMLLoginMiddleView.h; sourceTree = "<group>"; };
+		543438AE2652DCEDF20E1CB90AA7A703 /* DMLWeChatBindPhoneVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMLWeChatBindPhoneVC.h; sourceTree = "<group>"; };
+		55C34B8169045A2175863B2AEF6C1BC5 /* DMLogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMLogin.xcconfig; sourceTree = "<group>"; };
+		58FA65BA78A6F77C830954AD3E395DBE /* DMLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMLogin-prefix.pch"; sourceTree = "<group>"; };
+		5A61F46B2D97FE6CBAE62E56472AE08C /* DMLSMSValidationVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DMLSMSValidationVC.xib; path = Assets/DMLSMSValidationVC.xib; sourceTree = "<group>"; };
+		618BAFD3BB19BED25E3CECD82997FC61 /* DMLVerifyCodeInputLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMLVerifyCodeInputLabel.h; sourceTree = "<group>"; };
+		65E890DC8D971F2298EE6EE408CD5D81 /* dml_alert_cancel_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dml_alert_cancel_normal@2x.png"; path = "Assets/dml_alert_cancel_normal@2x.png"; sourceTree = "<group>"; };
+		66CFAA6F901A743363DE66028FAB4EE6 /* DMLLoginBottomView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMLLoginBottomView.m; sourceTree = "<group>"; };
+		68FDEB010BBC77023BBD8E8D6ABD177E /* DMLoginBaseAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMLoginBaseAlertView.m; sourceTree = "<group>"; };
+		6FF9FD9A78DB862F6B74176616BA4E09 /* DMAlertAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMAlertAnimation.h; sourceTree = "<group>"; };
+		703D5A30B32BF7730744D0770D688957 /* BLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLogin.h; path = Classes/BLogin.h; sourceTree = "<group>"; };
+		733A4A3899247F666371D7D0D07EA234 /* DMLVerifyCodeInputLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMLVerifyCodeInputLabel.m; sourceTree = "<group>"; };
+		77B4D6D00157EFAB6BBFF6CD895DA7D0 /* DMLWeChatBindPhoneVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMLWeChatBindPhoneVC.m; sourceTree = "<group>"; };
+		7A59AF9F1740606777B7DF636614D4C3 /* DMLoginCoreLogic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMLoginCoreLogic.h; sourceTree = "<group>"; };
+		7B80C49E9B36CA27D5373C10EEF78290 /* DMLoginAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMLoginAlertView.m; sourceTree = "<group>"; };
+		7EFB16AF8802504FDEA937DD75E22DA7 /* DMLoginStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLoginStore.m; path = Classes/DMLoginStore.m; sourceTree = "<group>"; };
+		82712A28CB1475DA25CBD84BABFA3813 /* BLogin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLogin.m; path = Classes/BLogin.m; sourceTree = "<group>"; };
+		866BE97F2A1654F1E0D83A08D6B854BF /* DMLoginCoreLogic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMLoginCoreLogic.m; sourceTree = "<group>"; };
+		874AA2074611C1E5B6C2F581BBA2D436 /* newLoginWechat@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "newLoginWechat@2x.png"; path = "Assets/newLoginWechat@2x.png"; sourceTree = "<group>"; };
+		929F9FD4C47CC6D06CC5F4F539CE2454 /* DMLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLogin.h; path = Classes/DMLogin.h; sourceTree = "<group>"; };
+		96C82F8A32B7A50761D57727B1B7F68D /* newLoginWechat@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "newLoginWechat@3x.png"; path = "Assets/newLoginWechat@3x.png"; sourceTree = "<group>"; };
+		975C3659D070FE0E43E719AF183E7A46 /* DMLoginBaseAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMLoginBaseAlertView.h; sourceTree = "<group>"; };
+		9B22E2D4AB3D880D6C324618ADD1E542 /* LoginCoreVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoginCoreVC.h; sourceTree = "<group>"; };
+		9F082CB5D37CFB5A6D8B2DED90BE0517 /* NSTimer+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+Block.m"; path = "Classes/NSTimer+Block.m"; sourceTree = "<group>"; };
+		A051552CB0D2929F4515A00D96287783 /* libDMLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDMLogin.a; path = libDMLogin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D2E04C01CCD959D636E1077B52B374 /* DMLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DMLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7AC2929107A31C8E77CE32F8856EC66 /* onekeyClose@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onekeyClose@2x.png"; path = "Assets/onekeyClose@2x.png"; sourceTree = "<group>"; };
+		AB94AD81A112FA2138FAEE156D42E5FF /* DMCaptchaAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMCaptchaAlertView.m; sourceTree = "<group>"; };
+		AC5772130678C700471B09174072B250 /* DMLoginNetWork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMLoginNetWork.m; sourceTree = "<group>"; };
+		AE418D13E0A526A4DBB9E5F69E6FCD3D /* DMLoginBaseAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMLoginBaseAlertController.m; sourceTree = "<group>"; };
+		AF52A9BBFD15096C17513117AADA4F69 /* DMLoginAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLoginAdapter.m; path = Classes/DMLoginAdapter.m; sourceTree = "<group>"; };
+		B0087861ABBB83174793E185B30A01CF /* 登录页点缀@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "登录页点缀@3x.png"; path = "Assets/登录页点缀@3x.png"; sourceTree = "<group>"; };
+		B0B3C7AC5A31DD3A18D2FA97597AF927 /* dml_alert_cancel_selected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dml_alert_cancel_selected@3x.png"; path = "Assets/dml_alert_cancel_selected@3x.png"; sourceTree = "<group>"; };
+		B608C82E7A30DE1BD10FCA1152F40BF5 /* DMCaptchaAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMCaptchaAlertController.m; sourceTree = "<group>"; };
+		BE7DC0F427E70F068A7985291BF16A33 /* DMLLoginBottomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMLLoginBottomView.h; sourceTree = "<group>"; };
+		C325314482C0FF595BC70A9B97580B73 /* dml_alert_confirm_normal@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dml_alert_confirm_normal@3x.png"; path = "Assets/dml_alert_confirm_normal@3x.png"; sourceTree = "<group>"; };
+		C408A5FBBAB56262992945133464C75E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C56A98C3C5C494B5655B7E994904A974 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CBC0EBEE494943C52E7E92BE60062874 /* NSTimer+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+Block.h"; path = "Classes/NSTimer+Block.h"; sourceTree = "<group>"; };
+		D0AE0A5FE7ED368C40DDB64698CBD7AA /* DMLoginBaseAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMLoginBaseAlertController.h; sourceTree = "<group>"; };
+		D2B9447BB9ECC2F903D2977FDD387C48 /* DMCaptchaAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMCaptchaAlertController.h; sourceTree = "<group>"; };
+		D305BC218CA250A10B41EEF39266D2A2 /* DMCaptchaAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMCaptchaAlertView.h; sourceTree = "<group>"; };
+		D9EFEAF3ECBD1ABFEFB7AD7258074901 /* DMLVerifyCodeInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMLVerifyCodeInputView.h; sourceTree = "<group>"; };
+		E32298ED6BEEC545448B2A4EF8116056 /* DMLoginAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMLoginAlertController.h; sourceTree = "<group>"; };
+		E98C9A0B95B141E791AA5CB2E351A413 /* DMLLoginHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMLLoginHeaderView.h; sourceTree = "<group>"; };
+		EB25DF76EAADCC27BDD3E5B5C9523A4F /* dml_alert_confirm_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dml_alert_confirm_normal@2x.png"; path = "Assets/dml_alert_confirm_normal@2x.png"; sourceTree = "<group>"; };
+		EB44FB8B45F29EDCFC37C1F4B83DE78A /* DMLoginNetWork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMLoginNetWork.h; sourceTree = "<group>"; };
+		EB74FF5B7963A680BC33B4FF6FC00F38 /* DMLLoginHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMLLoginHeaderView.m; sourceTree = "<group>"; };
+		ED1AD69E4E719A6FD0690E9ED4F6B457 /* DMLoginDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLoginDefine.h; path = Classes/DMLoginDefine.h; sourceTree = "<group>"; };
+		F4D12EB4C5610362032281C2ACC27CEA /* DMLVerifyCodeInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMLVerifyCodeInputView.m; sourceTree = "<group>"; };
+		F5D71BC0957C0AC92C4AD286DA854163 /* UIView+LoginUIViewPosition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LoginUIViewPosition.h"; sourceTree = "<group>"; };
+		F7385409A4FAF25DB3F1A489FDB1BAFB /* onekeyCenterImg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onekeyCenterImg@2x.png"; path = "Assets/onekeyCenterImg@2x.png"; sourceTree = "<group>"; };
+		FD9489580CF0001B8E8A4EBABE911C2C /* DMLOneKeyLoginView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMLOneKeyLoginView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5884057C51FA646A616A83BE79CC9AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04207BEF2C00B1C2A1414B1AAB928D47 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				425E5BE25222FE1739FC93FC3192A424 /* blank.png */,
+				19AFA8732564D6017A74A8CF7FAA28A2 /* dml_alert_bg_captcha.png */,
+				65E890DC8D971F2298EE6EE408CD5D81 /* dml_alert_cancel_normal@2x.png */,
+				38CA372C08A3BABC5E0D7CFBE44309EA /* dml_alert_cancel_normal@3x.png */,
+				0319235865708821A74D63684C527126 /* dml_alert_cancel_selected@2x.png */,
+				B0B3C7AC5A31DD3A18D2FA97597AF927 /* dml_alert_cancel_selected@3x.png */,
+				EB25DF76EAADCC27BDD3E5B5C9523A4F /* dml_alert_confirm_normal@2x.png */,
+				C325314482C0FF595BC70A9B97580B73 /* dml_alert_confirm_normal@3x.png */,
+				42DBAB3D2F84D9172B16BF952735EC9D /* dml_alert_confirm_selected@2x.png */,
+				3C083E4ED6292C708B43A49F4EE2672B /* dml_alert_confirm_selected@3x.png */,
+				5A61F46B2D97FE6CBAE62E56472AE08C /* DMLSMSValidationVC.xib */,
+				874AA2074611C1E5B6C2F581BBA2D436 /* newLoginWechat@2x.png */,
+				96C82F8A32B7A50761D57727B1B7F68D /* newLoginWechat@3x.png */,
+				310EB7310C59464695D04F2D3CDD070A /* onekeyBtnGray.png */,
+				3FADE1B8E9EE15923E3426206E12A6E9 /* onekeyBtnYellow.png */,
+				F7385409A4FAF25DB3F1A489FDB1BAFB /* onekeyCenterImg@2x.png */,
+				080139DD3E0E5E3663A38C4F4C2DB80F /* onekeyCenterImg@3x.png */,
+				A7AC2929107A31C8E77CE32F8856EC66 /* onekeyClose@2x.png */,
+				3EB6FF6EAD44B6D66A457FF7CB165729 /* onekeyClose@3x.png */,
+				365311D267FCCAA3428D420FD8F9E200 /* 登录页点缀@2x.png */,
+				B0087861ABBB83174793E185B30A01CF /* 登录页点缀@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		102859BAB5ABA54720C89788D2520D72 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				703D5A30B32BF7730744D0770D688957 /* BLogin.h */,
+				82712A28CB1475DA25CBD84BABFA3813 /* BLogin.m */,
+				40EE638CC868C7F1232509F2BC20CC28 /* CarrierTool.h */,
+				4AEAF9716826992BED7FD7C67AC4241D /* CarrierTool.m */,
+				929F9FD4C47CC6D06CC5F4F539CE2454 /* DMLogin.h */,
+				07AA1B56A5B4F348D9F9A6A1A2AF128E /* DMLogin.m */,
+				0C2627F6FA085643B6EE58570A8843BA /* DMLoginAdapter.h */,
+				AF52A9BBFD15096C17513117AADA4F69 /* DMLoginAdapter.m */,
+				ED1AD69E4E719A6FD0690E9ED4F6B457 /* DMLoginDefine.h */,
+				1B3DD8C4F74FDD504EC3169FBF95BC4A /* DMLoginStore.h */,
+				7EFB16AF8802504FDEA937DD75E22DA7 /* DMLoginStore.m */,
+				CBC0EBEE494943C52E7E92BE60062874 /* NSTimer+Block.h */,
+				9F082CB5D37CFB5A6D8B2DED90BE0517 /* NSTimer+Block.m */,
+				841BCDB3F81701E2D27BFD30B16B7C43 /* logic */,
+				BCD244E625B55AD726CEBDECE036DA88 /* network */,
+				04207BEF2C00B1C2A1414B1AAB928D47 /* Resources */,
+				52BD6FCAD1FC3243FF0D545D1E7198A5 /* UI */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		2A8DF65C5EF241B798E5E61766B76C17 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55C34B8169045A2175863B2AEF6C1BC5 /* DMLogin.xcconfig */,
+				0B885FC535A6CC54558DF3D7097BA89A /* DMLogin-dummy.m */,
+				58FA65BA78A6F77C830954AD3E395DBE /* DMLogin-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/DMLogin";
+			sourceTree = "<group>";
+		};
+		4C74AEA4BF9ED39963247D0B0423797A /* DMLogin */ = {
+			isa = PBXGroup;
+			children = (
+				102859BAB5ABA54720C89788D2520D72 /* C */,
+				BFCC50271A6AE7CB5851ECDB979F2FCF /* Pod */,
+				2A8DF65C5EF241B798E5E61766B76C17 /* Support Files */,
+			);
+			name = DMLogin;
+			path = ../components/business/DMLogin;
+			sourceTree = "<group>";
+		};
+		52BD6FCAD1FC3243FF0D545D1E7198A5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F5D71BC0957C0AC92C4AD286DA854163 /* UIView+LoginUIViewPosition.h */,
+				004FAE3C2B30DFE8B20922DD62016459 /* UIView+LoginUIViewPosition.m */,
+				FBD3E0A8962FD79C692DEE005C2782AC /* BizVC */,
+				5DCE96CDDADD47C3747592618B36D185 /* BizView */,
+				D78AB1C929C5235DC505039AF4E7C736 /* DMLoginAlert */,
+			);
+			name = UI;
+			path = Classes/UI;
+			sourceTree = "<group>";
+		};
+		55F1A100338A86DC4AA9E75D91DFBD0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DCE96CDDADD47C3747592618B36D185 /* BizView */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DC0F427E70F068A7985291BF16A33 /* DMLLoginBottomView.h */,
+				66CFAA6F901A743363DE66028FAB4EE6 /* DMLLoginBottomView.m */,
+				E98C9A0B95B141E791AA5CB2E351A413 /* DMLLoginHeaderView.h */,
+				EB74FF5B7963A680BC33B4FF6FC00F38 /* DMLLoginHeaderView.m */,
+				54070AB55B01AB43CEAF82F6A762F46D /* DMLLoginMiddleView.h */,
+				197E4BF4FDE97C98FBC704D628EA38D3 /* DMLLoginMiddleView.m */,
+				06D56E3AD0C028D5F07E5B35160ABCAD /* DMLOneKeyLoginView.h */,
+				FD9489580CF0001B8E8A4EBABE911C2C /* DMLOneKeyLoginView.m */,
+				618BAFD3BB19BED25E3CECD82997FC61 /* DMLVerifyCodeInputLabel.h */,
+				733A4A3899247F666371D7D0D07EA234 /* DMLVerifyCodeInputLabel.m */,
+				D9EFEAF3ECBD1ABFEFB7AD7258074901 /* DMLVerifyCodeInputView.h */,
+				F4D12EB4C5610362032281C2ACC27CEA /* DMLVerifyCodeInputView.m */,
+				1DB6AC1DB82198F5649ECF177E031EB1 /* DMLWeChatBindPhoneView.h */,
+				356A562A67B60A1AEDBC9DC9C7F93606 /* DMLWeChatBindPhoneView.m */,
+			);
+			name = BizView;
+			path = BizView;
+			sourceTree = "<group>";
+		};
+		6E195D3CBDF120443B98408C01B1B8F6 = {
+			isa = PBXGroup;
+			children = (
+				4C74AEA4BF9ED39963247D0B0423797A /* DMLogin */,
+				55F1A100338A86DC4AA9E75D91DFBD0C /* Frameworks */,
+				8C0CF61F49AED041FF2B461573D678F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		841BCDB3F81701E2D27BFD30B16B7C43 /* logic */ = {
+			isa = PBXGroup;
+			children = (
+				7A59AF9F1740606777B7DF636614D4C3 /* DMLoginCoreLogic.h */,
+				866BE97F2A1654F1E0D83A08D6B854BF /* DMLoginCoreLogic.m */,
+				24835059D83386A7C650F0C7996EB101 /* DMLoginCoreLogic+UIConfiguration.h */,
+				00683C73F19DCA41D794B0FCFF59970E /* DMLoginCoreLogic+UIConfiguration.m */,
+			);
+			name = logic;
+			path = Classes/logic;
+			sourceTree = "<group>";
+		};
+		8C0CF61F49AED041FF2B461573D678F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A051552CB0D2929F4515A00D96287783 /* libDMLogin.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD244E625B55AD726CEBDECE036DA88 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				EB44FB8B45F29EDCFC37C1F4B83DE78A /* DMLoginNetWork.h */,
+				AC5772130678C700471B09174072B250 /* DMLoginNetWork.m */,
+			);
+			name = network;
+			path = Classes/network;
+			sourceTree = "<group>";
+		};
+		BFCC50271A6AE7CB5851ECDB979F2FCF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A2D2E04C01CCD959D636E1077B52B374 /* DMLogin.podspec */,
+				C408A5FBBAB56262992945133464C75E /* LICENSE */,
+				C56A98C3C5C494B5655B7E994904A974 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D78AB1C929C5235DC505039AF4E7C736 /* DMLoginAlert */ = {
+			isa = PBXGroup;
+			children = (
+				6FF9FD9A78DB862F6B74176616BA4E09 /* DMAlertAnimation.h */,
+				2FF68E97624E7377A526A3ED7E96B84C /* DMAlertAnimation.m */,
+				D2B9447BB9ECC2F903D2977FDD387C48 /* DMCaptchaAlertController.h */,
+				B608C82E7A30DE1BD10FCA1152F40BF5 /* DMCaptchaAlertController.m */,
+				D305BC218CA250A10B41EEF39266D2A2 /* DMCaptchaAlertView.h */,
+				AB94AD81A112FA2138FAEE156D42E5FF /* DMCaptchaAlertView.m */,
+				E32298ED6BEEC545448B2A4EF8116056 /* DMLoginAlertController.h */,
+				3803EBE733927704CA869E6EFA7ED9CE /* DMLoginAlertController.m */,
+				3F9DF087D63A0B96B4C38D20EAD69C7E /* DMLoginAlertView.h */,
+				7B80C49E9B36CA27D5373C10EEF78290 /* DMLoginAlertView.m */,
+				D0AE0A5FE7ED368C40DDB64698CBD7AA /* DMLoginBaseAlertController.h */,
+				AE418D13E0A526A4DBB9E5F69E6FCD3D /* DMLoginBaseAlertController.m */,
+				975C3659D070FE0E43E719AF183E7A46 /* DMLoginBaseAlertView.h */,
+				68FDEB010BBC77023BBD8E8D6ABD177E /* DMLoginBaseAlertView.m */,
+			);
+			name = DMLoginAlert;
+			path = DMLoginAlert;
+			sourceTree = "<group>";
+		};
+		FBD3E0A8962FD79C692DEE005C2782AC /* BizVC */ = {
+			isa = PBXGroup;
+			children = (
+				3FC62632366B45BB24956A989510DC45 /* DMLSMSValidationVC.h */,
+				53DABB9155FD0B6494F0FEBEE5C7A96D /* DMLSMSValidationVC.m */,
+				543438AE2652DCEDF20E1CB90AA7A703 /* DMLWeChatBindPhoneVC.h */,
+				77B4D6D00157EFAB6BBFF6CD895DA7D0 /* DMLWeChatBindPhoneVC.m */,
+				9B22E2D4AB3D880D6C324618ADD1E542 /* LoginCoreVC.h */,
+				2FB2A595C281029B81EA48651309CB2D /* LoginCoreVC.m */,
+			);
+			name = BizVC;
+			path = BizVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BD12968DC00A1AB036D0DC3933FC143F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5530D460EDA8C1B50764CA907A53C5 /* BLogin.h in Headers */,
+				E442F816355E5EF12AA43E12F72EF7C5 /* CarrierTool.h in Headers */,
+				38DFB47364259CAE5B76300B55930D1C /* DMAlertAnimation.h in Headers */,
+				CAC8E4012B6F4470F36E3752710BD0DD /* DMCaptchaAlertController.h in Headers */,
+				26495D7BA61F3C831989D61368C63EDA /* DMCaptchaAlertView.h in Headers */,
+				E42DEB96329FEBB3DD6B947A0E25D515 /* DMLLoginBottomView.h in Headers */,
+				222C271722E7CE716E183D2DC70591D2 /* DMLLoginHeaderView.h in Headers */,
+				10A0DB5C2DA51B19525739469E889FA3 /* DMLLoginMiddleView.h in Headers */,
+				DB6753E848ACA0987DF5CBE88B03B652 /* DMLogin.h in Headers */,
+				16470283966B15D05B08DA255F64D29A /* DMLoginAdapter.h in Headers */,
+				5CB29E52F60571C2B88294F0E9AD7DC9 /* DMLoginAlertController.h in Headers */,
+				B19D55574E9A15A93F89C8A19A77C975 /* DMLoginAlertView.h in Headers */,
+				AA961F81FF0637AD324ABBD7DB9488A6 /* DMLoginBaseAlertController.h in Headers */,
+				B7271195804629239BACBD15A472CED6 /* DMLoginBaseAlertView.h in Headers */,
+				34BA0D99DA376E2A14962E85CDC9F9B4 /* DMLoginCoreLogic+UIConfiguration.h in Headers */,
+				5487948DE581C4D0A1FE86A5880A3B32 /* DMLoginCoreLogic.h in Headers */,
+				6C28A97377371E0A0AD192406140D63C /* DMLoginDefine.h in Headers */,
+				ABF45A026D72A5B325C7D3D1983B0516 /* DMLoginNetWork.h in Headers */,
+				B866F183BC981D91BAA5382FA3E70309 /* DMLoginStore.h in Headers */,
+				F168CD696AEBF9C39549A90A4382CB68 /* DMLOneKeyLoginView.h in Headers */,
+				90AD8B631480AA550D0DC4A7151D6D1A /* DMLSMSValidationVC.h in Headers */,
+				2C6921D53959662FB81FB5C87748B3ED /* DMLVerifyCodeInputLabel.h in Headers */,
+				DACC6DE3E3FDDC3167AE1EEE61DE740D /* DMLVerifyCodeInputView.h in Headers */,
+				BCDAFF99DC2690688D2CD6E964610CF1 /* DMLWeChatBindPhoneVC.h in Headers */,
+				53C1FAF2DA352D845B5DE0BDBFB5104F /* DMLWeChatBindPhoneView.h in Headers */,
+				A7A31E48A434CCF16B0F730EC19F0877 /* LoginCoreVC.h in Headers */,
+				80F679F7E14696C230C1C722D98CEDF9 /* NSTimer+Block.h in Headers */,
+				FBEF3EB9105789C27044CDA31F32A713 /* UIView+LoginUIViewPosition.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E0AA5351C6BB8EBD6B813491B9A3E3F5 /* DMLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F64AE9B6802F17C2F6B0B3EAE451790 /* Build configuration list for PBXNativeTarget "DMLogin" */;
+			buildPhases = (
+				BD12968DC00A1AB036D0DC3933FC143F /* Headers */,
+				22107EB702AB3CF627EBDC1296E239A2 /* Sources */,
+				F5884057C51FA646A616A83BE79CC9AE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMLogin;
+			productName = DMLogin;
+			productReference = A051552CB0D2929F4515A00D96287783 /* libDMLogin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F606539344454321CB602E372A9B2E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 73F074C99662AF524E1A9A9FC60C6BF5 /* Build configuration list for PBXProject "DMLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6E195D3CBDF120443B98408C01B1B8F6;
+			productRefGroup = 8C0CF61F49AED041FF2B461573D678F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0AA5351C6BB8EBD6B813491B9A3E3F5 /* DMLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22107EB702AB3CF627EBDC1296E239A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0514A7EE1504F783C08E7308A6E48196 /* BLogin.m in Sources */,
+				408CD1447D8ACC153D5FE475FDB4147D /* CarrierTool.m in Sources */,
+				0815B6494A100D9EB18668348A5D2403 /* DMAlertAnimation.m in Sources */,
+				84024C4330E71BC8CEEBD66B972A6A13 /* DMCaptchaAlertController.m in Sources */,
+				B1AFB436F14E9C985F95F536AC3C45EE /* DMCaptchaAlertView.m in Sources */,
+				C3AF569D3D07532A7E40320A7677514B /* DMLLoginBottomView.m in Sources */,
+				36F9E0AD6525758376CFEE79A2BD6F18 /* DMLLoginHeaderView.m in Sources */,
+				E5FBE2C8FD5EE5054A4F299D3FBA2854 /* DMLLoginMiddleView.m in Sources */,
+				DDF62996050DA1A8DAB439B82F5522C7 /* DMLogin-dummy.m in Sources */,
+				E9231A1FFFE215B2895272C8DCF3E9B2 /* DMLogin.m in Sources */,
+				F668074CDEF22700E0C0ACB3710E6D91 /* DMLoginAdapter.m in Sources */,
+				2A447F02F435BF96ACBA98C68859CC2D /* DMLoginAlertController.m in Sources */,
+				B233D421F4B92460675602934CDBC513 /* DMLoginAlertView.m in Sources */,
+				1EFA4D59FD44CB6F2283B28D02500503 /* DMLoginBaseAlertController.m in Sources */,
+				D43FF74FB2160F9343A8832A1F9010D8 /* DMLoginBaseAlertView.m in Sources */,
+				56C0B685E3234A9DDC9EFAAFAB8EA7F0 /* DMLoginCoreLogic+UIConfiguration.m in Sources */,
+				AF6ABED09BC10C012D0ABAB480D36DEC /* DMLoginCoreLogic.m in Sources */,
+				CC0D65778CDC22372B1AAE55DF8DC69E /* DMLoginNetWork.m in Sources */,
+				0808E1FB756513D4DC33608E0570D42A /* DMLoginStore.m in Sources */,
+				5B80D097A54BFE74DF0F899A94E633CA /* DMLOneKeyLoginView.m in Sources */,
+				02B80A61EB7882C7FB3429F7AB14AC57 /* DMLSMSValidationVC.m in Sources */,
+				F0C00CB51CC2864BC564E5C5FF3C07B7 /* DMLVerifyCodeInputLabel.m in Sources */,
+				4DFEAE9E54C6F3AA030BABAEDF91C356 /* DMLVerifyCodeInputView.m in Sources */,
+				BEEC83E5D2AB616016124B9F4DFB02B5 /* DMLWeChatBindPhoneVC.m in Sources */,
+				FE3ED6295ADA02C864482EB20C3B7355 /* DMLWeChatBindPhoneView.m in Sources */,
+				D14211FC7CB55F01EF5DB7FE159B8039 /* LoginCoreVC.m in Sources */,
+				5D3C90C0AAB999FD0235B587670200A1 /* NSTimer+Block.m in Sources */,
+				D373C88F28DA2AABE2AF1A4E3629BB7A /* UIView+LoginUIViewPosition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27B368FD19C62CB0F04EE5F83D865622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C34B8169045A2175863B2AEF6C1BC5 /* DMLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DMLogin/DMLogin-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DMLogin;
+				PRODUCT_NAME = DMLogin;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73ADF161AFC1254CA420ADFF4B8D7D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		75CBD2535F4663186BA5467199D9EECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BA44BD7C25B91197410368726A328F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C34B8169045A2175863B2AEF6C1BC5 /* DMLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DMLogin/DMLogin-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DMLogin;
+				PRODUCT_NAME = DMLogin;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73F074C99662AF524E1A9A9FC60C6BF5 /* Build configuration list for PBXProject "DMLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73ADF161AFC1254CA420ADFF4B8D7D62 /* Debug */,
+				75CBD2535F4663186BA5467199D9EECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F64AE9B6802F17C2F6B0B3EAE451790 /* Build configuration list for PBXNativeTarget "DMLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA44BD7C25B91197410368726A328F6E /* Debug */,
+				27B368FD19C62CB0F04EE5F83D865622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F606539344454321CB602E372A9B2E5 /* Project object */;
+}

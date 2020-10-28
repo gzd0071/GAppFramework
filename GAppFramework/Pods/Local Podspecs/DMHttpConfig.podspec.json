@@ -1,0 +1,23 @@
+{
+  "name": "DMHttpConfig",
+  "version": "0.1.0",
+  "summary": "DMHttpConfig.",
+  "description": "DMHttpConfig the convi",
+  "homepage": "https://github.com/katongzhong1/DMHttpConfig",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/DMHttpConfig.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "HttpConfig",
+    "HttpConfig/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

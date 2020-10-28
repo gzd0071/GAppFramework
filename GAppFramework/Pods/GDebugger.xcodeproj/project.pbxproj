@@ -1,0 +1,1324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00523E1C10B84BF4F7980D486AB50A70 /* DMDHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5851CDEFEF503885E505F4508C21939 /* DMDHtmlViewController.m */; };
+		00593DDBA4D9F9B64C76CB8D8B49CA35 /* DMDSectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 55161E2DBF9F1877E0F7B4CF5F1ACFC5 /* DMDSectionView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		07565EC81B473B9B1E00BA4F001693ED /* DMDLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6B44BEE02C46097C92D3E152BFBC8C /* DMDLogViewController.m */; };
+		0886A03E2FB36DC435B29AEDBF0F5060 /* DMDataUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = FCAA2673835D08181740BF6561788EB8 /* DMDataUtility.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0FD785A6F91C5C38AF0DE4FE4D4F0619 /* URLInjectorRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = D6DA33BD315B276D0680138CA248CF86 /* URLInjectorRecorder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		103C894CE1D640F3C18B63D66A36BA7E /* AQRCodeObtain.m in Sources */ = {isa = PBXBuildFile; fileRef = B5362B3DA56F79D72B313EAE70479414 /* AQRCodeObtain.m */; };
+		16D329F219C8B91CAE2BF139CF4FCC6F /* URLInjectorRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = DF441A4361BEDAAD2A6B4758D8B98123 /* URLInjectorRecorder.m */; };
+		1C8375D8EF73654E9CC6FE30F37CB6BA /* DMDSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFDFFC18D3029E8F94B8F00B7CBF300 /* DMDSectionView.m */; };
+		1D62A59B61D13397D7D303B02E84D42B /* DMCallTraceCore.c in Sources */ = {isa = PBXBuildFile; fileRef = C82BFC84C3C15BA038B0AF037E7A7323 /* DMCallTraceCore.c */; };
+		21C6D6388A06A801AC2700210E8E67A3 /* DMDLogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CAAB4BDA094DF819B642A48BA1BE5057 /* DMDLogViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21FFCD8E04C4163B0858D2022B877CE2 /* DHttpServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDD63A09B4B75BA7A21C7C04BFEB44A /* DHttpServer.m */; };
+		26B375F32C3F003F6CC693840C890F0E /* DMDLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1325DB605ACB3A272D96617733893 /* DMDLogCell.m */; };
+		2970552965BABD798EAF1FAC543E2E9D /* DMDCopyRightFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ED310505696718488225ED76C2F167 /* DMDCopyRightFooterView.m */; };
+		2B13AAE1992CB5834CC65F6DE6F82473 /* DMDNetHistoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 07047215CFE2FFFF02AC6ACA77D8C111 /* DMDNetHistoryViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C3842FDD203CC130C855EDFBF22FD18 /* DebuggerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1EE029C77967DC23CA853564C0F22D /* DebuggerManager.m */; };
+		2E7B32CCE6D406EB49E4BAE7A951DD20 /* AServerGets.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFB217C5B897B6E2DE88C2B7B8ACB1D /* AServerGets.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34B1E79BA4D2B0E5F5BF0AAE975295DF /* DMDAppInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF879FB8C326ECE7D32848B8B32E2801 /* DMDAppInfoViewController.m */; };
+		3595EBC9726FD496C679F82D6AFC7B8A /* URLInjectorRequestPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D82B0E974C6B71B2DCB9CBAABEC6AD1 /* URLInjectorRequestPacket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36BAD6D3A468DCF117F7D0EAEFBD0556 /* DMDNetHistoryCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C21BFCE9D685533B2F4768CF6BE54D7 /* DMDNetHistoryCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3DCB7AEA1B46DA5AAD5754774F04E880 /* DMDJSONViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D884D03713C1F185142B2AB00D9569 /* DMDJSONViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E0A6AC9755C742D510CF00D6131A3A6 /* DMCallTraceCore.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2B716C5004AF18274C118B22FBE3B1 /* DMCallTraceCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		430E138F9D8D985804F1170D731AE9E4 /* DMDAppInfoHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C2CEA0A0FF69BE0D72B07171CD70E25B /* DMDAppInfoHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46D88D2787DFA197953F50818D803EB6 /* DHttpServer.h in Headers */ = {isa = PBXBuildFile; fileRef = B662A1AC9D7A6E3271AEE974F4ACB3A0 /* DHttpServer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46DDA1265F394E4C615E3EE921167F27 /* DMDRequestInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB05635A2FB3911820A58137988EC38 /* DMDRequestInfoViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A588BDD296509ACD8A81827C4EC9BA3 /* DMDTimeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE9B12F463A55E84FE51BE91CED3770 /* DMDTimeViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FD264FEB905D98F10E7A8F9927B7313 /* DMFPSLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 60ACDB3D3F92A3343E7318A7BB87D159 /* DMFPSLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52F1606CE27DCD470373FD3CC8C3F92E /* DMDTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0F70EC902A7AB8A0611AF16F3F98C1 /* DMDTimeViewController.m */; };
+		534FB772620FE20C29F63C563DA959F0 /* URLInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 105D1D12F8AF9AE99B37A2A35B172F83 /* URLInjector.m */; };
+		5D81F03C1075846DF5C2DA452A9FEC1C /* DMDAppInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5403DAC3A92D8A221F960736E93F813C /* DMDAppInfoViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		614B77C2718A5457371FD66A58E9CD0D /* DMCarton.h in Headers */ = {isa = PBXBuildFile; fileRef = 73871F06CD12876B23ECB9F485179A73 /* DMCarton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61C34410C81DD9BE6FB1692DA580CE02 /* DMDSanboxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 355AFA8DF19BE33E6BFC6A375CB146A6 /* DMDSanboxCell.m */; };
+		68123004CD196CCA0E91ECDB4CA22AE7 /* AServerGets.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7B1BF0776E9A30C4F9AA978B13B7F0 /* AServerGets.m */; };
+		693A31C1D87298B7C7201BABB899DCF7 /* DebuggerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9406FCA67F386DEE491F467535510CCC /* DebuggerProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A8B49CA67CC89681833078410E5CBA5 /* DMDAppInfoHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB01D2857032655D1739187A0142DED /* DMDAppInfoHeader.m */; };
+		6E5102AA3D1C1B5117C3FF0E8B6A33E9 /* DMDSanboxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4406D482100FAE06023C94EBF5F1A956 /* DMDSanboxModel.m */; };
+		859560A45BF949CE4121A8C64DFB7209 /* DMDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4089036ED49F6DB151A29B5C504207 /* DMDWebViewController.m */; };
+		864DA7A77ECC1EB8FEB169D9411DBDDC /* DMDataUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B289229504FFC9BB88E0A4E324A334C /* DMDataUtility.m */; };
+		86FFF568580A3C4E9AE4CDFA41B4AEA8 /* DMDRequestInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A91395D12417822BB5BA7A4A3EFC61 /* DMDRequestInfoViewController.m */; };
+		87905172489CC12874E681437F232366 /* DMDAppInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7807865711C2AA5FF02535FBFE4DC4F5 /* DMDAppInfoCell.m */; };
+		880DF88A352486FB63ECEA3DC18DE094 /* DMCarton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6087677583394022C55E0230FC1AB263 /* DMCarton.m */; };
+		88187DABD9DD844B5BB5F86B8951DE09 /* DMCallTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = E21CB5D78F8521A91AE3027B831B62E9 /* DMCallTrace.m */; };
+		89BB14B234DF543F9D0BB1BB412BE469 /* DMDNetHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2C59A49135D9CD582A31E5AE5E4EC3 /* DMDNetHistoryViewController.m */; };
+		8F40766E20A57B6A172129E18920F8EE /* DMDAppInfoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F39C69651E6D7BB432DDD9B50C9DBB64 /* DMDAppInfoCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9060E100933AA1CE780A1650CB238B7F /* AQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6ED99FF26E14630B3A4BD46ED2F6B6 /* AQRCode.m */; };
+		9157C56AB857B79CC1F6CC4DC6FD8CF1 /* DMCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 152FA2802AAE028123EC891159324106 /* DMCallStack.m */; };
+		9542BD0ADC02B3EE4E64CA126C5D8329 /* URLInjectorRequestPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8D94C3B6FF688136184DA34CE6CFE3 /* URLInjectorRequestPacket.m */; };
+		9B42DF61B2EA7C9313AE07EE96C54C6E /* DMDSanboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB5DCC73C60D3F7B4DB621A01AF389A /* DMDSanboxViewController.m */; };
+		9B6136F3111ECA1976E7CD24FD693298 /* DMDNetHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FBE0F77092B6B26F6314C14ACA2FDE /* DMDNetHistoryCell.m */; };
+		9B67FFF93E12C90500FDF952A220C25E /* AQRCodeObtain.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E56BF7013310589259DE735AA5484D /* AQRCodeObtain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9DE11A7F96D1BCBC0D772713C588097E /* DMDCopyRightFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E7E4D2A468AFE1CFDCA91107BAAC2E /* DMDCopyRightFooterView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A07D221AEEFC44B4EF203C7F8F1A4343 /* DMDebugEnterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FEC1C2C11A719F3F2822F532F0D7D69 /* DMDebugEnterViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A6211F5690EF762AF369B144B89703D5 /* DMDEnterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 522E4363A286C99F2F68B993EBC6718C /* DMDEnterModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7C67C02AD811DBBC7381084B3E430DC /* DMCallStack.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D6AEE3CC1849EDACFAFD436C2DF323 /* DMCallStack.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A9ED861E82ED27765CC47C864ECC0A2B /* DebuggerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E95D1B2EDA66DF37817C4F01CD1CAC8 /* DebuggerManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB6FDBCCFCFF8BC46968046DAF17BBAF /* DMCallTraceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A001B99E28165DB99B8F8CD151BDFAC /* DMCallTraceListViewController.m */; };
+		AE246102F3371BC2A31D3E87BC18B0F6 /* DMFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE171D66E0ECA84555E9FBD3A2B58D5E /* DMFPSLabel.m */; };
+		B1E95F68483AF22AB99821564FD89DE5 /* AQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DCA23A75B5B82077A3BFC9F5A688F32 /* AQRCode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA491F0C42142873026EAD1C58B26585 /* AServerFileHandlers.m in Sources */ = {isa = PBXBuildFile; fileRef = 287C400C0E40209B5FB1D428B3670D85 /* AServerFileHandlers.m */; };
+		BB1C7625EE4EEABD32BF395E8DFA737D /* DMDebugEnterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24B079416BDE56A971EF180D9889245 /* DMDebugEnterViewController.m */; };
+		C0EAEF2073FF83FC709127D5CBD68847 /* DMDSanboxModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7ED3977D6BF73910D5865CD931AB90 /* DMDSanboxModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5AAFBF84314FC6B87C6FAEDE2E2D371 /* URLInjector.h in Headers */ = {isa = PBXBuildFile; fileRef = 517D63DABF4E1762A1A5767999C3AFC8 /* URLInjector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBCF6BDF85D773C3F0CE543D63565626 /* DMDLogCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2267FF496B2D43A67D19413999515B0E /* DMDLogCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6152D91D2E2E3060CDB4A0E9E21152B /* DMCallTraceListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FCD4AF98124B14B7D7D48992D2DBB73C /* DMCallTraceListViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D7FBA746D46AB28EB7B6C509EE82DEEF /* DMDSanboxCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FB0875A6C7DD8B7B1DB9D9A63292F31A /* DMDSanboxCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D90A497A7521142BA3719E6E2E3DC851 /* DMDEnterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2599CCDBEC10763FC6A66DECB0A2672B /* DMDEnterModel.m */; };
+		D926CD59666B12CEE5564C98BD898CD5 /* DMDWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 281F880076F57CB4A72749001028CE7C /* DMDWebViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D935A34B6EA4E5C3CDFDA78A1512654C /* AServerFileHandlers.h in Headers */ = {isa = PBXBuildFile; fileRef = CFC8B0F11CB2C413751C75680C211C66 /* AServerFileHandlers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E45825790DAEB16167D25155CAFB6D3F /* GDebugger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C00C41A381BCC67C527AD4F386D3CB2 /* GDebugger-dummy.m */; };
+		E70CAFF6072F61B21D8C27DFD4678D20 /* Debugger.h in Headers */ = {isa = PBXBuildFile; fileRef = BF26E8D466DBF031958AF625C1F97DEC /* Debugger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F21C2A30694AF370709F2A172EE4BFA6 /* DMDHtmlViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 155F0D21289BB9A9F05C1B8B80D09801 /* DMDHtmlViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4B26A3FD79371F7948D2104A918B380 /* DMCallHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 66F6CFA63F19BB4882B2AFDC78AFE90D /* DMCallHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F60CF25057AE1465A00A561BE0E20858 /* DMDSanboxViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C886F64DD1E6E20BA66D4D86977BE1F3 /* DMDSanboxViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE2ECC46F7C6C92571321507550E5733 /* DMDJSONViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF2DED6DC06901CC744EDF6CFCA3C12 /* DMDJSONViewController.m */; };
+		FE3065AEA4BB5838AC16AB829D969FF9 /* DMCallTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FEB05F4A1CDE2842F1889E8D0D3791D /* DMCallTrace.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0132D4A94B245A0CB4FA750FDC0BA54E /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; path = index.html; sourceTree = "<group>"; };
+		02C8C79BDBEAE6940ACB4A8261DE96CD /* doraemon_visual@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_visual@3x.png"; sourceTree = "<group>"; };
+		02FB1F0C52C45758D2DAF6F721D077A1 /* doraemon_netflow_summary_unselect@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_netflow_summary_unselect@2x.png"; sourceTree = "<group>"; };
+		03202A2B147FA53A07E3545420ECF31D /* doraemon_file@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_file@3x.png"; sourceTree = "<group>"; };
+		06A6C105413A35AB21D293FDFCA1CB31 /* doraemon_expand_no@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_expand_no@3x.png"; sourceTree = "<group>"; };
+		07047215CFE2FFFF02AC6ACA77D8C111 /* DMDNetHistoryViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDNetHistoryViewController.h; sourceTree = "<group>"; };
+		08C468A075BD82008696EC215B4BA0B3 /* doraemon_default@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_default@2x.png"; sourceTree = "<group>"; };
+		09F131C29A21EDCAC3F9B17E0B2A7C11 /* doraemon_mock_gps@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_mock_gps@3x.png"; sourceTree = "<group>"; };
+		0B195721F99E4E4541DC59F5983B4D86 /* jsonviewer.html */ = {isa = PBXFileReference; includeInIndex = 1; path = jsonviewer.html; sourceTree = "<group>"; };
+		105D1D12F8AF9AE99B37A2A35B172F83 /* URLInjector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = URLInjector.m; sourceTree = "<group>"; };
+		10676155DCA39D6AF5BFEE44FD0D083F /* doraemon_dir@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_dir@2x.png"; sourceTree = "<group>"; };
+		10C9E9E7FFBA539699DEB6605DC33EBB /* libGDebugger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGDebugger.a; path = libGDebugger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		126BE1E76F488CDB40C94BB405152CDE /* doraemon_nslog@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_nslog@3x.png"; sourceTree = "<group>"; };
+		152FA2802AAE028123EC891159324106 /* DMCallStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMCallStack.m; sourceTree = "<group>"; };
+		155F0D21289BB9A9F05C1B8B80D09801 /* DMDHtmlViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDHtmlViewController.h; sourceTree = "<group>"; };
+		16C076A4B92B2B9F536BBECA07F9411D /* doraemon_expand@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_expand@3x.png"; sourceTree = "<group>"; };
+		176B4C3C2DBD730ECDC05B3A7B97F178 /* doraemon_straw@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_straw@2x.png"; sourceTree = "<group>"; };
+		18FA3341C85674521CA591142A94F5CA /* doraemon_log@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_log@3x.png"; sourceTree = "<group>"; };
+		19FBFC10582ED4026B13489B60DCE088 /* doraemon_netflow_summary_select@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_netflow_summary_select@2x.png"; sourceTree = "<group>"; };
+		1A7ED3977D6BF73910D5865CD931AB90 /* DMDSanboxModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDSanboxModel.h; sourceTree = "<group>"; };
+		1AEFF56B083A8A29211005627F12575B /* doraemon_cpu@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_cpu@3x.png"; sourceTree = "<group>"; };
+		1B9AD93EE9519047BAF5FD84D0F0FDC5 /* doraemon_view_check@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_view_check@3x.png"; sourceTree = "<group>"; };
+		1BA1325DB605ACB3A272D96617733893 /* DMDLogCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDLogCell.m; sourceTree = "<group>"; };
+		1F132B5C1A2DC0DDB317291B8DC6D0B6 /* doraemon_search@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_search@2x.png"; sourceTree = "<group>"; };
+		1F477924094DC4ACE40C7ACA0B448687 /* doraemon_align@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_align@3x.png"; sourceTree = "<group>"; };
+		2267FF496B2D43A67D19413999515B0E /* DMDLogCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDLogCell.h; sourceTree = "<group>"; };
+		236C26C5D49D4A44B80688E64C79E2F3 /* main.f57c5626.chunk.js */ = {isa = PBXFileReference; includeInIndex = 1; path = main.f57c5626.chunk.js; sourceTree = "<group>"; };
+		2580E1D490AC000F67A91B4E91AD07B2 /* QRCodeScanLine@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QRCodeScanLine@3x.png"; sourceTree = "<group>"; };
+		2599CCDBEC10763FC6A66DECB0A2672B /* DMDEnterModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDEnterModel.m; sourceTree = "<group>"; };
+		281F880076F57CB4A72749001028CE7C /* DMDWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDWebViewController.h; sourceTree = "<group>"; };
+		286FF663E33A903FDF1526D10D1EEA54 /* main.7fd7fa56.chunk.js */ = {isa = PBXFileReference; includeInIndex = 1; path = main.7fd7fa56.chunk.js; sourceTree = "<group>"; };
+		287C400C0E40209B5FB1D428B3670D85 /* AServerFileHandlers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AServerFileHandlers.m; sourceTree = "<group>"; };
+		2C21BFCE9D685533B2F4768CF6BE54D7 /* DMDNetHistoryCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDNetHistoryCell.h; sourceTree = "<group>"; };
+		2CF07F45D6F860A7BFE5A501465367C7 /* doraemon_visual@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_visual@2x.png"; sourceTree = "<group>"; };
+		2E1EE029C77967DC23CA853564C0F22D /* DebuggerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DebuggerManager.m; path = debugger/debugger/DebuggerManager.m; sourceTree = "<group>"; };
+		2F28771174456AE4210A96E35BA3BE20 /* doraemon_straw@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_straw@3x.png"; sourceTree = "<group>"; };
+		34D13FD88CADF72EEA47D9A66DC5416B /* main.0caff4d5.chunk.css */ = {isa = PBXFileReference; includeInIndex = 1; path = main.0caff4d5.chunk.css; sourceTree = "<group>"; };
+		34E56BF7013310589259DE735AA5484D /* AQRCodeObtain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AQRCodeObtain.h; sourceTree = "<group>"; };
+		355AFA8DF19BE33E6BFC6A375CB146A6 /* DMDSanboxCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDSanboxCell.m; sourceTree = "<group>"; };
+		36DAEBBE66EAD45995E85146DF95CF89 /* doraemon_fps@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_fps@3x.png"; sourceTree = "<group>"; };
+		39D0E3AB39006769370ECE913A268B49 /* doraemon_netflow_list_unselect@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_netflow_list_unselect@2x.png"; sourceTree = "<group>"; };
+		3C0F18E66695339695778A0C790ACB6D /* doraemon_h5@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_h5@2x.png"; sourceTree = "<group>"; };
+		3CA2232037B917D70A86CF5DC03BD5CA /* 2.b861deda.chunk.css */ = {isa = PBXFileReference; includeInIndex = 1; path = 2.b861deda.chunk.css; sourceTree = "<group>"; };
+		3CA478C1266D975B9660E25627DF7814 /* doraemon_method_use_time@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_method_use_time@2x.png"; sourceTree = "<group>"; };
+		3D4EDE9981F9EEA4791E42B31303D7CD /* main.7fd7fa56.chunk.js */ = {isa = PBXFileReference; includeInIndex = 1; path = main.7fd7fa56.chunk.js; sourceTree = "<group>"; };
+		3DCA23A75B5B82077A3BFC9F5A688F32 /* AQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AQRCode.h; sourceTree = "<group>"; };
+		3DF2DED6DC06901CC744EDF6CFCA3C12 /* DMDJSONViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDJSONViewController.m; sourceTree = "<group>"; };
+		3FBCF781B83E5D6A3F5D01597AE91B7D /* json-viewer-dark-theme.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "json-viewer-dark-theme.css"; sourceTree = "<group>"; };
+		40B7A5AFDBA5A00BB9FD7D97358CD078 /* doraemon_dir@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_dir@3x.png"; sourceTree = "<group>"; };
+		4406D482100FAE06023C94EBF5F1A956 /* DMDSanboxModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDSanboxModel.m; sourceTree = "<group>"; };
+		44497930949F77CDE296E4D9749EAB3C /* json-viewer-light-theme.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "json-viewer-light-theme.css"; sourceTree = "<group>"; };
+		47583414C6D7B56EC270D18ACE929B1B /* doraemon_more@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_more@3x.png"; sourceTree = "<group>"; };
+		48958FF42563A1171BACBEF1ABD6B3B2 /* doraemon_file_2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_file_2@2x.png"; sourceTree = "<group>"; };
+		49BFB487869F7F63817E1A4D73E9E34B /* doraemon_method_use_time@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_method_use_time@3x.png"; sourceTree = "<group>"; };
+		49C1B9B6DFAEE01C227B6E0CA54903D5 /* doraemon_memory@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_memory@3x.png"; sourceTree = "<group>"; };
+		4ADF90CBBA85431B43B6E37CB56054C6 /* doraemon_netflow_summary_select@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_netflow_summary_select@3x.png"; sourceTree = "<group>"; };
+		4B86A5E8F02B3E87D6ED1C72B43E89A7 /* doraemon_default@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_default@3x.png"; sourceTree = "<group>"; };
+		4C02DF5D611973323AABFA6F9C01BBA0 /* doraemon_logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_logo@2x.png"; sourceTree = "<group>"; };
+		4E0F26E42E3A79D47835E0493E6A4CA6 /* 2.592e1fb3.chunk.js */ = {isa = PBXFileReference; includeInIndex = 1; path = 2.592e1fb3.chunk.js; sourceTree = "<group>"; };
+		5169EAF9FE37FBDFC96944887D05FB69 /* doraemon_net@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_net@2x.png"; sourceTree = "<group>"; };
+		517D63DABF4E1762A1A5767999C3AFC8 /* URLInjector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = URLInjector.h; sourceTree = "<group>"; };
+		522E4363A286C99F2F68B993EBC6718C /* DMDEnterModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDEnterModel.h; sourceTree = "<group>"; };
+		5380CF84BE7DCC484F29C326A8A175C3 /* doraemon_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_back@3x.png"; sourceTree = "<group>"; };
+		5381E238728D31FAFCD6AA5EB3C746B7 /* doraemon_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_back@2x.png"; sourceTree = "<group>"; };
+		5403DAC3A92D8A221F960736E93F813C /* DMDAppInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDAppInfoViewController.h; sourceTree = "<group>"; };
+		54C7840652F8273352FA1F243A3701CC /* doraemon_ui@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_ui@2x.png"; sourceTree = "<group>"; };
+		55161E2DBF9F1877E0F7B4CF5F1ACFC5 /* DMDSectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDSectionView.h; sourceTree = "<group>"; };
+		56C886F8E773896D6DBADC6294810AAA /* doraemon_memory@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_memory@2x.png"; sourceTree = "<group>"; };
+		5941FD44242023EF5F878F8EE146FCF1 /* doraemon_h5@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_h5@3x.png"; sourceTree = "<group>"; };
+		5A001B99E28165DB99B8F8CD151BDFAC /* DMCallTraceListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMCallTraceListViewController.m; sourceTree = "<group>"; };
+		5A5EB69E18F1523F12B6E677269DF9B9 /* doraemon_more@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_more@2x.png"; sourceTree = "<group>"; };
+		5B289229504FFC9BB88E0A4E324A334C /* DMDataUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDataUtility.m; sourceTree = "<group>"; };
+		5B6A9C3165719B57729D83652C739986 /* doraemon_net@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_net@3x.png"; sourceTree = "<group>"; };
+		5CB05635A2FB3911820A58137988EC38 /* DMDRequestInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDRequestInfoViewController.h; sourceTree = "<group>"; };
+		5D7B14A42A68D0C17F899B3713B24800 /* main.ee7b3bb9.chunk.js */ = {isa = PBXFileReference; includeInIndex = 1; path = main.ee7b3bb9.chunk.js; sourceTree = "<group>"; };
+		6087677583394022C55E0230FC1AB263 /* DMCarton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMCarton.m; sourceTree = "<group>"; };
+		60ACDB3D3F92A3343E7318A7BB87D159 /* DMFPSLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMFPSLabel.h; sourceTree = "<group>"; };
+		60B92B202470117A6C3796DF3D19FAE6 /* doraemon_self@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_self@3x.png"; sourceTree = "<group>"; };
+		60CC459CE9A6B39BBF33CD3576048823 /* doraemon_crash@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_crash@3x.png"; sourceTree = "<group>"; };
+		62D884D03713C1F185142B2AB00D9569 /* DMDJSONViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDJSONViewController.h; sourceTree = "<group>"; };
+		642FF29CD29B412088F968DED2FC0516 /* QRCodeScanLine@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QRCodeScanLine@2x.png"; sourceTree = "<group>"; };
+		65FBE0F77092B6B26F6314C14ACA2FDE /* DMDNetHistoryCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDNetHistoryCell.m; sourceTree = "<group>"; };
+		66F6CFA63F19BB4882B2AFDC78AFE90D /* DMCallHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMCallHeader.h; sourceTree = "<group>"; };
+		679028B9B04C3447C98B382D32E762D8 /* debugger_app_flow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = debugger_app_flow.png; sourceTree = "<group>"; };
+		6E1C66AE3EB3F1C0E2D2B1C6F340F153 /* doraemon_kadun@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_kadun@2x.png"; sourceTree = "<group>"; };
+		6F46E24CC32AB263ADF75C92294F7149 /* debugger_app_info@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "debugger_app_info@2x.png"; sourceTree = "<group>"; };
+		71344359F3413F39799F54B9A3C1DC57 /* doraemon_ui@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_ui@3x.png"; sourceTree = "<group>"; };
+		71ED310505696718488225ED76C2F167 /* DMDCopyRightFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDCopyRightFooterView.m; sourceTree = "<group>"; };
+		7249F518F2DF21BC2FE3C15F453B39A4 /* doraemon_logo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_logo@3x.png"; sourceTree = "<group>"; };
+		73871F06CD12876B23ECB9F485179A73 /* DMCarton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMCarton.h; sourceTree = "<group>"; };
+		745D7A159BB5101217D1C8DD6E852ABD /* main.2bd8856a.chunk.js */ = {isa = PBXFileReference; includeInIndex = 1; path = main.2bd8856a.chunk.js; sourceTree = "<group>"; };
+		75793FD6FFA2B72F7FB794AE978C93F5 /* json-viewer.js */ = {isa = PBXFileReference; includeInIndex = 1; path = "json-viewer.js"; sourceTree = "<group>"; };
+		76A91395D12417822BB5BA7A4A3EFC61 /* DMDRequestInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDRequestInfoViewController.m; sourceTree = "<group>"; };
+		7807865711C2AA5FF02535FBFE4DC4F5 /* DMDAppInfoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDAppInfoCell.m; sourceTree = "<group>"; };
+		785F97E172C455E31BFA7FF85CB5B915 /* main.747540e0.chunk.css */ = {isa = PBXFileReference; includeInIndex = 1; path = main.747540e0.chunk.css; sourceTree = "<group>"; };
+		7B028207C62176F9AC2349909A390924 /* doraemon_close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_close@2x.png"; sourceTree = "<group>"; };
+		7C00C41A381BCC67C527AD4F386D3CB2 /* GDebugger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GDebugger-dummy.m"; sourceTree = "<group>"; };
+		7CB2100129394C4B1C65ECC366DF9F71 /* doraemon_netflow_summary_unselect@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_netflow_summary_unselect@3x.png"; sourceTree = "<group>"; };
+		7D82B0E974C6B71B2DCB9CBAABEC6AD1 /* URLInjectorRequestPacket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = URLInjectorRequestPacket.h; sourceTree = "<group>"; };
+		7EC22BD705064E9A613D88EF2A932202 /* runtime~main.c5541365.js */ = {isa = PBXFileReference; includeInIndex = 1; path = "runtime~main.c5541365.js"; sourceTree = "<group>"; };
+		7FEB05F4A1CDE2842F1889E8D0D3791D /* DMCallTrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMCallTrace.h; sourceTree = "<group>"; };
+		7FEC1C2C11A719F3F2822F532F0D7D69 /* DMDebugEnterViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDebugEnterViewController.h; sourceTree = "<group>"; };
+		818F769883DC10FC23494BD332D245B5 /* doraemon_close_white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_close_white@2x.png"; sourceTree = "<group>"; };
+		85DC6067656F22C1E7DE0FBFDAAB90BC /* doraemon_kadun@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_kadun@3x.png"; sourceTree = "<group>"; };
+		8AC0B82EF44A63FF3949B4B96D2A009C /* doraemon_viewmetrics@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_viewmetrics@3x.png"; sourceTree = "<group>"; };
+		8DECB69FBB13C1DCBCD1A5AC90F97008 /* doraemon_ab@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_ab@3x.png"; sourceTree = "<group>"; };
+		8E95D1B2EDA66DF37817C4F01CD1CAC8 /* DebuggerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DebuggerManager.h; path = debugger/debugger/DebuggerManager.h; sourceTree = "<group>"; };
+		9406FCA67F386DEE491F467535510CCC /* DebuggerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DebuggerProtocol.h; path = debugger/debugger/DebuggerProtocol.h; sourceTree = "<group>"; };
+		954F7401601944A4ECF72858D1A3F0EA /* doraemon_cpu@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_cpu@2x.png"; sourceTree = "<group>"; };
+		9959A2B52D476B2B4A02084B496C9181 /* runtime~main.c5541365.js */ = {isa = PBXFileReference; includeInIndex = 1; path = "runtime~main.c5541365.js"; sourceTree = "<group>"; };
+		99C42CC66A658ED9CC4F89DFD4E8D518 /* doraemon_file_2@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_file_2@3x.png"; sourceTree = "<group>"; };
+		9AFB217C5B897B6E2DE88C2B7B8ACB1D /* AServerGets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AServerGets.h; sourceTree = "<group>"; };
+		9B4CBF54545FAB14B4A43D3B070DC71C /* doraemon_search@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_search@3x.png"; sourceTree = "<group>"; };
+		9EE9913BBF27BA4731C25999715E0DB2 /* doraemon_mock_gps@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_mock_gps@2x.png"; sourceTree = "<group>"; };
+		9FF7D3279E028243D3C63206B5596F00 /* doraemon_crash@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_crash@2x.png"; sourceTree = "<group>"; };
+		A07FA6F7B31301CB88F93526033A4A46 /* doraemon_qingchu@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_qingchu@3x.png"; sourceTree = "<group>"; };
+		A16DC86DDCF018A324F548C83DA5BED4 /* doraemon_nslog@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_nslog@2x.png"; sourceTree = "<group>"; };
+		A33102E577B909147AF3B7EC0C2A6743 /* doraemon_self@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_self@2x.png"; sourceTree = "<group>"; };
+		A36D06609ED3B8AEF0A440738F09DA45 /* GDebugger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GDebugger.xcconfig; sourceTree = "<group>"; };
+		A3D6AEE3CC1849EDACFAFD436C2DF323 /* DMCallStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMCallStack.h; sourceTree = "<group>"; };
+		AAE9B12F463A55E84FE51BE91CED3770 /* DMDTimeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDTimeViewController.h; sourceTree = "<group>"; };
+		ACB756DA8374107B9D132CB8384838E4 /* 2.b861deda.chunk.css */ = {isa = PBXFileReference; includeInIndex = 1; path = 2.b861deda.chunk.css; sourceTree = "<group>"; };
+		ADD745CB9B4A8E3FDAFE54EFDF978598 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AF6B44BEE02C46097C92D3E152BFBC8C /* DMDLogViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDLogViewController.m; sourceTree = "<group>"; };
+		AF8990E71B849064FA01CADE0936DCD2 /* doraemon_netflow_list_unselect@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_netflow_list_unselect@3x.png"; sourceTree = "<group>"; };
+		AFFDFFC18D3029E8F94B8F00B7CBF300 /* DMDSectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDSectionView.m; sourceTree = "<group>"; };
+		B2AD6F87F85F436CA5FB47E20C7295B3 /* main.7306ec3f.chunk.js */ = {isa = PBXFileReference; includeInIndex = 1; path = main.7306ec3f.chunk.js; sourceTree = "<group>"; };
+		B3560F0A155DE40865A796B0769C8121 /* jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; path = jquery.js; sourceTree = "<group>"; };
+		B5362B3DA56F79D72B313EAE70479414 /* AQRCodeObtain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AQRCodeObtain.m; sourceTree = "<group>"; };
+		B662A1AC9D7A6E3271AEE974F4ACB3A0 /* DHttpServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DHttpServer.h; sourceTree = "<group>"; };
+		BB2C59A49135D9CD582A31E5AE5E4EC3 /* DMDNetHistoryViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDNetHistoryViewController.m; sourceTree = "<group>"; };
+		BEB5DCC73C60D3F7B4DB621A01AF389A /* DMDSanboxViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDSanboxViewController.m; sourceTree = "<group>"; };
+		BF26E8D466DBF031958AF625C1F97DEC /* Debugger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Debugger.h; path = debugger/debugger/Debugger.h; sourceTree = "<group>"; };
+		C1880734B5C56D4B039DA1E6E6BF8804 /* doraemon_fps@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_fps@2x.png"; sourceTree = "<group>"; };
+		C2CEA0A0FF69BE0D72B07171CD70E25B /* DMDAppInfoHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDAppInfoHeader.h; sourceTree = "<group>"; };
+		C3B83F5F6E5330864074AF4F9FDE73F4 /* doraemon_netflow_list_select@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_netflow_list_select@3x.png"; sourceTree = "<group>"; };
+		C66B4051D80628E16188A47CBC8E700A /* main.6f7308da.chunk.js */ = {isa = PBXFileReference; includeInIndex = 1; path = main.6f7308da.chunk.js; sourceTree = "<group>"; };
+		C82BFC84C3C15BA038B0AF037E7A7323 /* DMCallTraceCore.c */ = {isa = PBXFileReference; includeInIndex = 1; path = DMCallTraceCore.c; sourceTree = "<group>"; };
+		C886F64DD1E6E20BA66D4D86977BE1F3 /* DMDSanboxViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDSanboxViewController.h; sourceTree = "<group>"; };
+		C9E7E4D2A468AFE1CFDCA91107BAAC2E /* DMDCopyRightFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDCopyRightFooterView.h; sourceTree = "<group>"; };
+		CAAB4BDA094DF819B642A48BA1BE5057 /* DMDLogViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDLogViewController.h; sourceTree = "<group>"; };
+		CC2B531844384053653FB8601322AA82 /* doraemon_close_white@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_close_white@3x.png"; sourceTree = "<group>"; };
+		CC9D190804A4AABF2FB66D320096504E /* debugger_request.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = debugger_request.png; sourceTree = "<group>"; };
+		CE171D66E0ECA84555E9FBD3A2B58D5E /* DMFPSLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMFPSLabel.m; sourceTree = "<group>"; };
+		CF662331BEEB538F6A15468150C4328B /* GDebugger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GDebugger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CF879FB8C326ECE7D32848B8B32E2801 /* DMDAppInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDAppInfoViewController.m; sourceTree = "<group>"; };
+		CFB01D2857032655D1739187A0142DED /* DMDAppInfoHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDAppInfoHeader.m; sourceTree = "<group>"; };
+		CFC8B0F11CB2C413751C75680C211C66 /* AServerFileHandlers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AServerFileHandlers.h; sourceTree = "<group>"; };
+		D2A5E08D6FE4559DEE02469620A38EBE /* doraemon_view_check@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_view_check@2x.png"; sourceTree = "<group>"; };
+		D2C7AF65EA0E64F37C4D18C20310AAE5 /* main.747540e0.chunk.css */ = {isa = PBXFileReference; includeInIndex = 1; path = main.747540e0.chunk.css; sourceTree = "<group>"; };
+		D31714A4576B4F30ECE04967BD704689 /* doraemon_arrow_down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_arrow_down@2x.png"; sourceTree = "<group>"; };
+		D4AD123CE90177018AEB9EF35779AFF7 /* doraemon_arrow_down@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_arrow_down@3x.png"; sourceTree = "<group>"; };
+		D5B1E873CEC17F7020CE718C5B8085BC /* GDebugger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDebugger-prefix.pch"; sourceTree = "<group>"; };
+		D6DA33BD315B276D0680138CA248CF86 /* URLInjectorRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = URLInjectorRecorder.h; sourceTree = "<group>"; };
+		D83E07B2C02E2ADAE010726ADD18B9AC /* doraemon_qingchu@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_qingchu@2x.png"; sourceTree = "<group>"; };
+		D8FFE8B19BF88BCBE623FAC7F0D51705 /* doraemon_close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_close@3x.png"; sourceTree = "<group>"; };
+		D9363849EB40AEB9255E5A34F65CE6B6 /* doraemon_expand_no@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_expand_no@2x.png"; sourceTree = "<group>"; };
+		D9C0DC33419BB46FE9BC6D9773CF4E64 /* doraemon_file@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_file@2x.png"; sourceTree = "<group>"; };
+		DB1DB76E173B16CE1920A98F54A420A4 /* debugger_login.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = debugger_login.png; sourceTree = "<group>"; };
+		DCDF54736A919E425DB67B88E28AB007 /* doraemon_align@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_align@2x.png"; sourceTree = "<group>"; };
+		DF414CB2F27427677F4F79AA48579FB2 /* QRCodeScanLineGrid@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QRCodeScanLineGrid@3x.png"; sourceTree = "<group>"; };
+		DF441A4361BEDAAD2A6B4758D8B98123 /* URLInjectorRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = URLInjectorRecorder.m; sourceTree = "<group>"; };
+		DF5438AD59CAB69387E8D7A2AE056AC8 /* QRCodeScanLineGrid@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "QRCodeScanLineGrid@2x.png"; sourceTree = "<group>"; };
+		E21CB5D78F8521A91AE3027B831B62E9 /* DMCallTrace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMCallTrace.m; sourceTree = "<group>"; };
+		E24B079416BDE56A971EF180D9889245 /* DMDebugEnterViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDebugEnterViewController.m; sourceTree = "<group>"; };
+		E415867134BF5D9528A91997CF9D1353 /* doraemon_location@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_location@2x.png"; sourceTree = "<group>"; };
+		E6C0959C1DEED1258773BAFC5D544226 /* doraemon_search_highlight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_search_highlight@2x.png"; sourceTree = "<group>"; };
+		EA4DE381946743F02B42AB4ECF0A2BD0 /* 2.592e1fb3.chunk.js */ = {isa = PBXFileReference; includeInIndex = 1; path = 2.592e1fb3.chunk.js; sourceTree = "<group>"; };
+		EA6ED99FF26E14630B3A4BD46ED2F6B6 /* AQRCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AQRCode.m; sourceTree = "<group>"; };
+		EA80FF0E712B3456931BD7ECED48A503 /* doraemon_search_highlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_search_highlight@3x.png"; sourceTree = "<group>"; };
+		EB0F70EC902A7AB8A0611AF16F3F98C1 /* DMDTimeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDTimeViewController.m; sourceTree = "<group>"; };
+		EC2EDFC77F7B24BC03A52663355A4B56 /* debugger_develop_log.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = debugger_develop_log.png; sourceTree = "<group>"; };
+		EC665CB88157464FE8E0DFB062AB590B /* debugger_app_info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = debugger_app_info.png; sourceTree = "<group>"; };
+		EDDD63A09B4B75BA7A21C7C04BFEB44A /* DHttpServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DHttpServer.m; sourceTree = "<group>"; };
+		EE2B716C5004AF18274C118B22FBE3B1 /* DMCallTraceCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMCallTraceCore.h; sourceTree = "<group>"; };
+		EE4089036ED49F6DB151A29B5C504207 /* DMDWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDWebViewController.m; sourceTree = "<group>"; };
+		EE8D94C3B6FF688136184DA34CE6CFE3 /* URLInjectorRequestPacket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = URLInjectorRequestPacket.m; sourceTree = "<group>"; };
+		F0500F655AD3AC0FA8A6EA566BC742FC /* doraemon_location@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_location@3x.png"; sourceTree = "<group>"; };
+		F39C69651E6D7BB432DDD9B50C9DBB64 /* DMDAppInfoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDAppInfoCell.h; sourceTree = "<group>"; };
+		F4F62A3DF1A37549AEEAABCB3B9BD073 /* doraemon_netflow_list_select@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_netflow_list_select@2x.png"; sourceTree = "<group>"; };
+		F55991DF165ABCA209FEE2083AE9EAA3 /* main.085c9404.chunk.js */ = {isa = PBXFileReference; includeInIndex = 1; path = main.085c9404.chunk.js; sourceTree = "<group>"; };
+		F5851CDEFEF503885E505F4508C21939 /* DMDHtmlViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDHtmlViewController.m; sourceTree = "<group>"; };
+		F701199F24EB60CAD8C3770E3ECCC000 /* doraemon_expand@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_expand@2x.png"; sourceTree = "<group>"; };
+		F8CE89768E82D02FC22B01B38FD90BF6 /* doraemon_viewmetrics@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_viewmetrics@2x.png"; sourceTree = "<group>"; };
+		FA406E444AA10541D94E9FE6A908D4FC /* 2.8233fab0.chunk.css */ = {isa = PBXFileReference; includeInIndex = 1; path = 2.8233fab0.chunk.css; sourceTree = "<group>"; };
+		FB0875A6C7DD8B7B1DB9D9A63292F31A /* DMDSanboxCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDSanboxCell.h; sourceTree = "<group>"; };
+		FBB8A57C2A1EC94C7F39E644689842CA /* doraemon_log@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "doraemon_log@2x.png"; sourceTree = "<group>"; };
+		FC7B1BF0776E9A30C4F9AA978B13B7F0 /* AServerGets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AServerGets.m; sourceTree = "<group>"; };
+		FCAA2673835D08181740BF6561788EB8 /* DMDataUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDataUtility.h; sourceTree = "<group>"; };
+		FCD4AF98124B14B7D7D48992D2DBB73C /* DMCallTraceListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMCallTraceListViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E13C2F1452C44087DFD84AD7B62DBABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0597060FA818119EAAA95CB184CA9306 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				AB60B4F447A04DF175235F341434B810 /* css */,
+				2FA484F660E3B9AE7C382D4374823BAE /* js */,
+			);
+			name = static;
+			path = static;
+			sourceTree = "<group>";
+		};
+		074F97BC48228D766EAB1D37181D1F89 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				679028B9B04C3447C98B382D32E762D8 /* debugger_app_flow.png */,
+				EC665CB88157464FE8E0DFB062AB590B /* debugger_app_info.png */,
+				6F46E24CC32AB263ADF75C92294F7149 /* debugger_app_info@2x.png */,
+				EC2EDFC77F7B24BC03A52663355A4B56 /* debugger_develop_log.png */,
+				DB1DB76E173B16CE1920A98F54A420A4 /* debugger_login.png */,
+				CC9D190804A4AABF2FB66D320096504E /* debugger_request.png */,
+				8DECB69FBB13C1DCBCD1A5AC90F97008 /* doraemon_ab@3x.png */,
+				DCDF54736A919E425DB67B88E28AB007 /* doraemon_align@2x.png */,
+				1F477924094DC4ACE40C7ACA0B448687 /* doraemon_align@3x.png */,
+				D31714A4576B4F30ECE04967BD704689 /* doraemon_arrow_down@2x.png */,
+				D4AD123CE90177018AEB9EF35779AFF7 /* doraemon_arrow_down@3x.png */,
+				5381E238728D31FAFCD6AA5EB3C746B7 /* doraemon_back@2x.png */,
+				5380CF84BE7DCC484F29C326A8A175C3 /* doraemon_back@3x.png */,
+				7B028207C62176F9AC2349909A390924 /* doraemon_close@2x.png */,
+				D8FFE8B19BF88BCBE623FAC7F0D51705 /* doraemon_close@3x.png */,
+				818F769883DC10FC23494BD332D245B5 /* doraemon_close_white@2x.png */,
+				CC2B531844384053653FB8601322AA82 /* doraemon_close_white@3x.png */,
+				954F7401601944A4ECF72858D1A3F0EA /* doraemon_cpu@2x.png */,
+				1AEFF56B083A8A29211005627F12575B /* doraemon_cpu@3x.png */,
+				9FF7D3279E028243D3C63206B5596F00 /* doraemon_crash@2x.png */,
+				60CC459CE9A6B39BBF33CD3576048823 /* doraemon_crash@3x.png */,
+				08C468A075BD82008696EC215B4BA0B3 /* doraemon_default@2x.png */,
+				4B86A5E8F02B3E87D6ED1C72B43E89A7 /* doraemon_default@3x.png */,
+				10676155DCA39D6AF5BFEE44FD0D083F /* doraemon_dir@2x.png */,
+				40B7A5AFDBA5A00BB9FD7D97358CD078 /* doraemon_dir@3x.png */,
+				F701199F24EB60CAD8C3770E3ECCC000 /* doraemon_expand@2x.png */,
+				16C076A4B92B2B9F536BBECA07F9411D /* doraemon_expand@3x.png */,
+				D9363849EB40AEB9255E5A34F65CE6B6 /* doraemon_expand_no@2x.png */,
+				06A6C105413A35AB21D293FDFCA1CB31 /* doraemon_expand_no@3x.png */,
+				D9C0DC33419BB46FE9BC6D9773CF4E64 /* doraemon_file@2x.png */,
+				03202A2B147FA53A07E3545420ECF31D /* doraemon_file@3x.png */,
+				48958FF42563A1171BACBEF1ABD6B3B2 /* doraemon_file_2@2x.png */,
+				99C42CC66A658ED9CC4F89DFD4E8D518 /* doraemon_file_2@3x.png */,
+				C1880734B5C56D4B039DA1E6E6BF8804 /* doraemon_fps@2x.png */,
+				36DAEBBE66EAD45995E85146DF95CF89 /* doraemon_fps@3x.png */,
+				3C0F18E66695339695778A0C790ACB6D /* doraemon_h5@2x.png */,
+				5941FD44242023EF5F878F8EE146FCF1 /* doraemon_h5@3x.png */,
+				6E1C66AE3EB3F1C0E2D2B1C6F340F153 /* doraemon_kadun@2x.png */,
+				85DC6067656F22C1E7DE0FBFDAAB90BC /* doraemon_kadun@3x.png */,
+				E415867134BF5D9528A91997CF9D1353 /* doraemon_location@2x.png */,
+				F0500F655AD3AC0FA8A6EA566BC742FC /* doraemon_location@3x.png */,
+				FBB8A57C2A1EC94C7F39E644689842CA /* doraemon_log@2x.png */,
+				18FA3341C85674521CA591142A94F5CA /* doraemon_log@3x.png */,
+				4C02DF5D611973323AABFA6F9C01BBA0 /* doraemon_logo@2x.png */,
+				7249F518F2DF21BC2FE3C15F453B39A4 /* doraemon_logo@3x.png */,
+				56C886F8E773896D6DBADC6294810AAA /* doraemon_memory@2x.png */,
+				49C1B9B6DFAEE01C227B6E0CA54903D5 /* doraemon_memory@3x.png */,
+				3CA478C1266D975B9660E25627DF7814 /* doraemon_method_use_time@2x.png */,
+				49BFB487869F7F63817E1A4D73E9E34B /* doraemon_method_use_time@3x.png */,
+				9EE9913BBF27BA4731C25999715E0DB2 /* doraemon_mock_gps@2x.png */,
+				09F131C29A21EDCAC3F9B17E0B2A7C11 /* doraemon_mock_gps@3x.png */,
+				5A5EB69E18F1523F12B6E677269DF9B9 /* doraemon_more@2x.png */,
+				47583414C6D7B56EC270D18ACE929B1B /* doraemon_more@3x.png */,
+				5169EAF9FE37FBDFC96944887D05FB69 /* doraemon_net@2x.png */,
+				5B6A9C3165719B57729D83652C739986 /* doraemon_net@3x.png */,
+				F4F62A3DF1A37549AEEAABCB3B9BD073 /* doraemon_netflow_list_select@2x.png */,
+				C3B83F5F6E5330864074AF4F9FDE73F4 /* doraemon_netflow_list_select@3x.png */,
+				39D0E3AB39006769370ECE913A268B49 /* doraemon_netflow_list_unselect@2x.png */,
+				AF8990E71B849064FA01CADE0936DCD2 /* doraemon_netflow_list_unselect@3x.png */,
+				19FBFC10582ED4026B13489B60DCE088 /* doraemon_netflow_summary_select@2x.png */,
+				4ADF90CBBA85431B43B6E37CB56054C6 /* doraemon_netflow_summary_select@3x.png */,
+				02FB1F0C52C45758D2DAF6F721D077A1 /* doraemon_netflow_summary_unselect@2x.png */,
+				7CB2100129394C4B1C65ECC366DF9F71 /* doraemon_netflow_summary_unselect@3x.png */,
+				A16DC86DDCF018A324F548C83DA5BED4 /* doraemon_nslog@2x.png */,
+				126BE1E76F488CDB40C94BB405152CDE /* doraemon_nslog@3x.png */,
+				D83E07B2C02E2ADAE010726ADD18B9AC /* doraemon_qingchu@2x.png */,
+				A07FA6F7B31301CB88F93526033A4A46 /* doraemon_qingchu@3x.png */,
+				1F132B5C1A2DC0DDB317291B8DC6D0B6 /* doraemon_search@2x.png */,
+				9B4CBF54545FAB14B4A43D3B070DC71C /* doraemon_search@3x.png */,
+				E6C0959C1DEED1258773BAFC5D544226 /* doraemon_search_highlight@2x.png */,
+				EA80FF0E712B3456931BD7ECED48A503 /* doraemon_search_highlight@3x.png */,
+				A33102E577B909147AF3B7EC0C2A6743 /* doraemon_self@2x.png */,
+				60B92B202470117A6C3796DF3D19FAE6 /* doraemon_self@3x.png */,
+				176B4C3C2DBD730ECDC05B3A7B97F178 /* doraemon_straw@2x.png */,
+				2F28771174456AE4210A96E35BA3BE20 /* doraemon_straw@3x.png */,
+				54C7840652F8273352FA1F243A3701CC /* doraemon_ui@2x.png */,
+				71344359F3413F39799F54B9A3C1DC57 /* doraemon_ui@3x.png */,
+				D2A5E08D6FE4559DEE02469620A38EBE /* doraemon_view_check@2x.png */,
+				1B9AD93EE9519047BAF5FD84D0F0FDC5 /* doraemon_view_check@3x.png */,
+				F8CE89768E82D02FC22B01B38FD90BF6 /* doraemon_viewmetrics@2x.png */,
+				8AC0B82EF44A63FF3949B4B96D2A009C /* doraemon_viewmetrics@3x.png */,
+				2CF07F45D6F860A7BFE5A501465367C7 /* doraemon_visual@2x.png */,
+				02C8C79BDBEAE6940ACB4A8261DE96CD /* doraemon_visual@3x.png */,
+				642FF29CD29B412088F968DED2FC0516 /* QRCodeScanLine@2x.png */,
+				2580E1D490AC000F67A91B4E91AD07B2 /* QRCodeScanLine@3x.png */,
+				DF5438AD59CAB69387E8D7A2AE056AC8 /* QRCodeScanLineGrid@2x.png */,
+				DF414CB2F27427677F4F79AA48579FB2 /* QRCodeScanLineGrid@3x.png */,
+			);
+			name = img;
+			path = img;
+			sourceTree = "<group>";
+		};
+		0F3966526FD13F4A240D4BED737EB3E8 /* FPS */ = {
+			isa = PBXGroup;
+			children = (
+				60ACDB3D3F92A3343E7318A7BB87D159 /* DMFPSLabel.h */,
+				CE171D66E0ECA84555E9FBD3A2B58D5E /* DMFPSLabel.m */,
+			);
+			name = FPS;
+			path = FPS;
+			sourceTree = "<group>";
+		};
+		11397667A4D54D47A2D8868BE04280F8 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				5403DAC3A92D8A221F960736E93F813C /* DMDAppInfoViewController.h */,
+				CF879FB8C326ECE7D32848B8B32E2801 /* DMDAppInfoViewController.m */,
+				35814C176B19AC39400BC0AE420E620A /* view */,
+			);
+			name = info;
+			path = info;
+			sourceTree = "<group>";
+		};
+		1400A013E01DC4DCFF9713B497D07EA3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A36D06609ED3B8AEF0A440738F09DA45 /* GDebugger.xcconfig */,
+				7C00C41A381BCC67C527AD4F386D3CB2 /* GDebugger-dummy.m */,
+				D5B1E873CEC17F7020CE718C5B8085BC /* GDebugger-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/GDebugger";
+			sourceTree = "<group>";
+		};
+		20A6A4AFD865C841C06A1469989C459F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1A7ED3977D6BF73910D5865CD931AB90 /* DMDSanboxModel.h */,
+				4406D482100FAE06023C94EBF5F1A956 /* DMDSanboxModel.m */,
+			);
+			name = model;
+			path = model;
+			sourceTree = "<group>";
+		};
+		252AC65DD9978B9F2BF3CF0860B06483 /* funcs */ = {
+			isa = PBXGroup;
+			children = (
+				E98755691325BAEF687BE07B796ACFAB /* callTrace */,
+				C8205B10653A64CFF7D06BA0AACBB896 /* carton */,
+				0F3966526FD13F4A240D4BED737EB3E8 /* FPS */,
+				E952F51242A2190D58A0C89438BD8FEF /* httpserver */,
+				49BB3FF15C28FA444B836DF22DA1A55C /* net */,
+				83013D0F43C84E3D4F7F67DDAC0CFE17 /* tool */,
+				DC2422F76F4B9EF89821E61DAB6109AF /* utils */,
+			);
+			name = funcs;
+			path = debugger/debugger/funcs;
+			sourceTree = "<group>";
+		};
+		25A0FE6DDD363A5882657FF302ECA876 /* enter */ = {
+			isa = PBXGroup;
+			children = (
+				074F97BC48228D766EAB1D37181D1F89 /* img */,
+			);
+			name = enter;
+			path = debugger/debugger/enter;
+			sourceTree = "<group>";
+		};
+		25E2D0820FDB2E4D9A250743087DA77B /* web */ = {
+			isa = PBXGroup;
+			children = (
+				281F880076F57CB4A72749001028CE7C /* DMDWebViewController.h */,
+				EE4089036ED49F6DB151A29B5C504207 /* DMDWebViewController.m */,
+			);
+			name = web;
+			path = web;
+			sourceTree = "<group>";
+		};
+		2FA484F660E3B9AE7C382D4374823BAE /* js */ = {
+			isa = PBXGroup;
+			children = (
+				EA4DE381946743F02B42AB4ECF0A2BD0 /* 2.592e1fb3.chunk.js */,
+				F55991DF165ABCA209FEE2083AE9EAA3 /* main.085c9404.chunk.js */,
+				745D7A159BB5101217D1C8DD6E852ABD /* main.2bd8856a.chunk.js */,
+				C66B4051D80628E16188A47CBC8E700A /* main.6f7308da.chunk.js */,
+				B2AD6F87F85F436CA5FB47E20C7295B3 /* main.7306ec3f.chunk.js */,
+				286FF663E33A903FDF1526D10D1EEA54 /* main.7fd7fa56.chunk.js */,
+				5D7B14A42A68D0C17F899B3713B24800 /* main.ee7b3bb9.chunk.js */,
+				236C26C5D49D4A44B80688E64C79E2F3 /* main.f57c5626.chunk.js */,
+				9959A2B52D476B2B4A02084B496C9181 /* runtime~main.c5541365.js */,
+			);
+			name = js;
+			path = js;
+			sourceTree = "<group>";
+		};
+		311C909688A073F0F134CFA7DB87C947 /* GETS */ = {
+			isa = PBXGroup;
+			children = (
+				9AFB217C5B897B6E2DE88C2B7B8ACB1D /* AServerGets.h */,
+				FC7B1BF0776E9A30C4F9AA978B13B7F0 /* AServerGets.m */,
+			);
+			name = GETS;
+			path = GETS;
+			sourceTree = "<group>";
+		};
+		35814C176B19AC39400BC0AE420E620A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F39C69651E6D7BB432DDD9B50C9DBB64 /* DMDAppInfoCell.h */,
+				7807865711C2AA5FF02535FBFE4DC4F5 /* DMDAppInfoCell.m */,
+				C2CEA0A0FF69BE0D72B07171CD70E25B /* DMDAppInfoHeader.h */,
+				CFB01D2857032655D1739187A0142DED /* DMDAppInfoHeader.m */,
+				C9E7E4D2A468AFE1CFDCA91107BAAC2E /* DMDCopyRightFooterView.h */,
+				71ED310505696718488225ED76C2F167 /* DMDCopyRightFooterView.m */,
+			);
+			name = view;
+			path = view;
+			sourceTree = "<group>";
+		};
+		362A45C05113A795B1C8101B8E1045B8 /* injector */ = {
+			isa = PBXGroup;
+			children = (
+				517D63DABF4E1762A1A5767999C3AFC8 /* URLInjector.h */,
+				105D1D12F8AF9AE99B37A2A35B172F83 /* URLInjector.m */,
+				D6DA33BD315B276D0680138CA248CF86 /* URLInjectorRecorder.h */,
+				DF441A4361BEDAAD2A6B4758D8B98123 /* URLInjectorRecorder.m */,
+			);
+			name = injector;
+			path = injector;
+			sourceTree = "<group>";
+		};
+		36ED22FAFFA0C0FC7AD85870F7F80297 /* httpserver */ = {
+			isa = PBXGroup;
+			children = (
+				73C7141870DEA71E599F96440382C8F7 /* web */,
+			);
+			name = httpserver;
+			path = httpserver;
+			sourceTree = "<group>";
+		};
+		3AE246A852A7B9F41B6F693346CC8B8F /* qrcode */ = {
+			isa = PBXGroup;
+			children = (
+				3DCA23A75B5B82077A3BFC9F5A688F32 /* AQRCode.h */,
+				EA6ED99FF26E14630B3A4BD46ED2F6B6 /* AQRCode.m */,
+				34E56BF7013310589259DE735AA5484D /* AQRCodeObtain.h */,
+				B5362B3DA56F79D72B313EAE70479414 /* AQRCodeObtain.m */,
+			);
+			name = qrcode;
+			path = qrcode;
+			sourceTree = "<group>";
+		};
+		4961996E7231A26AD941A88294C8E6CA /* performance */ = {
+			isa = PBXGroup;
+			children = (
+				5310B7E5AB1BAB8A85ADD737F3020EB3 /* callTrace */,
+				B2A76DFD15C6744598902A0B1730DD87 /* time */,
+			);
+			name = performance;
+			path = performance;
+			sourceTree = "<group>";
+		};
+		49BB3FF15C28FA444B836DF22DA1A55C /* net */ = {
+			isa = PBXGroup;
+			children = (
+				362A45C05113A795B1C8101B8E1045B8 /* injector */,
+				648BCE589CE8BC433F0F6F6A82A46C3D /* model */,
+			);
+			name = net;
+			path = net;
+			sourceTree = "<group>";
+		};
+		4F8244DC1EE70DC4D46C1F08B5ED0F01 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				CFC8B0F11CB2C413751C75680C211C66 /* AServerFileHandlers.h */,
+				287C400C0E40209B5FB1D428B3670D85 /* AServerFileHandlers.m */,
+			);
+			name = Handlers;
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		5283F124DFEBD5DE0C9AFDDDB8C6BE3C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CF662331BEEB538F6A15468150C4328B /* GDebugger.podspec */,
+				ADD745CB9B4A8E3FDAFE54EFDF978598 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5310B7E5AB1BAB8A85ADD737F3020EB3 /* callTrace */ = {
+			isa = PBXGroup;
+			children = (
+				FCD4AF98124B14B7D7D48992D2DBB73C /* DMCallTraceListViewController.h */,
+				5A001B99E28165DB99B8F8CD151BDFAC /* DMCallTraceListViewController.m */,
+			);
+			name = callTrace;
+			path = callTrace;
+			sourceTree = "<group>";
+		};
+		535326907C929860FDFAB8F82CDC54D4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FB0875A6C7DD8B7B1DB9D9A63292F31A /* DMDSanboxCell.h */,
+				355AFA8DF19BE33E6BFC6A375CB146A6 /* DMDSanboxCell.m */,
+			);
+			name = view;
+			path = view;
+			sourceTree = "<group>";
+		};
+		5CE59D6E3A832E67C35145B73BA5966C /* funcs */ = {
+			isa = PBXGroup;
+			children = (
+				36ED22FAFFA0C0FC7AD85870F7F80297 /* httpserver */,
+			);
+			name = funcs;
+			path = debugger/debugger/funcs;
+			sourceTree = "<group>";
+		};
+		648BCE589CE8BC433F0F6F6A82A46C3D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7D82B0E974C6B71B2DCB9CBAABEC6AD1 /* URLInjectorRequestPacket.h */,
+				EE8D94C3B6FF688136184DA34CE6CFE3 /* URLInjectorRequestPacket.m */,
+			);
+			name = model;
+			path = model;
+			sourceTree = "<group>";
+		};
+		6A2FCD06C35157819167F014FBB13353 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				66F6CFA63F19BB4882B2AFDC78AFE90D /* DMCallHeader.h */,
+				A3D6AEE3CC1849EDACFAFD436C2DF323 /* DMCallStack.h */,
+				152FA2802AAE028123EC891159324106 /* DMCallStack.m */,
+			);
+			name = core;
+			path = core;
+			sourceTree = "<group>";
+		};
+		73C7141870DEA71E599F96440382C8F7 /* web */ = {
+			isa = PBXGroup;
+			children = (
+				0132D4A94B245A0CB4FA750FDC0BA54E /* index.html */,
+				90CD18C686F5C51C6F0FE0F918040755 /* static */,
+			);
+			name = web;
+			path = web;
+			sourceTree = "<group>";
+		};
+		80294837AA4CEBEEE928490B8E4D048D /* log */ = {
+			isa = PBXGroup;
+			children = (
+				2267FF496B2D43A67D19413999515B0E /* DMDLogCell.h */,
+				1BA1325DB605ACB3A272D96617733893 /* DMDLogCell.m */,
+				CAAB4BDA094DF819B642A48BA1BE5057 /* DMDLogViewController.h */,
+				AF6B44BEE02C46097C92D3E152BFBC8C /* DMDLogViewController.m */,
+			);
+			name = log;
+			path = log;
+			sourceTree = "<group>";
+		};
+		83013D0F43C84E3D4F7F67DDAC0CFE17 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				3AE246A852A7B9F41B6F693346CC8B8F /* qrcode */,
+			);
+			name = tool;
+			path = tool;
+			sourceTree = "<group>";
+		};
+		8369545BDF3E23A921C80C952BE95943 /* enter */ = {
+			isa = PBXGroup;
+			children = (
+				7FEC1C2C11A719F3F2822F532F0D7D69 /* DMDebugEnterViewController.h */,
+				E24B079416BDE56A971EF180D9889245 /* DMDebugEnterViewController.m */,
+				DED81B80199DE66A602B500DCE0C82C2 /* model */,
+				954C0CC7EAD49121309803620A873999 /* view */,
+			);
+			name = enter;
+			path = debugger/debugger/enter;
+			sourceTree = "<group>";
+		};
+		85FB011C68C6242485E82A28FDA02CF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10C9E9E7FFBA539699DEB6605DC33EBB /* libGDebugger.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		860BDC7DE276A80D2818C389A73DCD3D /* css */ = {
+			isa = PBXGroup;
+			children = (
+				ACB756DA8374107B9D132CB8384838E4 /* 2.b861deda.chunk.css */,
+				785F97E172C455E31BFA7FF85CB5B915 /* main.747540e0.chunk.css */,
+			);
+			name = css;
+			path = css;
+			sourceTree = "<group>";
+		};
+		89736487DDA86DEEABF03FAA468A588D /* common */ = {
+			isa = PBXGroup;
+			children = (
+				C0ECD03E7CEA0195EC0D6569E46BB75B /* html */,
+				11397667A4D54D47A2D8868BE04280F8 /* info */,
+				80294837AA4CEBEEE928490B8E4D048D /* log */,
+				D7AB9ADEC98474732A84C5EA33369814 /* net */,
+				DCD0F468EEF122B093D5CD883DDB9FD8 /* sanbox */,
+				25E2D0820FDB2E4D9A250743087DA77B /* web */,
+			);
+			name = common;
+			path = common;
+			sourceTree = "<group>";
+		};
+		90CD18C686F5C51C6F0FE0F918040755 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				860BDC7DE276A80D2818C389A73DCD3D /* css */,
+				EC1AF795A15FD73F43AD097EBB12BB73 /* js */,
+				0597060FA818119EAAA95CB184CA9306 /* static */,
+			);
+			name = static;
+			path = static;
+			sourceTree = "<group>";
+		};
+		954C0CC7EAD49121309803620A873999 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				55161E2DBF9F1877E0F7B4CF5F1ACFC5 /* DMDSectionView.h */,
+				AFFDFFC18D3029E8F94B8F00B7CBF300 /* DMDSectionView.m */,
+			);
+			name = view;
+			path = view;
+			sourceTree = "<group>";
+		};
+		97D411D76899CFBBE1D7F12F70D432BB /* json */ = {
+			isa = PBXGroup;
+			children = (
+				62D884D03713C1F185142B2AB00D9569 /* DMDJSONViewController.h */,
+				3DF2DED6DC06901CC744EDF6CFCA3C12 /* DMDJSONViewController.m */,
+			);
+			name = json;
+			path = json;
+			sourceTree = "<group>";
+		};
+		A08FFC0F1452F4A0B0A9D72E68C1F5D0 /* items */ = {
+			isa = PBXGroup;
+			children = (
+				89736487DDA86DEEABF03FAA468A588D /* common */,
+				4961996E7231A26AD941A88294C8E6CA /* performance */,
+			);
+			name = items;
+			path = debugger/debugger/items;
+			sourceTree = "<group>";
+		};
+		A3CCFA85CE218BD8692ED7278ED6702B /* GDebugger */ = {
+			isa = PBXGroup;
+			children = (
+				BF26E8D466DBF031958AF625C1F97DEC /* Debugger.h */,
+				8E95D1B2EDA66DF37817C4F01CD1CAC8 /* DebuggerManager.h */,
+				2E1EE029C77967DC23CA853564C0F22D /* DebuggerManager.m */,
+				9406FCA67F386DEE491F467535510CCC /* DebuggerProtocol.h */,
+				8369545BDF3E23A921C80C952BE95943 /* enter */,
+				252AC65DD9978B9F2BF3CF0860B06483 /* funcs */,
+				A08FFC0F1452F4A0B0A9D72E68C1F5D0 /* items */,
+				5283F124DFEBD5DE0C9AFDDDB8C6BE3C /* Pod */,
+				DEA2A5F879DFF3C1318CEF85072E17CF /* Resources */,
+				1400A013E01DC4DCFF9713B497D07EA3 /* Support Files */,
+			);
+			name = GDebugger;
+			path = ../components/businessSupport/GDebugger;
+			sourceTree = "<group>";
+		};
+		A8759D7BE68D765334000D70AF556666 = {
+			isa = PBXGroup;
+			children = (
+				B448DC09C945893004EE341761D71ABB /* Frameworks */,
+				A3CCFA85CE218BD8692ED7278ED6702B /* GDebugger */,
+				85FB011C68C6242485E82A28FDA02CF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB60B4F447A04DF175235F341434B810 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				FA406E444AA10541D94E9FE6A908D4FC /* 2.8233fab0.chunk.css */,
+				3CA2232037B917D70A86CF5DC03BD5CA /* 2.b861deda.chunk.css */,
+				34D13FD88CADF72EEA47D9A66DC5416B /* main.0caff4d5.chunk.css */,
+				D2C7AF65EA0E64F37C4D18C20310AAE5 /* main.747540e0.chunk.css */,
+			);
+			name = css;
+			path = css;
+			sourceTree = "<group>";
+		};
+		AC27534008E82C9FA422CA01A87F19C5 /* items */ = {
+			isa = PBXGroup;
+			children = (
+				C3E2DFE255F47808FEE5286997756AD9 /* common */,
+			);
+			name = items;
+			path = debugger/debugger/items;
+			sourceTree = "<group>";
+		};
+		B2A76DFD15C6744598902A0B1730DD87 /* time */ = {
+			isa = PBXGroup;
+			children = (
+				AAE9B12F463A55E84FE51BE91CED3770 /* DMDTimeViewController.h */,
+				EB0F70EC902A7AB8A0611AF16F3F98C1 /* DMDTimeViewController.m */,
+			);
+			name = time;
+			path = time;
+			sourceTree = "<group>";
+		};
+		B448DC09C945893004EE341761D71ABB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC6995105A0F300CA6A0DF5E9E875C50 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				EB34E7F3DBF61AA28FCA999DB0EE2454 /* data */,
+			);
+			name = json;
+			path = json;
+			sourceTree = "<group>";
+		};
+		C0843DB5E1066BCA8878CA6F1B3B751D /* net */ = {
+			isa = PBXGroup;
+			children = (
+				BC6995105A0F300CA6A0DF5E9E875C50 /* json */,
+			);
+			name = net;
+			path = net;
+			sourceTree = "<group>";
+		};
+		C0ECD03E7CEA0195EC0D6569E46BB75B /* html */ = {
+			isa = PBXGroup;
+			children = (
+				155F0D21289BB9A9F05C1B8B80D09801 /* DMDHtmlViewController.h */,
+				F5851CDEFEF503885E505F4508C21939 /* DMDHtmlViewController.m */,
+			);
+			name = html;
+			path = html;
+			sourceTree = "<group>";
+		};
+		C3E2DFE255F47808FEE5286997756AD9 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				C0843DB5E1066BCA8878CA6F1B3B751D /* net */,
+			);
+			name = common;
+			path = common;
+			sourceTree = "<group>";
+		};
+		C8205B10653A64CFF7D06BA0AACBB896 /* carton */ = {
+			isa = PBXGroup;
+			children = (
+				73871F06CD12876B23ECB9F485179A73 /* DMCarton.h */,
+				6087677583394022C55E0230FC1AB263 /* DMCarton.m */,
+				6A2FCD06C35157819167F014FBB13353 /* core */,
+			);
+			name = carton;
+			path = carton;
+			sourceTree = "<group>";
+		};
+		D5CDDA4451A10AFEE295397B0BFEAB65 /* request */ = {
+			isa = PBXGroup;
+			children = (
+				5CB05635A2FB3911820A58137988EC38 /* DMDRequestInfoViewController.h */,
+				76A91395D12417822BB5BA7A4A3EFC61 /* DMDRequestInfoViewController.m */,
+			);
+			name = request;
+			path = request;
+			sourceTree = "<group>";
+		};
+		D7AB9ADEC98474732A84C5EA33369814 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				07047215CFE2FFFF02AC6ACA77D8C111 /* DMDNetHistoryViewController.h */,
+				BB2C59A49135D9CD582A31E5AE5E4EC3 /* DMDNetHistoryViewController.m */,
+				97D411D76899CFBBE1D7F12F70D432BB /* json */,
+				D5CDDA4451A10AFEE295397B0BFEAB65 /* request */,
+				E14977D415E157E342DBCA735215D245 /* view */,
+			);
+			name = net;
+			path = net;
+			sourceTree = "<group>";
+		};
+		DC2422F76F4B9EF89821E61DAB6109AF /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				FCAA2673835D08181740BF6561788EB8 /* DMDataUtility.h */,
+				5B289229504FFC9BB88E0A4E324A334C /* DMDataUtility.m */,
+			);
+			name = utils;
+			path = utils;
+			sourceTree = "<group>";
+		};
+		DCD0F468EEF122B093D5CD883DDB9FD8 /* sanbox */ = {
+			isa = PBXGroup;
+			children = (
+				C886F64DD1E6E20BA66D4D86977BE1F3 /* DMDSanboxViewController.h */,
+				BEB5DCC73C60D3F7B4DB621A01AF389A /* DMDSanboxViewController.m */,
+				20A6A4AFD865C841C06A1469989C459F /* model */,
+				535326907C929860FDFAB8F82CDC54D4 /* view */,
+			);
+			name = sanbox;
+			path = sanbox;
+			sourceTree = "<group>";
+		};
+		DEA2A5F879DFF3C1318CEF85072E17CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25A0FE6DDD363A5882657FF302ECA876 /* enter */,
+				5CE59D6E3A832E67C35145B73BA5966C /* funcs */,
+				AC27534008E82C9FA422CA01A87F19C5 /* items */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DED81B80199DE66A602B500DCE0C82C2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				522E4363A286C99F2F68B993EBC6718C /* DMDEnterModel.h */,
+				2599CCDBEC10763FC6A66DECB0A2672B /* DMDEnterModel.m */,
+			);
+			name = model;
+			path = model;
+			sourceTree = "<group>";
+		};
+		E14977D415E157E342DBCA735215D245 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2C21BFCE9D685533B2F4768CF6BE54D7 /* DMDNetHistoryCell.h */,
+				65FBE0F77092B6B26F6314C14ACA2FDE /* DMDNetHistoryCell.m */,
+			);
+			name = view;
+			path = view;
+			sourceTree = "<group>";
+		};
+		E952F51242A2190D58A0C89438BD8FEF /* httpserver */ = {
+			isa = PBXGroup;
+			children = (
+				B662A1AC9D7A6E3271AEE974F4ACB3A0 /* DHttpServer.h */,
+				EDDD63A09B4B75BA7A21C7C04BFEB44A /* DHttpServer.m */,
+				311C909688A073F0F134CFA7DB87C947 /* GETS */,
+				4F8244DC1EE70DC4D46C1F08B5ED0F01 /* Handlers */,
+			);
+			name = httpserver;
+			path = httpserver;
+			sourceTree = "<group>";
+		};
+		E98755691325BAEF687BE07B796ACFAB /* callTrace */ = {
+			isa = PBXGroup;
+			children = (
+				7FEB05F4A1CDE2842F1889E8D0D3791D /* DMCallTrace.h */,
+				E21CB5D78F8521A91AE3027B831B62E9 /* DMCallTrace.m */,
+				C82BFC84C3C15BA038B0AF037E7A7323 /* DMCallTraceCore.c */,
+				EE2B716C5004AF18274C118B22FBE3B1 /* DMCallTraceCore.h */,
+			);
+			name = callTrace;
+			path = callTrace;
+			sourceTree = "<group>";
+		};
+		EB34E7F3DBF61AA28FCA999DB0EE2454 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				B3560F0A155DE40865A796B0769C8121 /* jquery.js */,
+				75793FD6FFA2B72F7FB794AE978C93F5 /* json-viewer.js */,
+				3FBCF781B83E5D6A3F5D01597AE91B7D /* json-viewer-dark-theme.css */,
+				44497930949F77CDE296E4D9749EAB3C /* json-viewer-light-theme.css */,
+				0B195721F99E4E4541DC59F5983B4D86 /* jsonviewer.html */,
+			);
+			name = data;
+			path = data;
+			sourceTree = "<group>";
+		};
+		EC1AF795A15FD73F43AD097EBB12BB73 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				4E0F26E42E3A79D47835E0493E6A4CA6 /* 2.592e1fb3.chunk.js */,
+				3D4EDE9981F9EEA4791E42B31303D7CD /* main.7fd7fa56.chunk.js */,
+				7EC22BD705064E9A613D88EF2A932202 /* runtime~main.c5541365.js */,
+			);
+			name = js;
+			path = js;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		430524F65A49294801FED1FB6D9E0254 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E95F68483AF22AB99821564FD89DE5 /* AQRCode.h in Headers */,
+				9B67FFF93E12C90500FDF952A220C25E /* AQRCodeObtain.h in Headers */,
+				D935A34B6EA4E5C3CDFDA78A1512654C /* AServerFileHandlers.h in Headers */,
+				2E7B32CCE6D406EB49E4BAE7A951DD20 /* AServerGets.h in Headers */,
+				E70CAFF6072F61B21D8C27DFD4678D20 /* Debugger.h in Headers */,
+				A9ED861E82ED27765CC47C864ECC0A2B /* DebuggerManager.h in Headers */,
+				693A31C1D87298B7C7201BABB899DCF7 /* DebuggerProtocol.h in Headers */,
+				46D88D2787DFA197953F50818D803EB6 /* DHttpServer.h in Headers */,
+				F4B26A3FD79371F7948D2104A918B380 /* DMCallHeader.h in Headers */,
+				A7C67C02AD811DBBC7381084B3E430DC /* DMCallStack.h in Headers */,
+				FE3065AEA4BB5838AC16AB829D969FF9 /* DMCallTrace.h in Headers */,
+				3E0A6AC9755C742D510CF00D6131A3A6 /* DMCallTraceCore.h in Headers */,
+				D6152D91D2E2E3060CDB4A0E9E21152B /* DMCallTraceListViewController.h in Headers */,
+				614B77C2718A5457371FD66A58E9CD0D /* DMCarton.h in Headers */,
+				8F40766E20A57B6A172129E18920F8EE /* DMDAppInfoCell.h in Headers */,
+				430E138F9D8D985804F1170D731AE9E4 /* DMDAppInfoHeader.h in Headers */,
+				5D81F03C1075846DF5C2DA452A9FEC1C /* DMDAppInfoViewController.h in Headers */,
+				0886A03E2FB36DC435B29AEDBF0F5060 /* DMDataUtility.h in Headers */,
+				9DE11A7F96D1BCBC0D772713C588097E /* DMDCopyRightFooterView.h in Headers */,
+				A07D221AEEFC44B4EF203C7F8F1A4343 /* DMDebugEnterViewController.h in Headers */,
+				A6211F5690EF762AF369B144B89703D5 /* DMDEnterModel.h in Headers */,
+				F21C2A30694AF370709F2A172EE4BFA6 /* DMDHtmlViewController.h in Headers */,
+				3DCB7AEA1B46DA5AAD5754774F04E880 /* DMDJSONViewController.h in Headers */,
+				CBCF6BDF85D773C3F0CE543D63565626 /* DMDLogCell.h in Headers */,
+				21C6D6388A06A801AC2700210E8E67A3 /* DMDLogViewController.h in Headers */,
+				36BAD6D3A468DCF117F7D0EAEFBD0556 /* DMDNetHistoryCell.h in Headers */,
+				2B13AAE1992CB5834CC65F6DE6F82473 /* DMDNetHistoryViewController.h in Headers */,
+				46DDA1265F394E4C615E3EE921167F27 /* DMDRequestInfoViewController.h in Headers */,
+				D7FBA746D46AB28EB7B6C509EE82DEEF /* DMDSanboxCell.h in Headers */,
+				C0EAEF2073FF83FC709127D5CBD68847 /* DMDSanboxModel.h in Headers */,
+				F60CF25057AE1465A00A561BE0E20858 /* DMDSanboxViewController.h in Headers */,
+				00593DDBA4D9F9B64C76CB8D8B49CA35 /* DMDSectionView.h in Headers */,
+				4A588BDD296509ACD8A81827C4EC9BA3 /* DMDTimeViewController.h in Headers */,
+				D926CD59666B12CEE5564C98BD898CD5 /* DMDWebViewController.h in Headers */,
+				4FD264FEB905D98F10E7A8F9927B7313 /* DMFPSLabel.h in Headers */,
+				C5AAFBF84314FC6B87C6FAEDE2E2D371 /* URLInjector.h in Headers */,
+				0FD785A6F91C5C38AF0DE4FE4D4F0619 /* URLInjectorRecorder.h in Headers */,
+				3595EBC9726FD496C679F82D6AFC7B8A /* URLInjectorRequestPacket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8A9B036E78481EC02FEDE7CF488C9521 /* GDebugger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB502F12AB4DF428495C4A22E53AEACF /* Build configuration list for PBXNativeTarget "GDebugger" */;
+			buildPhases = (
+				430524F65A49294801FED1FB6D9E0254 /* Headers */,
+				8BDE4E7FF7F8107A30EEA0A31614EF2E /* Sources */,
+				E13C2F1452C44087DFD84AD7B62DBABD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDebugger;
+			productName = GDebugger;
+			productReference = 10C9E9E7FFBA539699DEB6605DC33EBB /* libGDebugger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E01DBEFB2260FFC26C2685933D3638D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 3C9C29C85AF1DFB5A3A9DEB070A376BE /* Build configuration list for PBXProject "GDebugger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8759D7BE68D765334000D70AF556666;
+			productRefGroup = 85FB011C68C6242485E82A28FDA02CF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A9B036E78481EC02FEDE7CF488C9521 /* GDebugger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BDE4E7FF7F8107A30EEA0A31614EF2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9060E100933AA1CE780A1650CB238B7F /* AQRCode.m in Sources */,
+				103C894CE1D640F3C18B63D66A36BA7E /* AQRCodeObtain.m in Sources */,
+				BA491F0C42142873026EAD1C58B26585 /* AServerFileHandlers.m in Sources */,
+				68123004CD196CCA0E91ECDB4CA22AE7 /* AServerGets.m in Sources */,
+				2C3842FDD203CC130C855EDFBF22FD18 /* DebuggerManager.m in Sources */,
+				21FFCD8E04C4163B0858D2022B877CE2 /* DHttpServer.m in Sources */,
+				9157C56AB857B79CC1F6CC4DC6FD8CF1 /* DMCallStack.m in Sources */,
+				88187DABD9DD844B5BB5F86B8951DE09 /* DMCallTrace.m in Sources */,
+				1D62A59B61D13397D7D303B02E84D42B /* DMCallTraceCore.c in Sources */,
+				AB6FDBCCFCFF8BC46968046DAF17BBAF /* DMCallTraceListViewController.m in Sources */,
+				880DF88A352486FB63ECEA3DC18DE094 /* DMCarton.m in Sources */,
+				87905172489CC12874E681437F232366 /* DMDAppInfoCell.m in Sources */,
+				6A8B49CA67CC89681833078410E5CBA5 /* DMDAppInfoHeader.m in Sources */,
+				34B1E79BA4D2B0E5F5BF0AAE975295DF /* DMDAppInfoViewController.m in Sources */,
+				864DA7A77ECC1EB8FEB169D9411DBDDC /* DMDataUtility.m in Sources */,
+				2970552965BABD798EAF1FAC543E2E9D /* DMDCopyRightFooterView.m in Sources */,
+				BB1C7625EE4EEABD32BF395E8DFA737D /* DMDebugEnterViewController.m in Sources */,
+				D90A497A7521142BA3719E6E2E3DC851 /* DMDEnterModel.m in Sources */,
+				00523E1C10B84BF4F7980D486AB50A70 /* DMDHtmlViewController.m in Sources */,
+				FE2ECC46F7C6C92571321507550E5733 /* DMDJSONViewController.m in Sources */,
+				26B375F32C3F003F6CC693840C890F0E /* DMDLogCell.m in Sources */,
+				07565EC81B473B9B1E00BA4F001693ED /* DMDLogViewController.m in Sources */,
+				9B6136F3111ECA1976E7CD24FD693298 /* DMDNetHistoryCell.m in Sources */,
+				89BB14B234DF543F9D0BB1BB412BE469 /* DMDNetHistoryViewController.m in Sources */,
+				86FFF568580A3C4E9AE4CDFA41B4AEA8 /* DMDRequestInfoViewController.m in Sources */,
+				61C34410C81DD9BE6FB1692DA580CE02 /* DMDSanboxCell.m in Sources */,
+				6E5102AA3D1C1B5117C3FF0E8B6A33E9 /* DMDSanboxModel.m in Sources */,
+				9B42DF61B2EA7C9313AE07EE96C54C6E /* DMDSanboxViewController.m in Sources */,
+				1C8375D8EF73654E9CC6FE30F37CB6BA /* DMDSectionView.m in Sources */,
+				52F1606CE27DCD470373FD3CC8C3F92E /* DMDTimeViewController.m in Sources */,
+				859560A45BF949CE4121A8C64DFB7209 /* DMDWebViewController.m in Sources */,
+				AE246102F3371BC2A31D3E87BC18B0F6 /* DMFPSLabel.m in Sources */,
+				E45825790DAEB16167D25155CAFB6D3F /* GDebugger-dummy.m in Sources */,
+				534FB772620FE20C29F63C563DA959F0 /* URLInjector.m in Sources */,
+				16D329F219C8B91CAE2BF139CF4FCC6F /* URLInjectorRecorder.m in Sources */,
+				9542BD0ADC02B3EE4E64CA126C5D8329 /* URLInjectorRequestPacket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09AA60AA6A6968CC906040EA7CB63366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A36D06609ED3B8AEF0A440738F09DA45 /* GDebugger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GDebugger/GDebugger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GDebugger;
+				PRODUCT_NAME = GDebugger;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C11E628867FA5A5AE3759BE7B8625D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		97D464991C6985926E3A5D9D48765653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CEC18B18A936E04B8E5D4C8DABB721E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A36D06609ED3B8AEF0A440738F09DA45 /* GDebugger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GDebugger/GDebugger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GDebugger;
+				PRODUCT_NAME = GDebugger;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C9C29C85AF1DFB5A3A9DEB070A376BE /* Build configuration list for PBXProject "GDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D464991C6985926E3A5D9D48765653 /* Debug */,
+				8C11E628867FA5A5AE3759BE7B8625D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB502F12AB4DF428495C4A22E53AEACF /* Build configuration list for PBXNativeTarget "GDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC18B18A936E04B8E5D4C8DABB721E9 /* Debug */,
+				09AA60AA6A6968CC906040EA7CB63366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E01DBEFB2260FFC26C2685933D3638D5 /* Project object */;
+}

@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04559D5BF3DFB23C555A9A6BFE439CEB /* GCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AEBAF109E34FEC452DCD998EEC4675 /* GCityViewController.m */; };
+		08D07CF01ADDCA42C4D63760ADEBA577 /* DMHJobType.m in Sources */ = {isa = PBXBuildFile; fileRef = DC75848656CED2B1224C0FCCFFD2963C /* DMHJobType.m */; };
+		0D880BD82156A2235B73287F192825C0 /* DMHListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C872697D05F792A288B408EAB1ABD /* DMHListCell.m */; };
+		0E0F6F507417F00EAF75310B141C555A /* DMHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA00C3089D38FCB4BF4384777643425 /* DMHToast.m */; };
+		11197EECB30097FD229F7DA8CF0934D7 /* DMPListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 14F1185B0BA079BA00DF82183E1B3F39 /* DMPListCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		27D92C037B5E1CCF8E6B392A297EB806 /* GHomeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93172121C1AB8503302F5DFB535F76A /* GHomeListViewController.m */; };
+		3764880D7A72F04E8A4759C63C53F022 /* DMHCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27839571E8E475C26A361F6F3AAD2164 /* DMHCityModel.m */; };
+		3770ABCFD25C631D4A954520E2426236 /* DMResume.m in Sources */ = {isa = PBXBuildFile; fileRef = 2943CCEF699602909F87182AF7DBB7ED /* DMResume.m */; };
+		4174E41355541F1A25FD37B7525D206A /* DMHCity.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B695161733945A0E19455E842BB870 /* DMHCity.m */; };
+		45752C97DAD99169131E4B7D91C93307 /* DMResume.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B69B6C037E346A913BF1F16F6CE62D /* DMResume.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		473591BE11F68B41D84BF169EC964EEB /* DMHEmptyCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A51DC5137A5335ACA6DF064B9CF913D8 /* DMHEmptyCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4815ABE564D57C1E5631D52B46C38364 /* GCityViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAC1BCF560D99252E3D77C87D1CBDA9 /* GCityViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D5C67899CB480C2AF15873F2C867E0D /* DMHDropMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1591FBFD8EC53B55B68793F3D4190AAC /* DMHDropMenuView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E3228425783C3A25D662E0AF14842B0 /* DMHConuselorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41654C1121F6C00B17294BF64296E5AD /* DMHConuselorCell.m */; };
+		4F8ECB0749F6559E5DFFD5F79AB34CBF /* GBusinessHomeList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BF7DE97F48AE69D3F84125FAFEDAA3 /* GBusinessHomeList-dummy.m */; };
+		50291EC41DD50C18788BD9205FCE2B8F /* DMHToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7FD2814DA1A6653C052613ECB38B3D /* DMHToast.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		53E851244D2A4300875FF78B59FED4B6 /* DMHListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FBB582605F788FA1B4CB36731CF258B /* DMHListView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		570FA6D560A5B1EB157C7AD9EFA2E134 /* DMHFilterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 983703EACE32F3F15366C1C0AD44D153 /* DMHFilterModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C6D7BCD838F07D0A223DA03297763C0 /* DMHBannerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D47C78CB8B85961EF58EEFED537E0AA9 /* DMHBannerCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60B75407215AAE0B62BC6E1F88B04552 /* DMHListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 89DDA77A30326A4DBCC3F161B17E48A8 /* DMHListModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68FAD82C68AC6DE2A05C617AF89FB8AD /* DMHConuselorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F7EAB38D46C99E8572581D3484D6FF72 /* DMHConuselorCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		717ADA728965226539091D916FEEB635 /* DMHMerchantCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2302209F68E23AAFBAE8F28E0C3FB /* DMHMerchantCell.m */; };
+		718F22B905BFA0D973E7F7E683052FD0 /* DMHNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE36439721D4A6A31A7D53FAB2C3733 /* DMHNavBar.m */; };
+		76D1E79ABFD6A6B2F2DA749BFA96B858 /* DMHFilterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED901C91122ADF1C42A5CBA9B806F040 /* DMHFilterModel.m */; };
+		79FB71055AB153984A6AF7F85EBD4599 /* DMHNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C0AB3D4995B2A373C79B6D92267339 /* DMHNavBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7FF60F1367181FAE1DFFF67654523665 /* DMHListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED214EBC3C56029A02D8DED34A22154 /* DMHListModel.m */; };
+		82B5A8BD652C1C3A97E6AEFDE3F220AF /* DMHListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 730493079B27E9DF5CBB8F8F5AA23E82 /* DMHListCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C0950DB085AA6B5327437E6B58A4AF8 /* DMHFilterList.m in Sources */ = {isa = PBXBuildFile; fileRef = D9949A4CF16CFA79C793E79DEC4E0882 /* DMHFilterList.m */; };
+		915F2AFACF4EA39609FE7BE0DE023EB8 /* DMHAddr.h in Headers */ = {isa = PBXBuildFile; fileRef = 11443840CC78ABFEAEC7A190B890226C /* DMHAddr.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96601B16951CE645DA8B4F4FDD60CB84 /* DMHHotCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7B440054801D8CC411DACAC88F926 /* DMHHotCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9DA2B91EDFD1EB1211877D14BAF35DFD /* DMHZoneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF992412C6A5F3E6F6248FAFD5559D83 /* DMHZoneCell.m */; };
+		A11F1B777481058C9ECF5B5A2E0A83E5 /* DMHEmptyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 971B7D3B400D8E1C6877F2331A867EB0 /* DMHEmptyCell.m */; };
+		A423F6524F893BD93712DE51B34969EC /* DMHListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D54595EAFF793FB3819D0793502E75 /* DMHListView.m */; };
+		A623F8BF9120009EA96DE98403FC1E85 /* GHomeListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4300ECD93373AC93C7E157EC266FC4F /* GHomeListViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8FEF141B0B63EA130269E1C551B70B7 /* DMHZoneCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B2017FB2ED1DE6BFAC768AD7660CD8 /* DMHZoneCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B18FC07222D745BD4A88D5C8C71BD733 /* DMHAddr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE32C033B2FE0707D229FF067AB2843 /* DMHAddr.m */; };
+		C558AA65FBD74FA1624BF6DD70A3209C /* DMHCityModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C6BAE9608D1ED1207BACD5D980E58D4B /* DMHCityModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5CD2F41EE719223CBD3A8D9E42C5F24 /* DMHFilterList.h in Headers */ = {isa = PBXBuildFile; fileRef = 72DD7A712AA40A12F1B0438C314CBBAD /* DMHFilterList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6557BD9680D73BEB26B9B7194DF55BB /* DMHDropDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5499879A6836E0D5A283683C3F90815E /* DMHDropDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C74EED0883E403CA0CAC63610AFBD0FB /* DMHJobType.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C8098B446246C40E50D955B84E15E03 /* DMHJobType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CCBC540C063404924F897E9D36075025 /* DMExtraModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E77E8EC3B60F9353DE78421A3860A5 /* DMExtraModel.m */; };
+		D176E9D4F616D28E381D477C39762CC1 /* DMHRefreshCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3ABE30EFD76BA9747B8D8094F57F21C /* DMHRefreshCell.m */; };
+		D4DE3E54BCE0253A6B51E7C628512B0D /* DMHDropMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D22BBF57A148484709C59002AC71CD18 /* DMHDropMenuView.m */; };
+		DB1D4CC7C65466DB08FC87371783C393 /* DMDingyueCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 10877CBED585E11EC33F4743734BB297 /* DMDingyueCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E20CCDA7564B44EE4A5DE78761E06706 /* DMHBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEFFB8C9E98D426CF8CD0E000B07BA6 /* DMHBannerCell.m */; };
+		E2DCEFFA73A7AABBF8F5ACBFAA605B93 /* DMDingyueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D1F82A885F6B338C44B2BB04229A3D /* DMDingyueCell.m */; };
+		E3DCBF3D2BF449DAD80564867A1E48DE /* DMFilterList.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B96A7969A661AFE989193C7145E810A /* DMFilterList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7F8BBDB7A25D3FEFD4B5AF153B61FA7 /* DMPListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DD06C0159682993B4EDEF89447E2CA /* DMPListCell.m */; };
+		E853AC38B1FC1288931E7E2301F263F4 /* DMHRefreshCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 345177E67AC154CA762002FC97B5E3A9 /* DMHRefreshCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E97F6880860FE83B64ECF60F92CC8276 /* DMHMerchantCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D394C75FF04BDA89B263804DE9B1D4F5 /* DMHMerchantCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F66A58F4978C459CBD511EC35D44BFB6 /* DMExtraModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B41F39E92B19ADDA4A9B5AF852A4EBA /* DMExtraModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8CECA9E2F905DC09444D1A690D9EA61 /* DMHHotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 108DA0A13BDB5B97975618793C821F0C /* DMHHotCell.m */; };
+		FE9BCDA37E8786CA8B80EA3C8158F4E5 /* DMHCity.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1AA7B805E4A855A3AC39F08D26560E /* DMHCity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02217014627BD47B72C58A6DCA2A177C /* GBusinessHomeList.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GBusinessHomeList.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0B96A7969A661AFE989193C7145E810A /* DMFilterList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMFilterList.h; sourceTree = "<group>"; };
+		0DE32C033B2FE0707D229FF067AB2843 /* DMHAddr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHAddr.m; sourceTree = "<group>"; };
+		0EE7B440054801D8CC411DACAC88F926 /* DMHHotCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHHotCell.h; sourceTree = "<group>"; };
+		10877CBED585E11EC33F4743734BB297 /* DMDingyueCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDingyueCell.h; sourceTree = "<group>"; };
+		108DA0A13BDB5B97975618793C821F0C /* DMHHotCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHHotCell.m; sourceTree = "<group>"; };
+		11443840CC78ABFEAEC7A190B890226C /* DMHAddr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHAddr.h; sourceTree = "<group>"; };
+		14F1185B0BA079BA00DF82183E1B3F39 /* DMPListCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMPListCell.h; sourceTree = "<group>"; };
+		1591FBFD8EC53B55B68793F3D4190AAC /* DMHDropMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHDropMenuView.h; sourceTree = "<group>"; };
+		27839571E8E475C26A361F6F3AAD2164 /* DMHCityModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHCityModel.m; sourceTree = "<group>"; };
+		28BF7DE97F48AE69D3F84125FAFEDAA3 /* GBusinessHomeList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBusinessHomeList-dummy.m"; sourceTree = "<group>"; };
+		2943CCEF699602909F87182AF7DBB7ED /* DMResume.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMResume.m; sourceTree = "<group>"; };
+		2ED214EBC3C56029A02D8DED34A22154 /* DMHListModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHListModel.m; sourceTree = "<group>"; };
+		2F7C872697D05F792A288B408EAB1ABD /* DMHListCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHListCell.m; sourceTree = "<group>"; };
+		32B2017FB2ED1DE6BFAC768AD7660CD8 /* DMHZoneCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHZoneCell.h; sourceTree = "<group>"; };
+		345177E67AC154CA762002FC97B5E3A9 /* DMHRefreshCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHRefreshCell.h; sourceTree = "<group>"; };
+		37DD06C0159682993B4EDEF89447E2CA /* DMPListCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMPListCell.m; sourceTree = "<group>"; };
+		39C0AB3D4995B2A373C79B6D92267339 /* DMHNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHNavBar.h; sourceTree = "<group>"; };
+		41654C1121F6C00B17294BF64296E5AD /* DMHConuselorCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHConuselorCell.m; sourceTree = "<group>"; };
+		4BB2302209F68E23AAFBAE8F28E0C3FB /* DMHMerchantCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHMerchantCell.m; sourceTree = "<group>"; };
+		5499879A6836E0D5A283683C3F90815E /* DMHDropDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHDropDelegate.h; sourceTree = "<group>"; };
+		56E77E8EC3B60F9353DE78421A3860A5 /* DMExtraModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMExtraModel.m; sourceTree = "<group>"; };
+		6DA00C3089D38FCB4BF4384777643425 /* DMHToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHToast.m; sourceTree = "<group>"; };
+		70D1F82A885F6B338C44B2BB04229A3D /* DMDingyueCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDingyueCell.m; sourceTree = "<group>"; };
+		72DD7A712AA40A12F1B0438C314CBBAD /* DMHFilterList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHFilterList.h; sourceTree = "<group>"; };
+		730493079B27E9DF5CBB8F8F5AA23E82 /* DMHListCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHListCell.h; sourceTree = "<group>"; };
+		779238A479AE2D5105AACC6DBB5D18AC /* GBusinessHomeList-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBusinessHomeList-prefix.pch"; sourceTree = "<group>"; };
+		7AEFFB8C9E98D426CF8CD0E000B07BA6 /* DMHBannerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHBannerCell.m; sourceTree = "<group>"; };
+		7B41F39E92B19ADDA4A9B5AF852A4EBA /* DMExtraModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMExtraModel.h; sourceTree = "<group>"; };
+		7C8098B446246C40E50D955B84E15E03 /* DMHJobType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHJobType.h; sourceTree = "<group>"; };
+		7EAC1BCF560D99252E3D77C87D1CBDA9 /* GCityViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCityViewController.h; path = GHomeList/GCityViewController.h; sourceTree = "<group>"; };
+		7FBB582605F788FA1B4CB36731CF258B /* DMHListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHListView.h; sourceTree = "<group>"; };
+		89D54595EAFF793FB3819D0793502E75 /* DMHListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHListView.m; sourceTree = "<group>"; };
+		89DDA77A30326A4DBCC3F161B17E48A8 /* DMHListModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHListModel.h; sourceTree = "<group>"; };
+		971B7D3B400D8E1C6877F2331A867EB0 /* DMHEmptyCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHEmptyCell.m; sourceTree = "<group>"; };
+		983703EACE32F3F15366C1C0AD44D153 /* DMHFilterModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHFilterModel.h; sourceTree = "<group>"; };
+		9A7FD2814DA1A6653C052613ECB38B3D /* DMHToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHToast.h; sourceTree = "<group>"; };
+		A4300ECD93373AC93C7E157EC266FC4F /* GHomeListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHomeListViewController.h; path = GHomeList/GHomeListViewController.h; sourceTree = "<group>"; };
+		A51DC5137A5335ACA6DF064B9CF913D8 /* DMHEmptyCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHEmptyCell.h; sourceTree = "<group>"; };
+		B3ABE30EFD76BA9747B8D8094F57F21C /* DMHRefreshCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHRefreshCell.m; sourceTree = "<group>"; };
+		B8AEBAF109E34FEC452DCD998EEC4675 /* GCityViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCityViewController.m; path = GHomeList/GCityViewController.m; sourceTree = "<group>"; };
+		B9B695161733945A0E19455E842BB870 /* DMHCity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHCity.m; sourceTree = "<group>"; };
+		BD1AA7B805E4A855A3AC39F08D26560E /* DMHCity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHCity.h; sourceTree = "<group>"; };
+		C6BAE9608D1ED1207BACD5D980E58D4B /* DMHCityModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHCityModel.h; sourceTree = "<group>"; };
+		CAE36439721D4A6A31A7D53FAB2C3733 /* DMHNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHNavBar.m; sourceTree = "<group>"; };
+		D22BBF57A148484709C59002AC71CD18 /* DMHDropMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHDropMenuView.m; sourceTree = "<group>"; };
+		D394C75FF04BDA89B263804DE9B1D4F5 /* DMHMerchantCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHMerchantCell.h; sourceTree = "<group>"; };
+		D47C78CB8B85961EF58EEFED537E0AA9 /* DMHBannerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHBannerCell.h; sourceTree = "<group>"; };
+		D9949A4CF16CFA79C793E79DEC4E0882 /* DMHFilterList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHFilterList.m; sourceTree = "<group>"; };
+		DC75848656CED2B1224C0FCCFFD2963C /* DMHJobType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHJobType.m; sourceTree = "<group>"; };
+		E93172121C1AB8503302F5DFB535F76A /* GHomeListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHomeListViewController.m; path = GHomeList/GHomeListViewController.m; sourceTree = "<group>"; };
+		ED901C91122ADF1C42A5CBA9B806F040 /* DMHFilterModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHFilterModel.m; sourceTree = "<group>"; };
+		F127E611F26CDBC9A2938098C1EB28CC /* libGBusinessHomeList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGBusinessHomeList.a; path = libGBusinessHomeList.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F720E11A85969FE211B71A169E9D82 /* GBusinessHomeList.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBusinessHomeList.xcconfig; sourceTree = "<group>"; };
+		F7EAB38D46C99E8572581D3484D6FF72 /* DMHConuselorCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMHConuselorCell.h; sourceTree = "<group>"; };
+		F8B69B6C037E346A913BF1F16F6CE62D /* DMResume.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMResume.h; sourceTree = "<group>"; };
+		FF992412C6A5F3E6F6248FAFD5559D83 /* DMHZoneCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMHZoneCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03BD785FFB314F4222488F3D68221EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33305904264B36381953FDD75ED4A74B /* toast */ = {
+			isa = PBXGroup;
+			children = (
+				9A7FD2814DA1A6653C052613ECB38B3D /* DMHToast.h */,
+				6DA00C3089D38FCB4BF4384777643425 /* DMHToast.m */,
+			);
+			name = toast;
+			path = toast;
+			sourceTree = "<group>";
+		};
+		3439100B52631FFF9C3AF812E1BF6C9A /* GBusinessHomeList */ = {
+			isa = PBXGroup;
+			children = (
+				7EAC1BCF560D99252E3D77C87D1CBDA9 /* GCityViewController.h */,
+				B8AEBAF109E34FEC452DCD998EEC4675 /* GCityViewController.m */,
+				A4300ECD93373AC93C7E157EC266FC4F /* GHomeListViewController.h */,
+				E93172121C1AB8503302F5DFB535F76A /* GHomeListViewController.m */,
+				976C5FD22BA3C00F4D7CCD9473A0DF2B /* HomeList */,
+				B7D606C43F7BB60F381D723E7EFBFA8B /* Pod */,
+				A36FEBBDB46F69B76D8F25B6C1C64760 /* Support Files */,
+			);
+			name = GBusinessHomeList;
+			path = ../components/business/GBusinessHomeList;
+			sourceTree = "<group>";
+		};
+		5171865D4EC395AEE426F510EF5FB9D9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7B41F39E92B19ADDA4A9B5AF852A4EBA /* DMExtraModel.h */,
+				56E77E8EC3B60F9353DE78421A3860A5 /* DMExtraModel.m */,
+				1591FBFD8EC53B55B68793F3D4190AAC /* DMHDropMenuView.h */,
+				D22BBF57A148484709C59002AC71CD18 /* DMHDropMenuView.m */,
+				7FBB582605F788FA1B4CB36731CF258B /* DMHListView.h */,
+				89D54595EAFF793FB3819D0793502E75 /* DMHListView.m */,
+				39C0AB3D4995B2A373C79B6D92267339 /* DMHNavBar.h */,
+				CAE36439721D4A6A31A7D53FAB2C3733 /* DMHNavBar.m */,
+			);
+			name = view;
+			path = view;
+			sourceTree = "<group>";
+		};
+		976C5FD22BA3C00F4D7CCD9473A0DF2B /* HomeList */ = {
+			isa = PBXGroup;
+			children = (
+				B28E752289017D753AA14C77D5CEB565 /* model */,
+				F4ACE5C78F6285636B3EFB41096D9D58 /* resume */,
+				DDF43CC740898178DEC5F416DB72A145 /* view */,
+			);
+			name = HomeList;
+			path = GHomeList/HomeList;
+			sourceTree = "<group>";
+		};
+		A09B07753181A1C1F8C95733C5639E10 /* drop */ = {
+			isa = PBXGroup;
+			children = (
+				0B96A7969A661AFE989193C7145E810A /* DMFilterList.h */,
+				11443840CC78ABFEAEC7A190B890226C /* DMHAddr.h */,
+				0DE32C033B2FE0707D229FF067AB2843 /* DMHAddr.m */,
+				BD1AA7B805E4A855A3AC39F08D26560E /* DMHCity.h */,
+				B9B695161733945A0E19455E842BB870 /* DMHCity.m */,
+				5499879A6836E0D5A283683C3F90815E /* DMHDropDelegate.h */,
+				72DD7A712AA40A12F1B0438C314CBBAD /* DMHFilterList.h */,
+				D9949A4CF16CFA79C793E79DEC4E0882 /* DMHFilterList.m */,
+				7C8098B446246C40E50D955B84E15E03 /* DMHJobType.h */,
+				DC75848656CED2B1224C0FCCFFD2963C /* DMHJobType.m */,
+			);
+			name = drop;
+			path = drop;
+			sourceTree = "<group>";
+		};
+		A36FEBBDB46F69B76D8F25B6C1C64760 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4F720E11A85969FE211B71A169E9D82 /* GBusinessHomeList.xcconfig */,
+				28BF7DE97F48AE69D3F84125FAFEDAA3 /* GBusinessHomeList-dummy.m */,
+				779238A479AE2D5105AACC6DBB5D18AC /* GBusinessHomeList-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/GBusinessHomeList";
+			sourceTree = "<group>";
+		};
+		B28E752289017D753AA14C77D5CEB565 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C6BAE9608D1ED1207BACD5D980E58D4B /* DMHCityModel.h */,
+				27839571E8E475C26A361F6F3AAD2164 /* DMHCityModel.m */,
+				983703EACE32F3F15366C1C0AD44D153 /* DMHFilterModel.h */,
+				ED901C91122ADF1C42A5CBA9B806F040 /* DMHFilterModel.m */,
+				89DDA77A30326A4DBCC3F161B17E48A8 /* DMHListModel.h */,
+				2ED214EBC3C56029A02D8DED34A22154 /* DMHListModel.m */,
+			);
+			name = model;
+			path = model;
+			sourceTree = "<group>";
+		};
+		B7D606C43F7BB60F381D723E7EFBFA8B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				02217014627BD47B72C58A6DCA2A177C /* GBusinessHomeList.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CB05E9238924E6A03F1EE14751028A91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D030D971FB5769146BC2491066DE2B76 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				10877CBED585E11EC33F4743734BB297 /* DMDingyueCell.h */,
+				70D1F82A885F6B338C44B2BB04229A3D /* DMDingyueCell.m */,
+				D47C78CB8B85961EF58EEFED537E0AA9 /* DMHBannerCell.h */,
+				7AEFFB8C9E98D426CF8CD0E000B07BA6 /* DMHBannerCell.m */,
+				F7EAB38D46C99E8572581D3484D6FF72 /* DMHConuselorCell.h */,
+				41654C1121F6C00B17294BF64296E5AD /* DMHConuselorCell.m */,
+				A51DC5137A5335ACA6DF064B9CF913D8 /* DMHEmptyCell.h */,
+				971B7D3B400D8E1C6877F2331A867EB0 /* DMHEmptyCell.m */,
+				0EE7B440054801D8CC411DACAC88F926 /* DMHHotCell.h */,
+				108DA0A13BDB5B97975618793C821F0C /* DMHHotCell.m */,
+				730493079B27E9DF5CBB8F8F5AA23E82 /* DMHListCell.h */,
+				2F7C872697D05F792A288B408EAB1ABD /* DMHListCell.m */,
+				D394C75FF04BDA89B263804DE9B1D4F5 /* DMHMerchantCell.h */,
+				4BB2302209F68E23AAFBAE8F28E0C3FB /* DMHMerchantCell.m */,
+				345177E67AC154CA762002FC97B5E3A9 /* DMHRefreshCell.h */,
+				B3ABE30EFD76BA9747B8D8094F57F21C /* DMHRefreshCell.m */,
+				32B2017FB2ED1DE6BFAC768AD7660CD8 /* DMHZoneCell.h */,
+				FF992412C6A5F3E6F6248FAFD5559D83 /* DMHZoneCell.m */,
+				14F1185B0BA079BA00DF82183E1B3F39 /* DMPListCell.h */,
+				37DD06C0159682993B4EDEF89447E2CA /* DMPListCell.m */,
+			);
+			name = cell;
+			path = cell;
+			sourceTree = "<group>";
+		};
+		DDF43CC740898178DEC5F416DB72A145 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D030D971FB5769146BC2491066DE2B76 /* cell */,
+				A09B07753181A1C1F8C95733C5639E10 /* drop */,
+				33305904264B36381953FDD75ED4A74B /* toast */,
+				5171865D4EC395AEE426F510EF5FB9D9 /* view */,
+			);
+			name = view;
+			path = view;
+			sourceTree = "<group>";
+		};
+		F4ACE5C78F6285636B3EFB41096D9D58 /* resume */ = {
+			isa = PBXGroup;
+			children = (
+				F8B69B6C037E346A913BF1F16F6CE62D /* DMResume.h */,
+				2943CCEF699602909F87182AF7DBB7ED /* DMResume.m */,
+			);
+			name = resume;
+			path = resume;
+			sourceTree = "<group>";
+		};
+		F6D03F6953BDE5AA159B5A3A06F50026 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F127E611F26CDBC9A2938098C1EB28CC /* libGBusinessHomeList.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD07AC614DC82F486680ED4E7193C3EE = {
+			isa = PBXGroup;
+			children = (
+				CB05E9238924E6A03F1EE14751028A91 /* Frameworks */,
+				3439100B52631FFF9C3AF812E1BF6C9A /* GBusinessHomeList */,
+				F6D03F6953BDE5AA159B5A3A06F50026 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BA5A6DA8B57431A064A7A485D2943A78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1D4CC7C65466DB08FC87371783C393 /* DMDingyueCell.h in Headers */,
+				F66A58F4978C459CBD511EC35D44BFB6 /* DMExtraModel.h in Headers */,
+				E3DCBF3D2BF449DAD80564867A1E48DE /* DMFilterList.h in Headers */,
+				915F2AFACF4EA39609FE7BE0DE023EB8 /* DMHAddr.h in Headers */,
+				5C6D7BCD838F07D0A223DA03297763C0 /* DMHBannerCell.h in Headers */,
+				FE9BCDA37E8786CA8B80EA3C8158F4E5 /* DMHCity.h in Headers */,
+				C558AA65FBD74FA1624BF6DD70A3209C /* DMHCityModel.h in Headers */,
+				68FAD82C68AC6DE2A05C617AF89FB8AD /* DMHConuselorCell.h in Headers */,
+				C6557BD9680D73BEB26B9B7194DF55BB /* DMHDropDelegate.h in Headers */,
+				4D5C67899CB480C2AF15873F2C867E0D /* DMHDropMenuView.h in Headers */,
+				473591BE11F68B41D84BF169EC964EEB /* DMHEmptyCell.h in Headers */,
+				C5CD2F41EE719223CBD3A8D9E42C5F24 /* DMHFilterList.h in Headers */,
+				570FA6D560A5B1EB157C7AD9EFA2E134 /* DMHFilterModel.h in Headers */,
+				96601B16951CE645DA8B4F4FDD60CB84 /* DMHHotCell.h in Headers */,
+				C74EED0883E403CA0CAC63610AFBD0FB /* DMHJobType.h in Headers */,
+				82B5A8BD652C1C3A97E6AEFDE3F220AF /* DMHListCell.h in Headers */,
+				60B75407215AAE0B62BC6E1F88B04552 /* DMHListModel.h in Headers */,
+				53E851244D2A4300875FF78B59FED4B6 /* DMHListView.h in Headers */,
+				E97F6880860FE83B64ECF60F92CC8276 /* DMHMerchantCell.h in Headers */,
+				79FB71055AB153984A6AF7F85EBD4599 /* DMHNavBar.h in Headers */,
+				E853AC38B1FC1288931E7E2301F263F4 /* DMHRefreshCell.h in Headers */,
+				50291EC41DD50C18788BD9205FCE2B8F /* DMHToast.h in Headers */,
+				A8FEF141B0B63EA130269E1C551B70B7 /* DMHZoneCell.h in Headers */,
+				11197EECB30097FD229F7DA8CF0934D7 /* DMPListCell.h in Headers */,
+				45752C97DAD99169131E4B7D91C93307 /* DMResume.h in Headers */,
+				4815ABE564D57C1E5631D52B46C38364 /* GCityViewController.h in Headers */,
+				A623F8BF9120009EA96DE98403FC1E85 /* GHomeListViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AE9AE2A18934BC5916D7B08720D92ECC /* GBusinessHomeList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957B5BB04173C8259088014EE9E3E76E /* Build configuration list for PBXNativeTarget "GBusinessHomeList" */;
+			buildPhases = (
+				BA5A6DA8B57431A064A7A485D2943A78 /* Headers */,
+				F9A2F69B35940C2809FBF248DE5EA645 /* Sources */,
+				03BD785FFB314F4222488F3D68221EEF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBusinessHomeList;
+			productName = GBusinessHomeList;
+			productReference = F127E611F26CDBC9A2938098C1EB28CC /* libGBusinessHomeList.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA6E88CF022468938E19613FC79C1165 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = D1363C9E8F6F598A98A34E5477C03756 /* Build configuration list for PBXProject "GBusinessHomeList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD07AC614DC82F486680ED4E7193C3EE;
+			productRefGroup = F6D03F6953BDE5AA159B5A3A06F50026 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE9AE2A18934BC5916D7B08720D92ECC /* GBusinessHomeList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9A2F69B35940C2809FBF248DE5EA645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2DCEFFA73A7AABBF8F5ACBFAA605B93 /* DMDingyueCell.m in Sources */,
+				CCBC540C063404924F897E9D36075025 /* DMExtraModel.m in Sources */,
+				B18FC07222D745BD4A88D5C8C71BD733 /* DMHAddr.m in Sources */,
+				E20CCDA7564B44EE4A5DE78761E06706 /* DMHBannerCell.m in Sources */,
+				4174E41355541F1A25FD37B7525D206A /* DMHCity.m in Sources */,
+				3764880D7A72F04E8A4759C63C53F022 /* DMHCityModel.m in Sources */,
+				4E3228425783C3A25D662E0AF14842B0 /* DMHConuselorCell.m in Sources */,
+				D4DE3E54BCE0253A6B51E7C628512B0D /* DMHDropMenuView.m in Sources */,
+				A11F1B777481058C9ECF5B5A2E0A83E5 /* DMHEmptyCell.m in Sources */,
+				8C0950DB085AA6B5327437E6B58A4AF8 /* DMHFilterList.m in Sources */,
+				76D1E79ABFD6A6B2F2DA749BFA96B858 /* DMHFilterModel.m in Sources */,
+				F8CECA9E2F905DC09444D1A690D9EA61 /* DMHHotCell.m in Sources */,
+				08D07CF01ADDCA42C4D63760ADEBA577 /* DMHJobType.m in Sources */,
+				0D880BD82156A2235B73287F192825C0 /* DMHListCell.m in Sources */,
+				7FF60F1367181FAE1DFFF67654523665 /* DMHListModel.m in Sources */,
+				A423F6524F893BD93712DE51B34969EC /* DMHListView.m in Sources */,
+				717ADA728965226539091D916FEEB635 /* DMHMerchantCell.m in Sources */,
+				718F22B905BFA0D973E7F7E683052FD0 /* DMHNavBar.m in Sources */,
+				D176E9D4F616D28E381D477C39762CC1 /* DMHRefreshCell.m in Sources */,
+				0E0F6F507417F00EAF75310B141C555A /* DMHToast.m in Sources */,
+				9DA2B91EDFD1EB1211877D14BAF35DFD /* DMHZoneCell.m in Sources */,
+				E7F8BBDB7A25D3FEFD4B5AF153B61FA7 /* DMPListCell.m in Sources */,
+				3770ABCFD25C631D4A954520E2426236 /* DMResume.m in Sources */,
+				4F8ECB0749F6559E5DFFD5F79AB34CBF /* GBusinessHomeList-dummy.m in Sources */,
+				04559D5BF3DFB23C555A9A6BFE439CEB /* GCityViewController.m in Sources */,
+				27D92C037B5E1CCF8E6B392A297EB806 /* GHomeListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6999EDF85B04228721432E57031DC4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		90A51EDEAE63AB2F9DB57E7EFCB6C34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C52610C6BA4742458E20918A9EBEABF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F720E11A85969FE211B71A169E9D82 /* GBusinessHomeList.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GBusinessHomeList/GBusinessHomeList-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GBusinessHomeList;
+				PRODUCT_NAME = GBusinessHomeList;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC2E8157E85DA3B0369B1D4191DB6A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F720E11A85969FE211B71A169E9D82 /* GBusinessHomeList.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GBusinessHomeList/GBusinessHomeList-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GBusinessHomeList;
+				PRODUCT_NAME = GBusinessHomeList;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		957B5BB04173C8259088014EE9E3E76E /* Build configuration list for PBXNativeTarget "GBusinessHomeList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C52610C6BA4742458E20918A9EBEABF2 /* Debug */,
+				DC2E8157E85DA3B0369B1D4191DB6A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1363C9E8F6F598A98A34E5477C03756 /* Build configuration list for PBXProject "GBusinessHomeList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A51EDEAE63AB2F9DB57E7EFCB6C34E /* Debug */,
+				6999EDF85B04228721432E57031DC4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA6E88CF022468938E19613FC79C1165 /* Project object */;
+}

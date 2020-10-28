@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CF2AE98252FA6F299D36EBD6F2A2D54 /* GUILib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE378966A0B0ABAB08E9699F6743453 /* GUILib-dummy.m */; };
+		22098AA4F12980080761A750CCCFFCCB /* GButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2605F0B93FADF1526D43FEF98640F2BA /* GButton.m */; };
+		378B2D884486EB336BE1B9AA35FC7F68 /* GTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA963DDEEC5082432A7BF0CBAEB6AA5 /* GTextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A43DFF74EC395C60FF9F0BDAA19D0BF /* GTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 526FD0567ECD7477F80E10CDB3F3F386 /* GTextField.m */; };
+		A4D4481A48FA5B976AA0B9858129E94B /* GShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C79109757475C667CED74932311F4B /* GShow.m */; };
+		AD4310EE990152FA2CF2896FCAA998ED /* GShow.h in Headers */ = {isa = PBXBuildFile; fileRef = F01D6B5BDBAC8C69605D6F8B64F51BDD /* GShow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BDC0A3FC06FD15DA218D0B87B6D61877 /* GButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B50821C08AF9C93BAF4DC703BB95AF44 /* GButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0B29C8A6C23622FD99972349F214FBC /* GTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DE1AF0C9A03C09C13E5124B1C2CF28 /* GTextView.m */; };
+		E9445E717DFA308EE69AE2CEF4C112DB /* GTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = E6442181AFA43F68D6EF913F7F7609B8 /* GTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09C79109757475C667CED74932311F4B /* GShow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GShow.m; sourceTree = "<group>"; };
+		20E23CCA2F6747694544A99D26A7A11C /* libGUILib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGUILib.a; path = libGUILib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2605F0B93FADF1526D43FEF98640F2BA /* GButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GButton.m; sourceTree = "<group>"; };
+		39DE1AF0C9A03C09C13E5124B1C2CF28 /* GTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTextView.m; sourceTree = "<group>"; };
+		4FE378966A0B0ABAB08E9699F6743453 /* GUILib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GUILib-dummy.m"; sourceTree = "<group>"; };
+		526FD0567ECD7477F80E10CDB3F3F386 /* GTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTextField.m; sourceTree = "<group>"; };
+		7BA963DDEEC5082432A7BF0CBAEB6AA5 /* GTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTextField.h; sourceTree = "<group>"; };
+		85B44C4A29839ACAB11195A4B1976C16 /* GUILib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GUILib-prefix.pch"; sourceTree = "<group>"; };
+		8BC5A7E1011B0348562626165F479863 /* GUILib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GUILib.xcconfig; sourceTree = "<group>"; };
+		A219E28833A937BED341CD3EB35509B0 /* GUILib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GUILib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B50821C08AF9C93BAF4DC703BB95AF44 /* GButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GButton.h; sourceTree = "<group>"; };
+		E6442181AFA43F68D6EF913F7F7609B8 /* GTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTextView.h; sourceTree = "<group>"; };
+		F01D6B5BDBAC8C69605D6F8B64F51BDD /* GShow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GShow.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB59B772A6BC047B8DB6CA798985F61D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		027E5615397800860571088E0F95C69F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A219E28833A937BED341CD3EB35509B0 /* GUILib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		206A52B8D7A5A79DA9F86EB2C5C6AECB /* GUILib */ = {
+			isa = PBXGroup;
+			children = (
+				8B6E337A0E69C905063706EE6AB8E564 /* GButton */,
+				484C5F9B4EDBF5C99B42E7820B0EEFA1 /* GShow */,
+				4DAF8BCBC9BC9EFBB6282EAC37B39C5A /* GTextField */,
+				9D5893B4E465BD61BA17BDF2C822B1B5 /* GTextView */,
+				027E5615397800860571088E0F95C69F /* Pod */,
+				6B2A27E4B2FE1A6B34826BFAF214408C /* Support Files */,
+			);
+			name = GUILib;
+			path = ../components/basic/GUILib;
+			sourceTree = "<group>";
+		};
+		379F4E7EA05F75CBDB9600D41C3C2919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20E23CCA2F6747694544A99D26A7A11C /* libGUILib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38183F8CEA0CAE8917679882FD9C2637 = {
+			isa = PBXGroup;
+			children = (
+				ACBD161DCDE53216F3ED5633956ADBF9 /* Frameworks */,
+				206A52B8D7A5A79DA9F86EB2C5C6AECB /* GUILib */,
+				379F4E7EA05F75CBDB9600D41C3C2919 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		484C5F9B4EDBF5C99B42E7820B0EEFA1 /* GShow */ = {
+			isa = PBXGroup;
+			children = (
+				F01D6B5BDBAC8C69605D6F8B64F51BDD /* GShow.h */,
+				09C79109757475C667CED74932311F4B /* GShow.m */,
+			);
+			name = GShow;
+			path = GUILib/GShow;
+			sourceTree = "<group>";
+		};
+		4DAF8BCBC9BC9EFBB6282EAC37B39C5A /* GTextField */ = {
+			isa = PBXGroup;
+			children = (
+				7BA963DDEEC5082432A7BF0CBAEB6AA5 /* GTextField.h */,
+				526FD0567ECD7477F80E10CDB3F3F386 /* GTextField.m */,
+			);
+			name = GTextField;
+			path = GUILib/GTextField;
+			sourceTree = "<group>";
+		};
+		6B2A27E4B2FE1A6B34826BFAF214408C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BC5A7E1011B0348562626165F479863 /* GUILib.xcconfig */,
+				4FE378966A0B0ABAB08E9699F6743453 /* GUILib-dummy.m */,
+				85B44C4A29839ACAB11195A4B1976C16 /* GUILib-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/GUILib";
+			sourceTree = "<group>";
+		};
+		8B6E337A0E69C905063706EE6AB8E564 /* GButton */ = {
+			isa = PBXGroup;
+			children = (
+				B50821C08AF9C93BAF4DC703BB95AF44 /* GButton.h */,
+				2605F0B93FADF1526D43FEF98640F2BA /* GButton.m */,
+			);
+			name = GButton;
+			path = GUILib/GButton;
+			sourceTree = "<group>";
+		};
+		9D5893B4E465BD61BA17BDF2C822B1B5 /* GTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E6442181AFA43F68D6EF913F7F7609B8 /* GTextView.h */,
+				39DE1AF0C9A03C09C13E5124B1C2CF28 /* GTextView.m */,
+			);
+			name = GTextView;
+			path = GUILib/GTextView;
+			sourceTree = "<group>";
+		};
+		ACBD161DCDE53216F3ED5633956ADBF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CA11A8F94BB57C8A7CDDB279E8D953F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC0A3FC06FD15DA218D0B87B6D61877 /* GButton.h in Headers */,
+				AD4310EE990152FA2CF2896FCAA998ED /* GShow.h in Headers */,
+				378B2D884486EB336BE1B9AA35FC7F68 /* GTextField.h in Headers */,
+				E9445E717DFA308EE69AE2CEF4C112DB /* GTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FB1FFEFBB099EBD6B4D4FD4B6A78376A /* GUILib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A63D422CBED8295FBD0D746E4DE29E75 /* Build configuration list for PBXNativeTarget "GUILib" */;
+			buildPhases = (
+				CA11A8F94BB57C8A7CDDB279E8D953F3 /* Headers */,
+				57CFAB0919B039C9D3E7FE6D49E550A0 /* Sources */,
+				EB59B772A6BC047B8DB6CA798985F61D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GUILib;
+			productName = GUILib;
+			productReference = 20E23CCA2F6747694544A99D26A7A11C /* libGUILib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CD4D61C558864F1BA3111C654382937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 97D8CE20E314AAE16A3A0DE93F6982C9 /* Build configuration list for PBXProject "GUILib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38183F8CEA0CAE8917679882FD9C2637;
+			productRefGroup = 379F4E7EA05F75CBDB9600D41C3C2919 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB1FFEFBB099EBD6B4D4FD4B6A78376A /* GUILib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57CFAB0919B039C9D3E7FE6D49E550A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22098AA4F12980080761A750CCCFFCCB /* GButton.m in Sources */,
+				A4D4481A48FA5B976AA0B9858129E94B /* GShow.m in Sources */,
+				8A43DFF74EC395C60FF9F0BDAA19D0BF /* GTextField.m in Sources */,
+				C0B29C8A6C23622FD99972349F214FBC /* GTextView.m in Sources */,
+				1CF2AE98252FA6F299D36EBD6F2A2D54 /* GUILib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D7D3D0DB592AE03619553CAE61888B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC5A7E1011B0348562626165F479863 /* GUILib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GUILib/GUILib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GUILib;
+				PRODUCT_NAME = GUILib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E2A34D40DB60ED0C68D1DD5354BA4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7CE1D4A6744ED20A6F6C916B8DD1BE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC5A7E1011B0348562626165F479863 /* GUILib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GUILib/GUILib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GUILib;
+				PRODUCT_NAME = GUILib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0923969A6A35C583827067F779C8173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97D8CE20E314AAE16A3A0DE93F6982C9 /* Build configuration list for PBXProject "GUILib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2A34D40DB60ED0C68D1DD5354BA4DB /* Debug */,
+				E0923969A6A35C583827067F779C8173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A63D422CBED8295FBD0D746E4DE29E75 /* Build configuration list for PBXNativeTarget "GUILib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7D3D0DB592AE03619553CAE61888B9 /* Debug */,
+				7CE1D4A6744ED20A6F6C916B8DD1BE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CD4D61C558864F1BA3111C654382937 /* Project object */;
+}

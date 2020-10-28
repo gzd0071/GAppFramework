@@ -1,0 +1,1 @@
+../../../../components/basic/GHttpRequest/GHttpRequest/result/HttpResult.h

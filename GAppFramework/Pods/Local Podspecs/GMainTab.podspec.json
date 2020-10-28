@@ -1,0 +1,28 @@
+{
+  "name": "GMainTab",
+  "version": "0.0.1",
+  "summary": "GMainTab.",
+  "description": "GMainTab the convi",
+  "homepage": "http://temp/GMainTab",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "http://temp/GMainTab.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "GMainTab",
+    "GMainTab/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "CYLTabBarController": [
+      "1.28.4"
+    ]
+  }
+}

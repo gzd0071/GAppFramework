@@ -1,0 +1,28 @@
+{
+  "name": "BCClient",
+  "version": "0.1.0",
+  "summary": "BCClient.",
+  "description": "BCClient the convi",
+  "homepage": "https://github.com/katongzhong1/BCClient",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/BCClient.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "BCClient",
+    "BCClient/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "DMLogin": [
+
+    ]
+  }
+}

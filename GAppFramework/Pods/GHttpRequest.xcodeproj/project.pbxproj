@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		166B3382958748E7A77297EC2D14BC39 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 954341ACD1A088BADF5DAE2F456BF376 /* HttpRequest.m */; };
+		240AFB0436E3B2F248A75F2BCDADC9A6 /* HttpResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6242EF02D9A404259B7D86B55245FB34 /* HttpResult.m */; };
+		456943F049E52F01856DD6F957816774 /* HttpDefaultConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0DBC6A96B49A03CE7DD810A4EDCF4 /* HttpDefaultConfig.m */; };
+		6990C19BAE59B2D267303B12EA0CD721 /* HttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E4CEC9911D45DFE1606E77175FD6F5F /* HttpRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8130F342588CA23C5796539C30B3BC7F /* HttpDefaultConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 71387A68D588EB0A9D38CCBD9BA39960 /* HttpDefaultConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C3E636084460F7EFA6A6B1232A8EA1B /* GHttpRequest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DD8F17A268A42A0A2C91238460AAE3 /* GHttpRequest-dummy.m */; };
+		98572D30E4FAFDD43512DF8DD760054A /* HttpRequestHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E62B0D82780F91896E7046FCAAE3FF30 /* HttpRequestHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7E1B1A2A86731427809B0FF33502302 /* HttpResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FD72125B25C69FABA657F5C24A462D9 /* HttpResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DB0DBC6A96B49A03CE7DD810A4EDCF4 /* HttpDefaultConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HttpDefaultConfig.m; sourceTree = "<group>"; };
+		0E4CEC9911D45DFE1606E77175FD6F5F /* HttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		1B9AF2B02CA53E8A1E1A275142E5BB0E /* libGHttpRequest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGHttpRequest.a; path = libGHttpRequest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD72125B25C69FABA657F5C24A462D9 /* HttpResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HttpResult.h; sourceTree = "<group>"; };
+		325459F0A7EE44D4E30B0C47D57A04E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		368A71B489C6B1206830573CBA3DE25C /* GHttpRequest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHttpRequest-prefix.pch"; sourceTree = "<group>"; };
+		59BC0C5AD54B3D5C20E6BB7CB5F4C41B /* GHttpRequest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHttpRequest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6242EF02D9A404259B7D86B55245FB34 /* HttpResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HttpResult.m; sourceTree = "<group>"; };
+		71387A68D588EB0A9D38CCBD9BA39960 /* HttpDefaultConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HttpDefaultConfig.h; sourceTree = "<group>"; };
+		954341ACD1A088BADF5DAE2F456BF376 /* HttpRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		E5DD8F17A268A42A0A2C91238460AAE3 /* GHttpRequest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHttpRequest-dummy.m"; sourceTree = "<group>"; };
+		E62B0D82780F91896E7046FCAAE3FF30 /* HttpRequestHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HttpRequestHeader.h; path = GHttpRequest/HttpRequestHeader.h; sourceTree = "<group>"; };
+		F48D93971C2801B2484E15806FCC4692 /* GHttpRequest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHttpRequest.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20C02330FBF30943FE1F0A336DAC6BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C6BD78C6AC9CEE08072B5747898C2D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B9AF2B02CA53E8A1E1A275142E5BB0E /* libGHttpRequest.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68D404043E6A33A4F0737194E9DE0377 /* request */ = {
+			isa = PBXGroup;
+			children = (
+				0E4CEC9911D45DFE1606E77175FD6F5F /* HttpRequest.h */,
+				954341ACD1A088BADF5DAE2F456BF376 /* HttpRequest.m */,
+			);
+			name = request;
+			path = GHttpRequest/request;
+			sourceTree = "<group>";
+		};
+		A70D1EE25333AA28692FEA20F2C632F1 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				71387A68D588EB0A9D38CCBD9BA39960 /* HttpDefaultConfig.h */,
+				0DB0DBC6A96B49A03CE7DD810A4EDCF4 /* HttpDefaultConfig.m */,
+			);
+			name = config;
+			path = GHttpRequest/config;
+			sourceTree = "<group>";
+		};
+		A9C09D8863BB64E27394952F984C1CB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE3509CE08385EBA0CDE4449896AFD0E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F48D93971C2801B2484E15806FCC4692 /* GHttpRequest.xcconfig */,
+				E5DD8F17A268A42A0A2C91238460AAE3 /* GHttpRequest-dummy.m */,
+				368A71B489C6B1206830573CBA3DE25C /* GHttpRequest-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/GHttpRequest";
+			sourceTree = "<group>";
+		};
+		C6EAB4ECA35C4D1FC819126C59F2EF03 /* result */ = {
+			isa = PBXGroup;
+			children = (
+				2FD72125B25C69FABA657F5C24A462D9 /* HttpResult.h */,
+				6242EF02D9A404259B7D86B55245FB34 /* HttpResult.m */,
+			);
+			name = result;
+			path = GHttpRequest/result;
+			sourceTree = "<group>";
+		};
+		E1A11CCA81165E27682447A6D52E3FA4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				59BC0C5AD54B3D5C20E6BB7CB5F4C41B /* GHttpRequest.podspec */,
+				325459F0A7EE44D4E30B0C47D57A04E2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FAC0D44F127F3383B57BC8B3A2AEE1A4 = {
+			isa = PBXGroup;
+			children = (
+				A9C09D8863BB64E27394952F984C1CB0 /* Frameworks */,
+				FFCC65842E9F4C4051625DBCBE5C38B8 /* GHttpRequest */,
+				0C6BD78C6AC9CEE08072B5747898C2D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFCC65842E9F4C4051625DBCBE5C38B8 /* GHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				E62B0D82780F91896E7046FCAAE3FF30 /* HttpRequestHeader.h */,
+				A70D1EE25333AA28692FEA20F2C632F1 /* config */,
+				E1A11CCA81165E27682447A6D52E3FA4 /* Pod */,
+				68D404043E6A33A4F0737194E9DE0377 /* request */,
+				C6EAB4ECA35C4D1FC819126C59F2EF03 /* result */,
+				BE3509CE08385EBA0CDE4449896AFD0E /* Support Files */,
+			);
+			name = GHttpRequest;
+			path = ../components/basic/GHttpRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		74BC488BB2A23C69374CB8C9A0C4985F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8130F342588CA23C5796539C30B3BC7F /* HttpDefaultConfig.h in Headers */,
+				6990C19BAE59B2D267303B12EA0CD721 /* HttpRequest.h in Headers */,
+				98572D30E4FAFDD43512DF8DD760054A /* HttpRequestHeader.h in Headers */,
+				A7E1B1A2A86731427809B0FF33502302 /* HttpResult.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E966AA380577A10A4FB9671CBE9DF18 /* GHttpRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BDD5D84046090D3BE5BEECABF61C454 /* Build configuration list for PBXNativeTarget "GHttpRequest" */;
+			buildPhases = (
+				74BC488BB2A23C69374CB8C9A0C4985F /* Headers */,
+				BCD2E0C868984ABB3156D5A1C2BA730E /* Sources */,
+				20C02330FBF30943FE1F0A336DAC6BA1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHttpRequest;
+			productName = GHttpRequest;
+			productReference = 1B9AF2B02CA53E8A1E1A275142E5BB0E /* libGHttpRequest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA1451737DABFF4FFA6C058BE10CE6FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 15DBFCD010D59274328F1C225DFEF973 /* Build configuration list for PBXProject "GHttpRequest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAC0D44F127F3383B57BC8B3A2AEE1A4;
+			productRefGroup = 0C6BD78C6AC9CEE08072B5747898C2D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E966AA380577A10A4FB9671CBE9DF18 /* GHttpRequest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD2E0C868984ABB3156D5A1C2BA730E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3E636084460F7EFA6A6B1232A8EA1B /* GHttpRequest-dummy.m in Sources */,
+				456943F049E52F01856DD6F957816774 /* HttpDefaultConfig.m in Sources */,
+				166B3382958748E7A77297EC2D14BC39 /* HttpRequest.m in Sources */,
+				240AFB0436E3B2F248A75F2BCDADC9A6 /* HttpResult.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00C22E11727FB0C91C0484AC36350AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0E0FBA93E0E56567B8559425ED9CCA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F48D93971C2801B2484E15806FCC4692 /* GHttpRequest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GHttpRequest/GHttpRequest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GHttpRequest;
+				PRODUCT_NAME = GHttpRequest;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5050F3EE128ABA4ABB2808704E721A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7E6925F022CB89CFED5C0591F16620A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F48D93971C2801B2484E15806FCC4692 /* GHttpRequest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GHttpRequest/GHttpRequest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GHttpRequest;
+				PRODUCT_NAME = GHttpRequest;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15DBFCD010D59274328F1C225DFEF973 /* Build configuration list for PBXProject "GHttpRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C22E11727FB0C91C0484AC36350AED /* Debug */,
+				5050F3EE128ABA4ABB2808704E721A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BDD5D84046090D3BE5BEECABF61C454 /* Build configuration list for PBXNativeTarget "GHttpRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6925F022CB89CFED5C0591F16620A2 /* Debug */,
+				0E0FBA93E0E56567B8559425ED9CCA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA1451737DABFF4FFA6C058BE10CE6FB /* Project object */;
+}

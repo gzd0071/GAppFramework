@@ -1,0 +1,23 @@
+{
+  "name": "AUILib",
+  "version": "0.1.0",
+  "summary": "AUILib.",
+  "description": "AUILib the convi",
+  "homepage": "https://github.com/katongzhong1/AUILib",
+  "license": "MIT",
+  "authors": {
+    "guozhongda": "guozhongda@doumi.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/AUILib.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "AUILib",
+    "AUILib/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "8.0"
+  }
+}

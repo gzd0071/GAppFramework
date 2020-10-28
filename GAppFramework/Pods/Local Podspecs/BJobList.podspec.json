@@ -1,0 +1,26 @@
+{
+  "name": "BJobList",
+  "version": "0.1.0",
+  "summary": "BJobList.",
+  "description": "BJobList the convi",
+  "homepage": "https://github.com/katongzhong1/BJobList",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/BJobList.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "BJobList",
+    "BJobList/**/*.{h,m,c}"
+  ],
+  "resources": [
+    "BJobList/img/*.png"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

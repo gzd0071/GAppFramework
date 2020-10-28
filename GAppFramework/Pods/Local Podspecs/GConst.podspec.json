@@ -1,0 +1,23 @@
+{
+  "name": "GConst",
+  "version": "0.1.0",
+  "summary": "GConst.",
+  "description": "GConst the convi",
+  "homepage": "https://github.com/gzd0071/GConst",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:gzd0071/GConst.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "GConst",
+    "GConst/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "8.0"
+  }
+}

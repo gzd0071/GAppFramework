@@ -1,0 +1,100 @@
+{
+  "merchant" : {
+    "title" : "他们刚刚看过你",
+    "list" : [
+      {
+        "job_name" : "招送餐员",
+        "company_id" : 1585606,
+        "user_id" : -44237829,
+        "user_name" : "刘青山",
+        "is_auth" : 1,
+        "logo" : "https:\/\/cdn.doumistatic.com\/221,01be0bd578e9b125.jpg",
+        "job_type_str" : "送餐员"
+      },
+      {
+        "job_name" : "招送餐员",
+        "company_id" : 3161265,
+        "user_id" : -70056319,
+        "user_name" : "刘女士",
+        "is_auth" : 1,
+        "logo" : "https:\/\/cdn.doumistatic.com\/120,f7197bc5f44893.png",
+        "job_type_str" : "送餐员"
+      },
+      {
+        "job_name" : "招快递配送",
+        "company_id" : 3165064,
+        "user_id" : -70248192,
+        "user_name" : "刘宝英",
+        "is_auth" : 1,
+        "logo" : "https:\/\/cdn.doumistatic.com\/217,01f030ce1a075b09.jpg",
+        "job_type_str" : "快递配送"
+      },
+      {
+        "job_name" : "招快递配送",
+        "company_id" : 2299225,
+        "user_id" : -42385255,
+        "user_name" : "盒马立水桥万优汇店",
+        "is_auth" : 1,
+        "logo" : "https:\/\/cdn.doumistatic.com\/179,017ed5307e3eb7eb.jpg",
+        "job_type_str" : "快递配送"
+      },
+      {
+        "job_name" : "招快递配送",
+        "company_id" : 2851892,
+        "user_id" : -56110638,
+        "user_name" : "田鑫",
+        "is_auth" : 1,
+        "logo" : "https:\/\/cdn.doumistatic.com\/116,f7197315e95408.png",
+        "job_type_str" : "快递配送"
+      }
+    ]
+  },
+  "banner_no1" : [
+    {
+      "dmalog" : "wlzq",
+      "url" : "http:\/\/m.doumi.com\/bj\/x\/post\/post_20200221085306\/?ca_campaign=post_20200221085306",
+      "id" : "8973",
+      "title" : "物流专区",
+      "image" : "https:\/\/cdn.doumistatic.com\/220,01c3d49d0a840d9b.jpg",
+      "banner_type" : "1",
+      "brand_name" : ""
+    }
+  ],
+  "zone" : [
+    {
+      "dmalog" : "jinritoutiaohuodong",
+      "id" : "8978",
+      "title" : "免费领取",
+      "subtitle" : "21天网红课",
+      "url" : "https:\/\/m.doumi.com\/h5\/growth\/app\/text_img_share.html?activity_id=activity_202002255e54982e6c942",
+      "image" : "https:\/\/cdn.doumistatic.com\/222,01c4526dd01419bb.png"
+    },
+    {
+      "dmalog" : "rmtj",
+      "id" : "7232",
+      "title" : "热门推荐",
+      "subtitle" : "看过的都说好",
+      "url" : "https:\/\/m.doumi.com\/bj\/x\/post\/post_20190809074258\/?ca_campaign=post_20190809074258",
+      "image" : "https:\/\/cdn.doumistatic.com\/179,0180204f97a7d206.png"
+    },
+    {
+      "dmalog" : "tlgz",
+      "id" : "7230",
+      "title" : "体力达人",
+      "subtitle" : "有态度的工作",
+      "url" : "https:\/\/m.doumi.com\/bj\/x\/post\/post_20190809073053\/?ca_campaign=post_20190809073053",
+      "image" : "https:\/\/cdn.doumistatic.com\/182,018ac6d25c52fc3f.png"
+    },
+    {
+      "dmalog" : "mqzw",
+      "id" : "6998",
+      "title" : "品牌职位",
+      "subtitle" : "知名企业招聘",
+      "url" : "https:\/\/m.doumi.com\/bj\/x\/post\/post_20190528024555\/?ca_campaign=post_20190528024555",
+      "image" : "https:\/\/cdn.doumistatic.com\/180,017f81416648f693.png"
+    }
+  ],
+  "hot" : [
+
+  ]
+}

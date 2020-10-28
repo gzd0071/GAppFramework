@@ -1,0 +1,43 @@
+{
+  "name": "GBaseLib",
+  "version": "0.1.0",
+  "summary": "GBaseLib.",
+  "description": "GBaseLib the convi",
+  "homepage": "https://github.com/katongzhong1/GBaseLib",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/GBaseLib.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "GBaseLib",
+    "GBaseLib/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "AFNetworking": [
+
+    ],
+    "ReactiveObjC": [
+      "3.1.1"
+    ],
+    "YYKit": [
+      "1.0.9"
+    ],
+    "MJRefresh": [
+      "3.1.16"
+    ],
+    "SDWebImage": [
+      "5.0.2"
+    ]
+  }
+}

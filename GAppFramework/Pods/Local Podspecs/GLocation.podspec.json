@@ -1,0 +1,31 @@
+{
+  "name": "GLocation",
+  "version": "0.1.0",
+  "summary": "GLocation.",
+  "description": "GLocation the convi",
+  "homepage": "https://github.com/gzd0071/GLocation",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:gzd0071/GLocation.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "GLocation",
+    "GLocation/**/*.{h,m,plist}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "BMKLocationKit": [
+      "1.5.0"
+    ],
+    "BaiduMapKit": [
+      "4.2.1"
+    ]
+  }
+}

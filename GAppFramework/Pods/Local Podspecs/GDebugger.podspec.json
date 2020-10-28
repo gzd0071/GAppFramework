@@ -1,0 +1,33 @@
+{
+  "name": "GDebugger",
+  "version": "0.1.0",
+  "summary": "GDebugger.",
+  "description": "GDebugger the convi",
+  "homepage": "https://github.com/katongzhong1/GDebugger",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/GDebugger.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "debugger",
+    "debugger/**/*.{h,m,c}"
+  ],
+  "resources": [
+    "debugger/debugger/enter/img/*.png",
+    "debugger/debugger/items/common/net/json/data/*.js",
+    "debugger/debugger/items/common/net/json/data/*.css",
+    "debugger/debugger/items/common/net/json/data/*.html",
+    "debugger/debugger/funcs/httpserver/web/**/*.js",
+    "debugger/debugger/funcs/httpserver/web/**/*.json",
+    "debugger/debugger/funcs/httpserver/web/**/*.css",
+    "debugger/debugger/funcs/httpserver/web/**/*.html"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

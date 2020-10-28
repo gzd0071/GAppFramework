@@ -1,0 +1,27 @@
+{
+  "name": "DMUILib",
+  "version": "0.1.0",
+  "summary": "DMUILib.",
+  "description": "DMUILib the convi",
+  "homepage": "https://github.com/katongzhong1/DMUILib",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/DMUILib.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "DMUILib",
+    "DMUILib/**/*.{h,m}"
+  ],
+  "resources": [
+    "DMUILib/img/*.png",
+    "DMUILib/picker/models/province.plist"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

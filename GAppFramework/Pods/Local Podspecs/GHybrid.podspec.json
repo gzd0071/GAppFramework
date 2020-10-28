@@ -1,0 +1,28 @@
+{
+  "name": "GHybrid",
+  "version": "0.1.0",
+  "summary": "GHybrid.",
+  "description": "GHybrid the convi",
+  "homepage": "https://github.com/katongzhong1/GHybrid",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/GHybrid.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "GHybrid",
+    "GHybrid/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "DMLogin": [
+
+    ]
+  }
+}

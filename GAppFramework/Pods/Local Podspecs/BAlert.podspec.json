@@ -1,0 +1,23 @@
+{
+  "name": "BAlert",
+  "version": "0.1.0",
+  "summary": "BAlert.",
+  "description": "BAlert the convi",
+  "homepage": "http://temp/BAlert",
+  "license": "MIT",
+  "authors": {
+    "guozd": "guozd@doumi.com"
+  },
+  "source": {
+    "git": "http://temp/BAlert.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "BAlert",
+    "BAlert/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

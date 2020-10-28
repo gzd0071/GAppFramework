@@ -1,0 +1,1 @@
+../../../../components/basic/GLogger/GLogger/Foundation/LoggerBeautiful.h

@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D00343E8FDEB6BEC74AC86D48ADF6F /* GHud.h in Headers */ = {isa = PBXBuildFile; fileRef = C1F0E8E6DF3EC6A7BF8F7C46E85AFCAD /* GHud.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		07AE27EAD1CCD13ACAEC39B43B9136E4 /* DMEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = E6ACCE02084F7173E0A156809D6F7252 /* DMEmpty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09F0BCCAB3E7EF8C3BEB0F23F1BED154 /* DMSystemAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = ECFA2505DD17F5F68A0C6BBD75EEFEFA /* DMSystemAlert.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0BA6E9455FC7F1CB0C669B65A06FF6DA /* DMAlertActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B1DD529BF0548291AC2A25F3A0FF2D /* DMAlertActions.m */; };
+		473D12989B454596331035FD5DED3759 /* DMPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD2DC80145B8F40416F044E20BAEF61 /* DMPicker.m */; };
+		557B306B45F18D9062EBCF9CCB9C409D /* DMEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A110A2E51FEAA985931A763780C383F /* DMEmpty.m */; };
+		6DFF41517407C711638BAB788670D9A6 /* DMCustomAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 835D63DEC88C74B643EE5771AB2FD2AC /* DMCustomAlert.m */; };
+		77BC77F38183B9B569FDC971E3EE1633 /* DMPickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D567745B659A8B14670B1E1F86D8F15C /* DMPickerModel.m */; };
+		7E676655F6E9DAB172E76FCFF3B31F27 /* DMAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 45976740BEAFABAD7500AE0094A86A8A /* DMAlert.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8CF3278B4542C5952AF7B06E21D5D6B7 /* GHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B4F1A692CC9A1FCE545232B4802A51 /* GHud.m */; };
+		8E1CAE791654DB7BECD0B55619133CB5 /* DMUILib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23382BAA7DE94A52C4B1CB20E6A180BD /* DMUILib-dummy.m */; };
+		9065306098CEDF84A1A12A0F1A9438D8 /* DMAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE69C89BFBAD42F8E63B3786332D0E3 /* DMAlert.m */; };
+		A05D9F32667DC0E84D4AD4FB4A53E05E /* DMAlertActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A48099F85563393F0A91A311BFA161E /* DMAlertActions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A310BC173C53D074AD159DE954F0EA4D /* DMAlertHandlerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5576D5CC27CA89C898EF344F895795BF /* DMAlertHandlerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA2062F8A751F4FB08185D9189560B00 /* DMCustomAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 84745C2988E32B1BC28F18FFE3106D27 /* DMCustomAlert.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B53CDF475F103CF1D68978A1007B175D /* DMPickerModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B316660AFE353053D12B6134EE2D4F9F /* DMPickerModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B92A86E3C4CAAD723F2F6B7806072555 /* DMSheetAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 605C733763A9003A00D91B120AF97663 /* DMSheetAlert.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D533EA838E777FE5C36D078E2C4BED6B /* DMSystemAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E2D4E0821240CDDEA130F6B9163100 /* DMSystemAlert.m */; };
+		E84938451CB2D2913B1946F1D64A69D5 /* DMPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D024024AB823E86A092FAB5AE07B0CB /* DMPicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB043178B4C1DACD6D19FB2D4234DF56 /* DMSheetAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5DF15A0F9CDA2F3B68807CAEE711A3 /* DMSheetAlert.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0152FFEFF6FFA83795A56F3B2F2316BC /* dialog_btn_cancel_selected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dialog_btn_cancel_selected@3x.png"; sourceTree = "<group>"; };
+		03A97D00132858E6413D31D76F5B7C69 /* dialog_bg_fail.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_fail.png; sourceTree = "<group>"; };
+		06ABAA7431E23B260EFE5402CC32C492 /* province.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = province.plist; sourceTree = "<group>"; };
+		0A110A2E51FEAA985931A763780C383F /* DMEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMEmpty.m; sourceTree = "<group>"; };
+		0AD2DC80145B8F40416F044E20BAEF61 /* DMPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMPicker.m; sourceTree = "<group>"; };
+		1357A57BEFCB3A12AB138DF9A10CBB9A /* dialog_btn_cancel_selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dialog_btn_cancel_selected@2x.png"; sourceTree = "<group>"; };
+		1392FC3B384E3F37C145652C0DB3F6C4 /* dialog_bg_shortage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_shortage.png; sourceTree = "<group>"; };
+		1F9824D16CE530F6901C54829E6611BF /* dialog_btn_confirm_selected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dialog_btn_confirm_selected@3x.png"; sourceTree = "<group>"; };
+		23382BAA7DE94A52C4B1CB20E6A180BD /* DMUILib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DMUILib-dummy.m"; sourceTree = "<group>"; };
+		24F8C6848F122937F072E6D67B74849C /* dialog_bg_unsaved.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_unsaved.png; sourceTree = "<group>"; };
+		31B4F1A692CC9A1FCE545232B4802A51 /* GHud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GHud.m; sourceTree = "<group>"; };
+		3257671B0DDD5D541CC19533C32E0B53 /* dialog_select_check@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dialog_select_check@2x.png"; sourceTree = "<group>"; };
+		3B5DF15A0F9CDA2F3B68807CAEE711A3 /* DMSheetAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMSheetAlert.m; sourceTree = "<group>"; };
+		3B6A70DDF9D2249BDAB885BDB486A62C /* empty_noserver@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "empty_noserver@2x.png"; sourceTree = "<group>"; };
+		42B1DD529BF0548291AC2A25F3A0FF2D /* DMAlertActions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMAlertActions.m; sourceTree = "<group>"; };
+		45976740BEAFABAD7500AE0094A86A8A /* DMAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMAlert.h; sourceTree = "<group>"; };
+		4A47E980E5E61309BC2DCFB2CFBCB22B /* DMUILib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMUILib.xcconfig; sourceTree = "<group>"; };
+		4DEE6FCFA9474BE5FE56BC8700AE0FD9 /* dialog_bg_normal.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_normal.png; sourceTree = "<group>"; };
+		4F282B0491C2E2D77049F62508F6F204 /* dialog_btn_cancel_normal@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dialog_btn_cancel_normal@3x.png"; sourceTree = "<group>"; };
+		51FC1779800B26450F2B89367607127B /* dialog_select_check_normal@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dialog_select_check_normal@3x.png"; sourceTree = "<group>"; };
+		5576D5CC27CA89C898EF344F895795BF /* DMAlertHandlerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMAlertHandlerDelegate.h; sourceTree = "<group>"; };
+		5A48099F85563393F0A91A311BFA161E /* DMAlertActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMAlertActions.h; sourceTree = "<group>"; };
+		605C733763A9003A00D91B120AF97663 /* DMSheetAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMSheetAlert.h; sourceTree = "<group>"; };
+		60BCE4727DFCE414D12E1858D9050A99 /* dialog_bg_resume.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_resume.png; sourceTree = "<group>"; };
+		6A76DF8665A4EE92F5CA7EEBDC5B9E40 /* dialog_bg_phone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_phone.png; sourceTree = "<group>"; };
+		6AC2ED67353AD2FEF12A1C8D55AB49A4 /* dialog_bg_sign.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_sign.png; sourceTree = "<group>"; };
+		6D024024AB823E86A092FAB5AE07B0CB /* DMPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMPicker.h; sourceTree = "<group>"; };
+		835D63DEC88C74B643EE5771AB2FD2AC /* DMCustomAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMCustomAlert.m; sourceTree = "<group>"; };
+		84745C2988E32B1BC28F18FFE3106D27 /* DMCustomAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMCustomAlert.h; sourceTree = "<group>"; };
+		86DFBE756913E36FD7035428C8BD764A /* dialog_bg_city.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_city.png; sourceTree = "<group>"; };
+		891A8570064AF0821F0EF82EE89BFF64 /* dialog_bg_delete.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_delete.png; sourceTree = "<group>"; };
+		8947D9484EADF2B3E8803547CCF66CE1 /* dialog_btn_cancel_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dialog_btn_cancel_normal@2x.png"; sourceTree = "<group>"; };
+		8F96480FE166146E4B1033E24069312D /* dialog_btn_confirm_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dialog_btn_confirm_normal@2x.png"; sourceTree = "<group>"; };
+		91D3BEA195E67D87659B20E57DB5F696 /* empty_nonetwork@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "empty_nonetwork@2x.png"; sourceTree = "<group>"; };
+		91F01E2FB62297010F6761FB9D41783F /* dialog_bg_limit.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_limit.png; sourceTree = "<group>"; };
+		91FC477B62552AFA981E363BF954D103 /* libDMUILib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDMUILib.a; path = libDMUILib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0E07E61338853B0CA442E22A51B9CC /* dialog_bg_uncommit.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_uncommit.png; sourceTree = "<group>"; };
+		A5D2CE34BE15C3D966AFD9D8B8BFA38D /* dialog_bg_service.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_service.png; sourceTree = "<group>"; };
+		A68876BC1FFF37B67D541DA4AA79AE3F /* dialog_bg_logout.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_logout.png; sourceTree = "<group>"; };
+		B316660AFE353053D12B6134EE2D4F9F /* DMPickerModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMPickerModel.h; sourceTree = "<group>"; };
+		B3CB5EDE4DB623DBC4DC2C7FD712221A /* dialog_btn_confirm_selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dialog_btn_confirm_selected@2x.png"; sourceTree = "<group>"; };
+		B573AD5F0DCE77E49052B86E5CCAFF41 /* dialog_bg_location.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_location.png; sourceTree = "<group>"; };
+		B757D2D7EF5EDCAEB16FBDEE012DB5A4 /* dialog_select_check_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dialog_select_check_normal@2x.png"; sourceTree = "<group>"; };
+		B8316C41BB91F82B8A00F1DF9CC75BB1 /* dialog_select_check@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dialog_select_check@3x.png"; sourceTree = "<group>"; };
+		C1F0E8E6DF3EC6A7BF8F7C46E85AFCAD /* GHud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GHud.h; sourceTree = "<group>"; };
+		C2E6CC0422DD30247FB76073D88362F6 /* dialog_bg_apply.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_apply.png; sourceTree = "<group>"; };
+		CADA26815BF6F3483801F403C0B4363B /* empty_nodata@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "empty_nodata@2x.png"; sourceTree = "<group>"; };
+		CBE69C89BFBAD42F8E63B3786332D0E3 /* DMAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMAlert.m; sourceTree = "<group>"; };
+		CD87F63F21AE67DE9D5B07346EB6640B /* dialog_bg_continuous_sign.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_continuous_sign.png; sourceTree = "<group>"; };
+		D0FC37C35F19126CA584ADC733C516BE /* empty_nofound@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "empty_nofound@2x.png"; sourceTree = "<group>"; };
+		D2E2D4E0821240CDDEA130F6B9163100 /* DMSystemAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMSystemAlert.m; sourceTree = "<group>"; };
+		D41AF0F87A34ED9A5726D9423BBE9E1B /* dialog_captcha_refresh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dialog_captcha_refresh@2x.png"; sourceTree = "<group>"; };
+		D567745B659A8B14670B1E1F86D8F15C /* DMPickerModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMPickerModel.m; sourceTree = "<group>"; };
+		DAEFED3B2EF3BFEDDB6F29BC3AD5E0FE /* DMUILib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMUILib-prefix.pch"; sourceTree = "<group>"; };
+		DE14842F48342E74619AE47C411675A2 /* dialog_bg_success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_success.png; sourceTree = "<group>"; };
+		DE4C5F3FCD603FD47CB7A8E6DDA53F58 /* dialog_bg_captcha.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_captcha.png; sourceTree = "<group>"; };
+		E3D3BBD9E187C8558D8A5E88B0A6EC38 /* dialog_bg_cancel.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dialog_bg_cancel.png; sourceTree = "<group>"; };
+		E6ACCE02084F7173E0A156809D6F7252 /* DMEmpty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMEmpty.h; sourceTree = "<group>"; };
+		E7AE3C9AE5F48509CAA6361024C7E470 /* DMUILib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DMUILib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ECFA2505DD17F5F68A0C6BBD75EEFEFA /* DMSystemAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMSystemAlert.h; sourceTree = "<group>"; };
+		EFCADC436C376A9A01D6C5A43AA08549 /* dialog_captcha_refresh@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dialog_captcha_refresh@3x.png"; sourceTree = "<group>"; };
+		F446E826A1A7093954037F6F7CCD9BD8 /* dialog_btn_confirm_normal@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dialog_btn_confirm_normal@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73CD52481BA52DCC0868F01FC8D1D37B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A704E6EFF0B5FB7DB01070D0D3498BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FC477B62552AFA981E363BF954D103 /* libDMUILib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DAD45D612069163D189FEF29DB7AA6F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E7AE3C9AE5F48509CAA6361024C7E470 /* DMUILib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		10BC9839400D0AF68A53E9431428B034 /* DMUILib */ = {
+			isa = PBXGroup;
+			children = (
+				821F5C386A734CD79BB399F5511C08A4 /* alert */,
+				EB3F3766E1623DD9CFE1BCFCCF4C227D /* empty */,
+				B06B70A58303C0B96207F35B4BE45E51 /* hud */,
+				6D08E511DDCDEE456A4C5C91ADE15B7A /* picker */,
+				0DAD45D612069163D189FEF29DB7AA6F /* Pod */,
+				146AE3EC07CBD97933B96D33E5AB2B8A /* Resources */,
+				D11005E9B4F72819ADF21353EB2FFC42 /* Support Files */,
+			);
+			name = DMUILib;
+			path = ../components/businessSupport/DMUILib;
+			sourceTree = "<group>";
+		};
+		146AE3EC07CBD97933B96D33E5AB2B8A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				297B493BBCB0874133374AC97699AB1F /* img */,
+				9054CC2848949661EC5AACE580E01005 /* picker */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		297B493BBCB0874133374AC97699AB1F /* img */ = {
+			isa = PBXGroup;
+			children = (
+				C2E6CC0422DD30247FB76073D88362F6 /* dialog_bg_apply.png */,
+				E3D3BBD9E187C8558D8A5E88B0A6EC38 /* dialog_bg_cancel.png */,
+				DE4C5F3FCD603FD47CB7A8E6DDA53F58 /* dialog_bg_captcha.png */,
+				86DFBE756913E36FD7035428C8BD764A /* dialog_bg_city.png */,
+				CD87F63F21AE67DE9D5B07346EB6640B /* dialog_bg_continuous_sign.png */,
+				891A8570064AF0821F0EF82EE89BFF64 /* dialog_bg_delete.png */,
+				03A97D00132858E6413D31D76F5B7C69 /* dialog_bg_fail.png */,
+				91F01E2FB62297010F6761FB9D41783F /* dialog_bg_limit.png */,
+				B573AD5F0DCE77E49052B86E5CCAFF41 /* dialog_bg_location.png */,
+				A68876BC1FFF37B67D541DA4AA79AE3F /* dialog_bg_logout.png */,
+				4DEE6FCFA9474BE5FE56BC8700AE0FD9 /* dialog_bg_normal.png */,
+				6A76DF8665A4EE92F5CA7EEBDC5B9E40 /* dialog_bg_phone.png */,
+				60BCE4727DFCE414D12E1858D9050A99 /* dialog_bg_resume.png */,
+				A5D2CE34BE15C3D966AFD9D8B8BFA38D /* dialog_bg_service.png */,
+				1392FC3B384E3F37C145652C0DB3F6C4 /* dialog_bg_shortage.png */,
+				6AC2ED67353AD2FEF12A1C8D55AB49A4 /* dialog_bg_sign.png */,
+				DE14842F48342E74619AE47C411675A2 /* dialog_bg_success.png */,
+				9D0E07E61338853B0CA442E22A51B9CC /* dialog_bg_uncommit.png */,
+				24F8C6848F122937F072E6D67B74849C /* dialog_bg_unsaved.png */,
+				8947D9484EADF2B3E8803547CCF66CE1 /* dialog_btn_cancel_normal@2x.png */,
+				4F282B0491C2E2D77049F62508F6F204 /* dialog_btn_cancel_normal@3x.png */,
+				1357A57BEFCB3A12AB138DF9A10CBB9A /* dialog_btn_cancel_selected@2x.png */,
+				0152FFEFF6FFA83795A56F3B2F2316BC /* dialog_btn_cancel_selected@3x.png */,
+				8F96480FE166146E4B1033E24069312D /* dialog_btn_confirm_normal@2x.png */,
+				F446E826A1A7093954037F6F7CCD9BD8 /* dialog_btn_confirm_normal@3x.png */,
+				B3CB5EDE4DB623DBC4DC2C7FD712221A /* dialog_btn_confirm_selected@2x.png */,
+				1F9824D16CE530F6901C54829E6611BF /* dialog_btn_confirm_selected@3x.png */,
+				D41AF0F87A34ED9A5726D9423BBE9E1B /* dialog_captcha_refresh@2x.png */,
+				EFCADC436C376A9A01D6C5A43AA08549 /* dialog_captcha_refresh@3x.png */,
+				3257671B0DDD5D541CC19533C32E0B53 /* dialog_select_check@2x.png */,
+				B8316C41BB91F82B8A00F1DF9CC75BB1 /* dialog_select_check@3x.png */,
+				B757D2D7EF5EDCAEB16FBDEE012DB5A4 /* dialog_select_check_normal@2x.png */,
+				51FC1779800B26450F2B89367607127B /* dialog_select_check_normal@3x.png */,
+				CADA26815BF6F3483801F403C0B4363B /* empty_nodata@2x.png */,
+				D0FC37C35F19126CA584ADC733C516BE /* empty_nofound@2x.png */,
+				91D3BEA195E67D87659B20E57DB5F696 /* empty_nonetwork@2x.png */,
+				3B6A70DDF9D2249BDAB885BDB486A62C /* empty_noserver@2x.png */,
+			);
+			name = img;
+			path = DMUILib/img;
+			sourceTree = "<group>";
+		};
+		2CDA614BE152265BCA6BE2D5F9BACF83 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				B316660AFE353053D12B6134EE2D4F9F /* DMPickerModel.h */,
+				D567745B659A8B14670B1E1F86D8F15C /* DMPickerModel.m */,
+			);
+			name = models;
+			path = models;
+			sourceTree = "<group>";
+		};
+		3130A29A01300DCBE10F53C9A750F614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51B2D98A1012AB8897F234B316B245DF /* alerts */ = {
+			isa = PBXGroup;
+			children = (
+				5576D5CC27CA89C898EF344F895795BF /* DMAlertHandlerDelegate.h */,
+				84745C2988E32B1BC28F18FFE3106D27 /* DMCustomAlert.h */,
+				835D63DEC88C74B643EE5771AB2FD2AC /* DMCustomAlert.m */,
+				605C733763A9003A00D91B120AF97663 /* DMSheetAlert.h */,
+				3B5DF15A0F9CDA2F3B68807CAEE711A3 /* DMSheetAlert.m */,
+				ECFA2505DD17F5F68A0C6BBD75EEFEFA /* DMSystemAlert.h */,
+				D2E2D4E0821240CDDEA130F6B9163100 /* DMSystemAlert.m */,
+			);
+			name = alerts;
+			path = alerts;
+			sourceTree = "<group>";
+		};
+		6D08E511DDCDEE456A4C5C91ADE15B7A /* picker */ = {
+			isa = PBXGroup;
+			children = (
+				6D024024AB823E86A092FAB5AE07B0CB /* DMPicker.h */,
+				0AD2DC80145B8F40416F044E20BAEF61 /* DMPicker.m */,
+				2CDA614BE152265BCA6BE2D5F9BACF83 /* models */,
+			);
+			name = picker;
+			path = DMUILib/picker;
+			sourceTree = "<group>";
+		};
+		703876F5690FCD6E095B6E4899255D93 /* action */ = {
+			isa = PBXGroup;
+			children = (
+				5A48099F85563393F0A91A311BFA161E /* DMAlertActions.h */,
+				42B1DD529BF0548291AC2A25F3A0FF2D /* DMAlertActions.m */,
+			);
+			name = action;
+			path = action;
+			sourceTree = "<group>";
+		};
+		821F5C386A734CD79BB399F5511C08A4 /* alert */ = {
+			isa = PBXGroup;
+			children = (
+				45976740BEAFABAD7500AE0094A86A8A /* DMAlert.h */,
+				CBE69C89BFBAD42F8E63B3786332D0E3 /* DMAlert.m */,
+				703876F5690FCD6E095B6E4899255D93 /* action */,
+				51B2D98A1012AB8897F234B316B245DF /* alerts */,
+			);
+			name = alert;
+			path = DMUILib/alert;
+			sourceTree = "<group>";
+		};
+		8BE795078F22730C2C9CD2E17CF107D1 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				06ABAA7431E23B260EFE5402CC32C492 /* province.plist */,
+			);
+			name = models;
+			path = models;
+			sourceTree = "<group>";
+		};
+		9054CC2848949661EC5AACE580E01005 /* picker */ = {
+			isa = PBXGroup;
+			children = (
+				8BE795078F22730C2C9CD2E17CF107D1 /* models */,
+			);
+			name = picker;
+			path = DMUILib/picker;
+			sourceTree = "<group>";
+		};
+		B06B70A58303C0B96207F35B4BE45E51 /* hud */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0E8E6DF3EC6A7BF8F7C46E85AFCAD /* GHud.h */,
+				31B4F1A692CC9A1FCE545232B4802A51 /* GHud.m */,
+			);
+			name = hud;
+			path = DMUILib/hud;
+			sourceTree = "<group>";
+		};
+		D11005E9B4F72819ADF21353EB2FFC42 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A47E980E5E61309BC2DCFB2CFBCB22B /* DMUILib.xcconfig */,
+				23382BAA7DE94A52C4B1CB20E6A180BD /* DMUILib-dummy.m */,
+				DAEFED3B2EF3BFEDDB6F29BC3AD5E0FE /* DMUILib-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/DMUILib";
+			sourceTree = "<group>";
+		};
+		EB3F3766E1623DD9CFE1BCFCCF4C227D /* empty */ = {
+			isa = PBXGroup;
+			children = (
+				E6ACCE02084F7173E0A156809D6F7252 /* DMEmpty.h */,
+				0A110A2E51FEAA985931A763780C383F /* DMEmpty.m */,
+			);
+			name = empty;
+			path = DMUILib/empty;
+			sourceTree = "<group>";
+		};
+		FD49621C69A4EE033391F93FEFD82375 = {
+			isa = PBXGroup;
+			children = (
+				10BC9839400D0AF68A53E9431428B034 /* DMUILib */,
+				3130A29A01300DCBE10F53C9A750F614 /* Frameworks */,
+				0A704E6EFF0B5FB7DB01070D0D3498BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F3F4E51E52D39B62FDE7BDC503DC16DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E676655F6E9DAB172E76FCFF3B31F27 /* DMAlert.h in Headers */,
+				A05D9F32667DC0E84D4AD4FB4A53E05E /* DMAlertActions.h in Headers */,
+				A310BC173C53D074AD159DE954F0EA4D /* DMAlertHandlerDelegate.h in Headers */,
+				AA2062F8A751F4FB08185D9189560B00 /* DMCustomAlert.h in Headers */,
+				07AE27EAD1CCD13ACAEC39B43B9136E4 /* DMEmpty.h in Headers */,
+				E84938451CB2D2913B1946F1D64A69D5 /* DMPicker.h in Headers */,
+				B53CDF475F103CF1D68978A1007B175D /* DMPickerModel.h in Headers */,
+				B92A86E3C4CAAD723F2F6B7806072555 /* DMSheetAlert.h in Headers */,
+				09F0BCCAB3E7EF8C3BEB0F23F1BED154 /* DMSystemAlert.h in Headers */,
+				03D00343E8FDEB6BEC74AC86D48ADF6F /* GHud.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		628B599F2684CA5D5F0DA0372AE3B35D /* DMUILib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211EC3F8EA2AD1ED39FB40B6A22D51CC /* Build configuration list for PBXNativeTarget "DMUILib" */;
+			buildPhases = (
+				F3F4E51E52D39B62FDE7BDC503DC16DC /* Headers */,
+				C49471B89357015EBC54D550CAB6F4D3 /* Sources */,
+				73CD52481BA52DCC0868F01FC8D1D37B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMUILib;
+			productName = DMUILib;
+			productReference = 91FC477B62552AFA981E363BF954D103 /* libDMUILib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63DF2ACA390F653C51C9B0CCB31B39C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4E8FA9076B6141DC5A45525E01CFC869 /* Build configuration list for PBXProject "DMUILib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD49621C69A4EE033391F93FEFD82375;
+			productRefGroup = 0A704E6EFF0B5FB7DB01070D0D3498BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				628B599F2684CA5D5F0DA0372AE3B35D /* DMUILib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C49471B89357015EBC54D550CAB6F4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9065306098CEDF84A1A12A0F1A9438D8 /* DMAlert.m in Sources */,
+				0BA6E9455FC7F1CB0C669B65A06FF6DA /* DMAlertActions.m in Sources */,
+				6DFF41517407C711638BAB788670D9A6 /* DMCustomAlert.m in Sources */,
+				557B306B45F18D9062EBCF9CCB9C409D /* DMEmpty.m in Sources */,
+				473D12989B454596331035FD5DED3759 /* DMPicker.m in Sources */,
+				77BC77F38183B9B569FDC971E3EE1633 /* DMPickerModel.m in Sources */,
+				EB043178B4C1DACD6D19FB2D4234DF56 /* DMSheetAlert.m in Sources */,
+				D533EA838E777FE5C36D078E2C4BED6B /* DMSystemAlert.m in Sources */,
+				8E1CAE791654DB7BECD0B55619133CB5 /* DMUILib-dummy.m in Sources */,
+				8CF3278B4542C5952AF7B06E21D5D6B7 /* GHud.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0BB94C6003275C666F2B2DCA04A800AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A47E980E5E61309BC2DCFB2CFBCB22B /* DMUILib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DMUILib/DMUILib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DMUILib;
+				PRODUCT_NAME = DMUILib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		292BC5E448EE2189280478BDD82EBE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		79733FB0C08C4A359667D7F7D0BFE6C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DBE18CD6729501AD9344A00AE249D135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A47E980E5E61309BC2DCFB2CFBCB22B /* DMUILib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DMUILib/DMUILib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DMUILib;
+				PRODUCT_NAME = DMUILib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		211EC3F8EA2AD1ED39FB40B6A22D51CC /* Build configuration list for PBXNativeTarget "DMUILib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB94C6003275C666F2B2DCA04A800AC /* Debug */,
+				DBE18CD6729501AD9344A00AE249D135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8FA9076B6141DC5A45525E01CFC869 /* Build configuration list for PBXProject "DMUILib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79733FB0C08C4A359667D7F7D0BFE6C0 /* Debug */,
+				292BC5E448EE2189280478BDD82EBE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63DF2ACA390F653C51C9B0CCB31B39C2 /* Project object */;
+}

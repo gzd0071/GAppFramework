@@ -1,0 +1,23 @@
+{
+  "name": "BResume",
+  "version": "0.1.0",
+  "summary": "BResume.",
+  "description": "BResume the convi",
+  "homepage": "http://temp/BResume",
+  "license": "MIT",
+  "authors": {
+    "wusz": "wusz@doumi.com"
+  },
+  "source": {
+    "git": "http://temp/BResume.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "BResume",
+    "BResume/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

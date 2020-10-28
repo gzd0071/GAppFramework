@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8778379D05FF4DF9A95F06FFC664599A /* GRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BFD42384FE97B8F8BBE98F4561D7C /* GRouter-dummy.m */; };
+		A9FDABD4674D3D7CBFBDDF9732604DF4 /* GRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 350DFE80B8322A0DAB288E1672B75DBD /* GRouter.m */; };
+		DDA35CE5F7492D003DFE821820C48ABB /* GRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = ED4A6F9152FA2EC0A2C967CA142B9778 /* GRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		213DC90A5F17EA6CA83F0221EB323F36 /* GRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GRouter.xcconfig; sourceTree = "<group>"; };
+		350DFE80B8322A0DAB288E1672B75DBD /* GRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GRouter.m; path = GRouter/GRouter.m; sourceTree = "<group>"; };
+		5C4BFD42384FE97B8F8BBE98F4561D7C /* GRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GRouter-dummy.m"; sourceTree = "<group>"; };
+		7055B165CD1E839CB9E3306A7CA71B66 /* GRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRouter-prefix.pch"; sourceTree = "<group>"; };
+		780151DFCCC73946C419B63B0CB133F3 /* GRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7F1DDED013580CBDF6FB91B89D499C83 /* libGRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGRouter.a; path = libGRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EC635D542D6CE7AA4D3FAEE620E769 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		ED4A6F9152FA2EC0A2C967CA142B9778 /* GRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GRouter.h; path = GRouter/GRouter.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2747C6FC159657A0B880961F4E66CF83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24967210469569F36F5F58BFD76A776E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				213DC90A5F17EA6CA83F0221EB323F36 /* GRouter.xcconfig */,
+				5C4BFD42384FE97B8F8BBE98F4561D7C /* GRouter-dummy.m */,
+				7055B165CD1E839CB9E3306A7CA71B66 /* GRouter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/GRouter";
+			sourceTree = "<group>";
+		};
+		4B360AE57102EBCEC6478311FB8DD17C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F1DDED013580CBDF6FB91B89D499C83 /* libGRouter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96F42E62D2DCECA19D7B519AB894942B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B66FF0D555B1361DBD9AAEFC74AF92E9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				780151DFCCC73946C419B63B0CB133F3 /* GRouter.podspec */,
+				A6EC635D542D6CE7AA4D3FAEE620E769 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F2DA6DEB73E58F9B7809AA6830B9EDE7 = {
+			isa = PBXGroup;
+			children = (
+				96F42E62D2DCECA19D7B519AB894942B /* Frameworks */,
+				F509DF0FC91BEEC2459BC3CB17485200 /* GRouter */,
+				4B360AE57102EBCEC6478311FB8DD17C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F509DF0FC91BEEC2459BC3CB17485200 /* GRouter */ = {
+			isa = PBXGroup;
+			children = (
+				ED4A6F9152FA2EC0A2C967CA142B9778 /* GRouter.h */,
+				350DFE80B8322A0DAB288E1672B75DBD /* GRouter.m */,
+				B66FF0D555B1361DBD9AAEFC74AF92E9 /* Pod */,
+				24967210469569F36F5F58BFD76A776E /* Support Files */,
+			);
+			name = GRouter;
+			path = ../components/basic/GRouter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		59DB873A6D2E276C369D347595072788 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA35CE5F7492D003DFE821820C48ABB /* GRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C524C94857B82BB7F9DE12FF2E12B68E /* GRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015D6D17F4DB88B77C9B189BDCBC3EAA /* Build configuration list for PBXNativeTarget "GRouter" */;
+			buildPhases = (
+				59DB873A6D2E276C369D347595072788 /* Headers */,
+				EF7BF82C8142A94B1A6D35C8FD912800 /* Sources */,
+				2747C6FC159657A0B880961F4E66CF83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRouter;
+			productName = GRouter;
+			productReference = 7F1DDED013580CBDF6FB91B89D499C83 /* libGRouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12D9359B529D4FFAF1FD4004AE72B96C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 31907AFBF5462C3ED747B501920BBF19 /* Build configuration list for PBXProject "GRouter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2DA6DEB73E58F9B7809AA6830B9EDE7;
+			productRefGroup = 4B360AE57102EBCEC6478311FB8DD17C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C524C94857B82BB7F9DE12FF2E12B68E /* GRouter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7BF82C8142A94B1A6D35C8FD912800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8778379D05FF4DF9A95F06FFC664599A /* GRouter-dummy.m in Sources */,
+				A9FDABD4674D3D7CBFBDDF9732604DF4 /* GRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2BFB5A7BE5617D2FCD99347318567566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AF6BF6240BAA14EB7E73628B7BE0599E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 213DC90A5F17EA6CA83F0221EB323F36 /* GRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GRouter/GRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GRouter;
+				PRODUCT_NAME = GRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6700D234DDFEF0B4D7387FF8EA365C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 213DC90A5F17EA6CA83F0221EB323F36 /* GRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GRouter/GRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GRouter;
+				PRODUCT_NAME = GRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E50E6C41E942BFA175A7D45181EEFEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		015D6D17F4DB88B77C9B189BDCBC3EAA /* Build configuration list for PBXNativeTarget "GRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6BF6240BAA14EB7E73628B7BE0599E /* Debug */,
+				C6700D234DDFEF0B4D7387FF8EA365C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31907AFBF5462C3ED747B501920BBF19 /* Build configuration list for PBXProject "GRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFB5A7BE5617D2FCD99347318567566 /* Debug */,
+				E50E6C41E942BFA175A7D45181EEFEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12D9359B529D4FFAF1FD4004AE72B96C /* Project object */;
+}

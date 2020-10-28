@@ -1,0 +1,23 @@
+{
+  "name": "ATask",
+  "version": "0.0.1",
+  "summary": "ATask.",
+  "description": "ATask the convi",
+  "homepage": "http://temp/ATask",
+  "license": "MIT",
+  "authors": {
+    "wushengzhong": "wushengzhong@doumi.com"
+  },
+  "source": {
+    "git": "http://temp/ATask.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "ATask",
+    "ATask/ATask/core/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

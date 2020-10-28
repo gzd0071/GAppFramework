@@ -1,0 +1,26 @@
+{
+  "name": "BJobApply",
+  "version": "0.1.0",
+  "summary": "BJobApply.",
+  "description": "BJobApply the convi",
+  "homepage": "https://github.com/katongzhong1/BJobApply",
+  "license": "MIT",
+  "authors": {
+    "guozhongda": "guozhongda@doumi.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/BJobApply.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "BJobApply",
+    "BJobApply/**/*.{h,m,c}"
+  ],
+  "resources": [
+    "BJobApply/img/*.png"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "8.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Debugger",
+  "version": "0.1.0",
+  "summary": "Debugger.",
+  "description": "Debugger the convi",
+  "homepage": "https://github.com/katongzhong1/Debugger",
+  "license": "MIT",
+  "authors": {
+    "guozhongda": "guozhongda@doumi.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/Debugger.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "debugger",
+    "debugger/**/*.{h,m,c}"
+  ],
+  "resources": [
+    "debugger/debugger/enter/img/*.png",
+    "debugger/debugger/items/common/net/json/data/*.js",
+    "debugger/debugger/items/common/net/json/data/*.css",
+    "debugger/debugger/items/common/net/json/data/*.html",
+    "debugger/debugger/funcs/httpserver/web/**/*.js",
+    "debugger/debugger/funcs/httpserver/web/**/*.json",
+    "debugger/debugger/funcs/httpserver/web/**/*.css",
+    "debugger/debugger/funcs/httpserver/web/**/*.html"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

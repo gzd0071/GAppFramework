@@ -1,0 +1,26 @@
+{
+  "name": "GDetailPage",
+  "version": "0.1.0",
+  "summary": "GDetailPage.",
+  "description": "GDetailPage the convi",
+  "homepage": "https://github.com/gzd0071/GDetailPage",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:gzd0071/GDetailPage.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "GDetailPage",
+    "GDetailPage/**/*.{h,m,c}"
+  ],
+  "resources": [
+    "GDetailPage/img/*.png"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

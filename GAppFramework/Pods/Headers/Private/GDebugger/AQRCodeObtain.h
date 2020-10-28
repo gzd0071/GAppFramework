@@ -1,0 +1,1 @@
+../../../../components/businessSupport/GDebugger/debugger/debugger/funcs/tool/qrcode/AQRCodeObtain.h

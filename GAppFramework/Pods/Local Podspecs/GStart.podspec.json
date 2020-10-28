@@ -1,0 +1,28 @@
+{
+  "name": "GStart",
+  "version": "0.1.0",
+  "summary": "GStart.",
+  "description": "GStart the convi",
+  "homepage": "https://github.com/katongzhong1/GStart",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/GStart.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "GStart",
+    "GStart/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "DMLogin": [
+
+    ]
+  }
+}

@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		157669F109897D9AD7CEB266B6B7A490 /* DMWechat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3AE6E27A74C1ECD4ABE960398B204B /* DMWechat.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		186C05B0D74C6ECA5F611DCE2F62CF00 /* DMAdTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F08DB35FB0D3F3F45189B5A34176FB1C /* DMAdTask.m */; };
+		44F494A1C2F7CDFD790C245A600C5601 /* DMWechat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A79A669D263EBDA1E399334B62DFC /* DMWechat.m */; };
+		81D63FD950B2E85434130C81353A1385 /* DMStartExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5F763E451ECA5BBE7DEBF89EB79500 /* DMStartExtra.m */; };
+		8BD6BAE96CACC0EA3277AF38E4ADB797 /* DMStartExtra.h in Headers */ = {isa = PBXBuildFile; fileRef = D5273273B284E389C8F7FCC5161C9D47 /* DMStartExtra.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		924BC647D9758E0C4242A4BD94807714 /* GMainTabConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 217CCB432EFB65CE79F626B558C82114 /* GMainTabConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC4B30F4A0B58E3C5336AFB8C2489745 /* GStart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D96E77ED2A5769FA2C120BD4E12E3BFC /* GStart-dummy.m */; };
+		CD8EF8DCB2871560219E757D3D70A2C3 /* GStartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 297C2645B47A22209E06A1734D7C100B /* GStartManager.m */; };
+		D5F4993FF2A735E0063F099AF7AEFA1E /* GStartManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E4D0D8FDDAB72DF5EDD48FB6AB7014B /* GStartManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE3BFD96C12CD21BE32F01FF914BB786 /* DMThirdTask.h in Headers */ = {isa = PBXBuildFile; fileRef = E86E4D387C29F9B62D576673D9996622 /* DMThirdTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE791BE79DF7343AF789FED20E8A2E1C /* DMAdTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F25D02D6A0CF822B64E8A91F1490067 /* DMAdTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F32083C7EE6874352E69428ED64A2ACA /* GMainTabConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE326249D7471248DB66D3AD52E7C08 /* GMainTabConfig.m */; };
+		F8B8984D74C99DCBB64B91754E352E01 /* DMThirdTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A6C65AA25FD80CFF29BF49643DAC /* DMThirdTask.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADF8E2227A688942E49DB4C7D14E6B88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DFC6C2E4BACFE776EFDA23BF599A16C /* DMLogin.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E0AA5351C6BB8EBD6B813491B9A3E3F5;
+			remoteInfo = DMLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FE326249D7471248DB66D3AD52E7C08 /* GMainTabConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GMainTabConfig.m; sourceTree = "<group>"; };
+		217CCB432EFB65CE79F626B558C82114 /* GMainTabConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GMainTabConfig.h; sourceTree = "<group>"; };
+		22A818458C0E5ED2032CC75C84AEFF94 /* libGStart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGStart.a; path = libGStart.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		297C2645B47A22209E06A1734D7C100B /* GStartManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GStartManager.m; path = GStart/GStartManager.m; sourceTree = "<group>"; };
+		2C2A79A669D263EBDA1E399334B62DFC /* DMWechat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMWechat.m; sourceTree = "<group>"; };
+		2CB3A6C65AA25FD80CFF29BF49643DAC /* DMThirdTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMThirdTask.m; sourceTree = "<group>"; };
+		3DFC6C2E4BACFE776EFDA23BF599A16C /* DMLogin */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DMLogin; path = DMLogin.xcodeproj; sourceTree = "<group>"; };
+		7E4D0D8FDDAB72DF5EDD48FB6AB7014B /* GStartManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GStartManager.h; path = GStart/GStartManager.h; sourceTree = "<group>"; };
+		8A3AE6E27A74C1ECD4ABE960398B204B /* DMWechat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMWechat.h; sourceTree = "<group>"; };
+		900D4F2D32B18E5354284F7C0167AF01 /* GStart.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GStart.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		966E7017256C083D237DFCF6FE018A2B /* GStart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GStart.xcconfig; sourceTree = "<group>"; };
+		9F25D02D6A0CF822B64E8A91F1490067 /* DMAdTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMAdTask.h; sourceTree = "<group>"; };
+		A758244277DE053EDB8B4EA74E0EE64E /* GStart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GStart-prefix.pch"; sourceTree = "<group>"; };
+		CF5F763E451ECA5BBE7DEBF89EB79500 /* DMStartExtra.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMStartExtra.m; sourceTree = "<group>"; };
+		D5273273B284E389C8F7FCC5161C9D47 /* DMStartExtra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMStartExtra.h; sourceTree = "<group>"; };
+		D96E77ED2A5769FA2C120BD4E12E3BFC /* GStart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GStart-dummy.m"; sourceTree = "<group>"; };
+		E86E4D387C29F9B62D576673D9996622 /* DMThirdTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMThirdTask.h; sourceTree = "<group>"; };
+		F08DB35FB0D3F3F45189B5A34176FB1C /* DMAdTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMAdTask.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1F396EFD51D0EBD95157962747F7EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC1A25DAD0AAE60810D5075B804BBAF /* GStart */ = {
+			isa = PBXGroup;
+			children = (
+				7E4D0D8FDDAB72DF5EDD48FB6AB7014B /* GStartManager.h */,
+				297C2645B47A22209E06A1734D7C100B /* GStartManager.m */,
+				6BF00B99490DC3F2F3325BAE751DD7F5 /* Pod */,
+				360325C8F5CF949CFCD467508DDF6B76 /* Support Files */,
+				69DB51071A92B8202F50E4C7F3EEA00A /* tasks */,
+			);
+			name = GStart;
+			path = ../components/business/GStart;
+			sourceTree = "<group>";
+		};
+		13010E846E5389BD1AD7A78362B78666 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				3DFC6C2E4BACFE776EFDA23BF599A16C /* DMLogin */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		1CABA62BC30B1C27D448285758BAF233 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		233A3545D0EE030B94AAD8C7B37E82AC /* wechat */ = {
+			isa = PBXGroup;
+			children = (
+				8A3AE6E27A74C1ECD4ABE960398B204B /* DMWechat.h */,
+				2C2A79A669D263EBDA1E399334B62DFC /* DMWechat.m */,
+			);
+			name = wechat;
+			path = wechat;
+			sourceTree = "<group>";
+		};
+		319982D841C9072F9CE08F53409A1103 = {
+			isa = PBXGroup;
+			children = (
+				13010E846E5389BD1AD7A78362B78666 /* Dependencies */,
+				1CABA62BC30B1C27D448285758BAF233 /* Frameworks */,
+				0BC1A25DAD0AAE60810D5075B804BBAF /* GStart */,
+				A24116A99F2552B92216BF9E88A2A816 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		360325C8F5CF949CFCD467508DDF6B76 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				966E7017256C083D237DFCF6FE018A2B /* GStart.xcconfig */,
+				D96E77ED2A5769FA2C120BD4E12E3BFC /* GStart-dummy.m */,
+				A758244277DE053EDB8B4EA74E0EE64E /* GStart-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/GStart";
+			sourceTree = "<group>";
+		};
+		4978658398D7B6393FA4F3D895AF6637 /* third */ = {
+			isa = PBXGroup;
+			children = (
+				E86E4D387C29F9B62D576673D9996622 /* DMThirdTask.h */,
+				2CB3A6C65AA25FD80CFF29BF49643DAC /* DMThirdTask.m */,
+				233A3545D0EE030B94AAD8C7B37E82AC /* wechat */,
+			);
+			name = third;
+			path = third;
+			sourceTree = "<group>";
+		};
+		5060F39782A9038003571411CF4ED1C8 /* extra */ = {
+			isa = PBXGroup;
+			children = (
+				D5273273B284E389C8F7FCC5161C9D47 /* DMStartExtra.h */,
+				CF5F763E451ECA5BBE7DEBF89EB79500 /* DMStartExtra.m */,
+			);
+			name = extra;
+			path = extra;
+			sourceTree = "<group>";
+		};
+		69DB51071A92B8202F50E4C7F3EEA00A /* tasks */ = {
+			isa = PBXGroup;
+			children = (
+				E09EB833E6942A9244617AA2B93B5113 /* ad */,
+				5060F39782A9038003571411CF4ED1C8 /* extra */,
+				BE0A888375E7DEA97F4471987009B7C5 /* tab */,
+				4978658398D7B6393FA4F3D895AF6637 /* third */,
+			);
+			name = tasks;
+			path = GStart/tasks;
+			sourceTree = "<group>";
+		};
+		6BF00B99490DC3F2F3325BAE751DD7F5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				900D4F2D32B18E5354284F7C0167AF01 /* GStart.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A24116A99F2552B92216BF9E88A2A816 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22A818458C0E5ED2032CC75C84AEFF94 /* libGStart.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE0A888375E7DEA97F4471987009B7C5 /* tab */ = {
+			isa = PBXGroup;
+			children = (
+				217CCB432EFB65CE79F626B558C82114 /* GMainTabConfig.h */,
+				1FE326249D7471248DB66D3AD52E7C08 /* GMainTabConfig.m */,
+			);
+			name = tab;
+			path = tab;
+			sourceTree = "<group>";
+		};
+		E09EB833E6942A9244617AA2B93B5113 /* ad */ = {
+			isa = PBXGroup;
+			children = (
+				9F25D02D6A0CF822B64E8A91F1490067 /* DMAdTask.h */,
+				F08DB35FB0D3F3F45189B5A34176FB1C /* DMAdTask.m */,
+			);
+			name = ad;
+			path = ad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6E56D6508C326935889FBF246648F2DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE791BE79DF7343AF789FED20E8A2E1C /* DMAdTask.h in Headers */,
+				8BD6BAE96CACC0EA3277AF38E4ADB797 /* DMStartExtra.h in Headers */,
+				EE3BFD96C12CD21BE32F01FF914BB786 /* DMThirdTask.h in Headers */,
+				157669F109897D9AD7CEB266B6B7A490 /* DMWechat.h in Headers */,
+				924BC647D9758E0C4242A4BD94807714 /* GMainTabConfig.h in Headers */,
+				D5F4993FF2A735E0063F099AF7AEFA1E /* GStartManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E22521E95737B29030DDB3B08E15AFAD /* GStart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B2183CFCA1D9AE5C7A91BAD756ED212 /* Build configuration list for PBXNativeTarget "GStart" */;
+			buildPhases = (
+				6E56D6508C326935889FBF246648F2DA /* Headers */,
+				26A6F3A3514924D9C15F47F55F41140C /* Sources */,
+				F1F396EFD51D0EBD95157962747F7EF6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B866FF0D3F270CEB45C116F16EE6E210 /* PBXTargetDependency */,
+			);
+			name = GStart;
+			productName = GStart;
+			productReference = 22A818458C0E5ED2032CC75C84AEFF94 /* libGStart.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F709CD9E74C302CF9B4DECB76141C6EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 21BD8BF5A0137D88F29D24E3E644A2DB /* Build configuration list for PBXProject "GStart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 319982D841C9072F9CE08F53409A1103;
+			productRefGroup = A24116A99F2552B92216BF9E88A2A816 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 3DFC6C2E4BACFE776EFDA23BF599A16C /* DMLogin */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E22521E95737B29030DDB3B08E15AFAD /* GStart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26A6F3A3514924D9C15F47F55F41140C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186C05B0D74C6ECA5F611DCE2F62CF00 /* DMAdTask.m in Sources */,
+				81D63FD950B2E85434130C81353A1385 /* DMStartExtra.m in Sources */,
+				F8B8984D74C99DCBB64B91754E352E01 /* DMThirdTask.m in Sources */,
+				44F494A1C2F7CDFD790C245A600C5601 /* DMWechat.m in Sources */,
+				F32083C7EE6874352E69428ED64A2ACA /* GMainTabConfig.m in Sources */,
+				CC4B30F4A0B58E3C5336AFB8C2489745 /* GStart-dummy.m in Sources */,
+				CD8EF8DCB2871560219E757D3D70A2C3 /* GStartManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B866FF0D3F270CEB45C116F16EE6E210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DMLogin;
+			targetProxy = ADF8E2227A688942E49DB4C7D14E6B88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		019DBE62907B2898244A3CCC4395FB45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3E10F41BCF02A4D06BD6CF3EE9851B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966E7017256C083D237DFCF6FE018A2B /* GStart.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GStart/GStart-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GStart;
+				PRODUCT_NAME = GStart;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BADCFA83700EA384E189CC09E8E97F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966E7017256C083D237DFCF6FE018A2B /* GStart.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GStart/GStart-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GStart;
+				PRODUCT_NAME = GStart;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FB335A40297D7D218C39E36F9338BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21BD8BF5A0137D88F29D24E3E644A2DB /* Build configuration list for PBXProject "GStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB335A40297D7D218C39E36F9338BE3 /* Debug */,
+				019DBE62907B2898244A3CCC4395FB45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B2183CFCA1D9AE5C7A91BAD756ED212 /* Build configuration list for PBXNativeTarget "GStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E10F41BCF02A4D06BD6CF3EE9851B2A /* Debug */,
+				5BADCFA83700EA384E189CC09E8E97F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F709CD9E74C302CF9B4DECB76141C6EC /* Project object */;
+}

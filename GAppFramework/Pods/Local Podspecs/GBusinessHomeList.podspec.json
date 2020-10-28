@@ -1,0 +1,26 @@
+{
+  "name": "GBusinessHomeList",
+  "version": "0.1.0",
+  "summary": "GBusinessHomeList.",
+  "description": "GBusinessHomeList the convi",
+  "homepage": "https://github.com/gzd0071/GBusinessHomeList",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:gzd0071/GBusinessHomeList.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "GHomeList",
+    "GHomeList/**/*.{h,m,c}"
+  ],
+  "resources": [
+    "GHomeList/img/*.png"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

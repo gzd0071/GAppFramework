@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371AA345D6FE26B4353BFB56AB3018FB /* GPermission-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A6C2FE4299EC5FAADAEF7A4C05F081 /* GPermission-dummy.m */; };
+		4EA568EE02DCA39FD29C94F6BCBADEBD /* GPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA70AE3B7DE818809FB524A2C795A0F /* GPermission.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E06759F8589310E9C8C55A7FDCB145A4 /* GPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 2371E5B7E25412DFF44E4F6619521350 /* GPermission.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2371E5B7E25412DFF44E4F6619521350 /* GPermission.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPermission.m; path = GPermission/GPermission.m; sourceTree = "<group>"; };
+		9EA70AE3B7DE818809FB524A2C795A0F /* GPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPermission.h; path = GPermission/GPermission.h; sourceTree = "<group>"; };
+		A9A6C2FE4299EC5FAADAEF7A4C05F081 /* GPermission-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GPermission-dummy.m"; sourceTree = "<group>"; };
+		C3BE7CA1D4DBCA051E5A71E9AFE1F0B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D8BCF1B22434ECC7C7C7A74AE0D1FA33 /* GPermission.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GPermission.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E9ED6C9786E544F65BA2B950B17B77C7 /* GPermission.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GPermission.xcconfig; sourceTree = "<group>"; };
+		EE9EEE13E6B8C55CDDEF508833357D17 /* libGPermission.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGPermission.a; path = libGPermission.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFABA510987D383A53450010FB52B1C /* GPermission-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPermission-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F81353D02F9A2F34CDF50277631A83D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A854B4074DBDA2589CC60CB59153A45 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D8BCF1B22434ECC7C7C7A74AE0D1FA33 /* GPermission.podspec */,
+				C3BE7CA1D4DBCA051E5A71E9AFE1F0B4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4B4F4C1E85DD10D129D0B82E0859B269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE9EEE13E6B8C55CDDEF508833357D17 /* libGPermission.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		988D07BB6FDFE60E83C573D2AB352915 /* GPermission */ = {
+			isa = PBXGroup;
+			children = (
+				9EA70AE3B7DE818809FB524A2C795A0F /* GPermission.h */,
+				2371E5B7E25412DFF44E4F6619521350 /* GPermission.m */,
+				3A854B4074DBDA2589CC60CB59153A45 /* Pod */,
+				9F212B04441E0F12B0471058F343AF60 /* Support Files */,
+			);
+			name = GPermission;
+			path = ../components/basic/GPermission;
+			sourceTree = "<group>";
+		};
+		9F212B04441E0F12B0471058F343AF60 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9ED6C9786E544F65BA2B950B17B77C7 /* GPermission.xcconfig */,
+				A9A6C2FE4299EC5FAADAEF7A4C05F081 /* GPermission-dummy.m */,
+				EFFABA510987D383A53450010FB52B1C /* GPermission-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/GPermission";
+			sourceTree = "<group>";
+		};
+		A74BE46B9418DAF2E6F3016C8D489681 = {
+			isa = PBXGroup;
+			children = (
+				D93B06058A91A83FC6905A351BEB258F /* Frameworks */,
+				988D07BB6FDFE60E83C573D2AB352915 /* GPermission */,
+				4B4F4C1E85DD10D129D0B82E0859B269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D93B06058A91A83FC6905A351BEB258F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8323A2C0ED0169B8ECDCE8790D8AF908 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA568EE02DCA39FD29C94F6BCBADEBD /* GPermission.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F41C66ED908430B3E8E434AD477CEFC7 /* GPermission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B866EAD595120DA5563EFE032C48EB13 /* Build configuration list for PBXNativeTarget "GPermission" */;
+			buildPhases = (
+				8323A2C0ED0169B8ECDCE8790D8AF908 /* Headers */,
+				09F63A862DE75AA644213E865A3EE978 /* Sources */,
+				7F81353D02F9A2F34CDF50277631A83D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPermission;
+			productName = GPermission;
+			productReference = EE9EEE13E6B8C55CDDEF508833357D17 /* libGPermission.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDBC737CD54A4FEC38D3AD99740529FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = BF9342BB86C72FB06999A8BC680879FF /* Build configuration list for PBXProject "GPermission" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A74BE46B9418DAF2E6F3016C8D489681;
+			productRefGroup = 4B4F4C1E85DD10D129D0B82E0859B269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F41C66ED908430B3E8E434AD477CEFC7 /* GPermission */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09F63A862DE75AA644213E865A3EE978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371AA345D6FE26B4353BFB56AB3018FB /* GPermission-dummy.m in Sources */,
+				E06759F8589310E9C8C55A7FDCB145A4 /* GPermission.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4E94DFA342A3CB9FD86097194F6E1896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ED6C9786E544F65BA2B950B17B77C7 /* GPermission.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GPermission/GPermission-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GPermission;
+				PRODUCT_NAME = GPermission;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AAA59A488FE44C67F396EE1C976B6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CD951F7DC3695BBF0F5C468DA589AC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ED6C9786E544F65BA2B950B17B77C7 /* GPermission.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GPermission/GPermission-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GPermission;
+				PRODUCT_NAME = GPermission;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D92824C39379CFB8D17BFC678A47D76A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B866EAD595120DA5563EFE032C48EB13 /* Build configuration list for PBXNativeTarget "GPermission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E94DFA342A3CB9FD86097194F6E1896 /* Debug */,
+				CD951F7DC3695BBF0F5C468DA589AC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9342BB86C72FB06999A8BC680879FF /* Build configuration list for PBXProject "GPermission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92824C39379CFB8D17BFC678A47D76A /* Debug */,
+				7AAA59A488FE44C67F396EE1C976B6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDBC737CD54A4FEC38D3AD99740529FC /* Project object */;
+}

@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0635CAFE7E6B4AC97686D1D0989222FE /* GInvokeBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 50683F4AD7BF3296DBEAD8EBFA140A3A /* GInvokeBlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1CF291C39476DEC1E2E472C71BC0F573 /* GTask.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD4CFA51222AE9813196D9C1EE76ECE /* GTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21DE202ACA3504D027E990A1BD949191 /* GTask+Fwd.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B1E8B4BF53C0461E810EAB7F22FD08 /* GTask+Fwd.m */; };
+		463E78F35597FCC583E53F11F2070054 /* GInvokeBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A02B942821B2DD095069810977641A /* GInvokeBlock.m */; };
+		5B2A75264E9E9EFEF182A56E81188EF6 /* GTask+Fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B93CA2AA41C1E86C89557800017187 /* GTask+Fwd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		761FB2B9A7CD2655729A71AFE3C4069A /* GTaskResult.h in Headers */ = {isa = PBXBuildFile; fileRef = E65F013A8C8C809111D5B500C5DD66AA /* GTaskResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91D5D2B22889380878BE661EB287050E /* GTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A3116AE1209774402DB28FED6AF725 /* GTask-dummy.m */; };
+		D17853AB48B57E5BDE620E7B071541A1 /* GTask+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB29AECC0D55798102434BB244CAABA /* GTask+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DAD303C71755CE3634805D00ECA99A80 /* GTaskResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B461B17876CC5AACA43C89DB64685427 /* GTaskResult.m */; };
+		FE674D93F1B65022BF5F46F06670CC85 /* GTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5505F0F7ABFBB8921839BBA885C8D23D /* GTask.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2411DDCB7E591C2D6C305FC8B7D27D21 /* GTask.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GTask.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2C8BBD63941339080D84FDA0580CF289 /* GTask.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTask.xcconfig; sourceTree = "<group>"; };
+		50683F4AD7BF3296DBEAD8EBFA140A3A /* GInvokeBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GInvokeBlock.h; path = GTask/GTask/core/GInvokeBlock.h; sourceTree = "<group>"; };
+		5505F0F7ABFBB8921839BBA885C8D23D /* GTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTask.m; path = GTask/GTask/core/GTask.m; sourceTree = "<group>"; };
+		571A94207EF85FE38017D97C50BEBF90 /* GTask-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTask-prefix.pch"; sourceTree = "<group>"; };
+		6FB29AECC0D55798102434BB244CAABA /* GTask+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTask+Private.h"; path = "GTask/GTask/core/GTask+Private.h"; sourceTree = "<group>"; };
+		88EF5E1C558D2F8F23A912020EA97B27 /* libGTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGTask.a; path = libGTask.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A02B942821B2DD095069810977641A /* GInvokeBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GInvokeBlock.m; path = GTask/GTask/core/GInvokeBlock.m; sourceTree = "<group>"; };
+		AFD4CFA51222AE9813196D9C1EE76ECE /* GTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTask.h; path = GTask/GTask/core/GTask.h; sourceTree = "<group>"; };
+		B461B17876CC5AACA43C89DB64685427 /* GTaskResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTaskResult.m; path = GTask/GTask/core/GTaskResult.m; sourceTree = "<group>"; };
+		E2B93CA2AA41C1E86C89557800017187 /* GTask+Fwd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTask+Fwd.h"; path = "GTask/GTask/core/GTask+Fwd.h"; sourceTree = "<group>"; };
+		E3B1E8B4BF53C0461E810EAB7F22FD08 /* GTask+Fwd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTask+Fwd.m"; path = "GTask/GTask/core/GTask+Fwd.m"; sourceTree = "<group>"; };
+		E65F013A8C8C809111D5B500C5DD66AA /* GTaskResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTaskResult.h; path = GTask/GTask/core/GTaskResult.h; sourceTree = "<group>"; };
+		E9A3116AE1209774402DB28FED6AF725 /* GTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTask-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		584AD3E8B0ABB6403698226485D8C861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2551EDB0621F64046AA6EC67FAC3C8DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72192B76C79C27E71E6C16BBA7464F38 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C8BBD63941339080D84FDA0580CF289 /* GTask.xcconfig */,
+				E9A3116AE1209774402DB28FED6AF725 /* GTask-dummy.m */,
+				571A94207EF85FE38017D97C50BEBF90 /* GTask-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/GTask";
+			sourceTree = "<group>";
+		};
+		75B3C62209D95D5A13DCDBD7D9AFF04B = {
+			isa = PBXGroup;
+			children = (
+				2551EDB0621F64046AA6EC67FAC3C8DD /* Frameworks */,
+				E84A480416236F745DA31AE5C92083D4 /* GTask */,
+				83B24746D75DEFC79CA9CD7A0E1A7998 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83B24746D75DEFC79CA9CD7A0E1A7998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88EF5E1C558D2F8F23A912020EA97B27 /* libGTask.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D543070ACA6C96537C8E786D2330AD76 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2411DDCB7E591C2D6C305FC8B7D27D21 /* GTask.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E84A480416236F745DA31AE5C92083D4 /* GTask */ = {
+			isa = PBXGroup;
+			children = (
+				50683F4AD7BF3296DBEAD8EBFA140A3A /* GInvokeBlock.h */,
+				92A02B942821B2DD095069810977641A /* GInvokeBlock.m */,
+				AFD4CFA51222AE9813196D9C1EE76ECE /* GTask.h */,
+				5505F0F7ABFBB8921839BBA885C8D23D /* GTask.m */,
+				E2B93CA2AA41C1E86C89557800017187 /* GTask+Fwd.h */,
+				E3B1E8B4BF53C0461E810EAB7F22FD08 /* GTask+Fwd.m */,
+				6FB29AECC0D55798102434BB244CAABA /* GTask+Private.h */,
+				E65F013A8C8C809111D5B500C5DD66AA /* GTaskResult.h */,
+				B461B17876CC5AACA43C89DB64685427 /* GTaskResult.m */,
+				D543070ACA6C96537C8E786D2330AD76 /* Pod */,
+				72192B76C79C27E71E6C16BBA7464F38 /* Support Files */,
+			);
+			name = GTask;
+			path = ../components/basic/GTask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F44D1D11D52DADB75717419E25FB147 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0635CAFE7E6B4AC97686D1D0989222FE /* GInvokeBlock.h in Headers */,
+				5B2A75264E9E9EFEF182A56E81188EF6 /* GTask+Fwd.h in Headers */,
+				D17853AB48B57E5BDE620E7B071541A1 /* GTask+Private.h in Headers */,
+				1CF291C39476DEC1E2E472C71BC0F573 /* GTask.h in Headers */,
+				761FB2B9A7CD2655729A71AFE3C4069A /* GTaskResult.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16A0818EB73F245029D0F9692DB16079 /* GTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E52BC457E9EC95B2D3F2E4989EC73F9 /* Build configuration list for PBXNativeTarget "GTask" */;
+			buildPhases = (
+				3F44D1D11D52DADB75717419E25FB147 /* Headers */,
+				699BF44669C477C77267763EE1BA9228 /* Sources */,
+				584AD3E8B0ABB6403698226485D8C861 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTask;
+			productName = GTask;
+			productReference = 88EF5E1C558D2F8F23A912020EA97B27 /* libGTask.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6692647240A4844217D67E8DBD451ADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 0969A1AFF742A55F01119D2502B8E876 /* Build configuration list for PBXProject "GTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75B3C62209D95D5A13DCDBD7D9AFF04B;
+			productRefGroup = 83B24746D75DEFC79CA9CD7A0E1A7998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16A0818EB73F245029D0F9692DB16079 /* GTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		699BF44669C477C77267763EE1BA9228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463E78F35597FCC583E53F11F2070054 /* GInvokeBlock.m in Sources */,
+				21DE202ACA3504D027E990A1BD949191 /* GTask+Fwd.m in Sources */,
+				91D5D2B22889380878BE661EB287050E /* GTask-dummy.m in Sources */,
+				FE674D93F1B65022BF5F46F06670CC85 /* GTask.m in Sources */,
+				DAD303C71755CE3634805D00ECA99A80 /* GTaskResult.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		227C619D52DD391D8BC288B0635E04DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		34384367CEF4FD7B04436280646E0656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		95F4FB31220FFCDA85FFF05DEF128663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8BBD63941339080D84FDA0580CF289 /* GTask.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GTask/GTask-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GTask;
+				PRODUCT_NAME = GTask;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D83BE676155F9BEA284FD879665CF384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8BBD63941339080D84FDA0580CF289 /* GTask.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GTask/GTask-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GTask;
+				PRODUCT_NAME = GTask;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0969A1AFF742A55F01119D2502B8E876 /* Build configuration list for PBXProject "GTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34384367CEF4FD7B04436280646E0656 /* Debug */,
+				227C619D52DD391D8BC288B0635E04DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E52BC457E9EC95B2D3F2E4989EC73F9 /* Build configuration list for PBXNativeTarget "GTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F4FB31220FFCDA85FFF05DEF128663 /* Debug */,
+				D83BE676155F9BEA284FD879665CF384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6692647240A4844217D67E8DBD451ADA /* Project object */;
+}

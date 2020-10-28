@@ -1,0 +1,28 @@
+{
+  "name": "GBusinessMine",
+  "version": "0.1.0",
+  "summary": "GBusinessMine.",
+  "description": "GBusinessMine the convi",
+  "homepage": "https://github.com/gzd0071/GBusinessMine",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/GBusinessMine.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "GMine",
+    "GMine/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "DMLogin": [
+
+    ]
+  }
+}

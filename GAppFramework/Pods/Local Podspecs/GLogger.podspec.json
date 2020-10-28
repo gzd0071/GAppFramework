@@ -1,0 +1,23 @@
+{
+  "name": "GLogger",
+  "version": "0.1.0",
+  "summary": "GLogger.",
+  "description": "GLogger the convi",
+  "homepage": "https://github.com/katongzhong1/GLogger",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/GLogger.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "GLogger",
+    "GLogger/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

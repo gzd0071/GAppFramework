@@ -1,0 +1,23 @@
+{
+  "name": "BPush",
+  "version": "0.1.0",
+  "summary": "BPush.",
+  "description": "BPush the convi",
+  "homepage": "http://temp/BPush",
+  "license": "MIT",
+  "authors": {
+    "guozd": "guozd@doumi.com"
+  },
+  "source": {
+    "git": "http://temp/BPush.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "BPush",
+    "BPush/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

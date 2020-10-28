@@ -1,0 +1,28 @@
+{
+  "name": "BCustomer",
+  "version": "0.1.0",
+  "summary": "BCustomer.",
+  "description": "BCustomer the convi",
+  "homepage": "https://github.com/katongzhong1/BCustomer",
+  "license": "MIT",
+  "authors": {
+    "wushengzhong": "wushengzhong@doumi.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/BCustomer.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "BCustomer",
+    "BCustomer/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "SobotKit": [
+      "2.7.4"
+    ]
+  }
+}

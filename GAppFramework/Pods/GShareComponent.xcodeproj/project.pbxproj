@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E966B61276A26750AB64B99A2D1195C /* GShareAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C6EC0AE0FF71E3C1F4AB5FA6ED8BC /* GShareAlert.m */; };
+		1EC2D812EE392506575AB723588780A7 /* GShareComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC524240E3FFC997882AD39DDA0FF86 /* GShareComponent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5FA650D52D843D005DB230FA3B608F53 /* QQApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D2B8C00AAE82C814EAEA150C7DF90A /* QQApiInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66872D078E4B06FEC739E6F35BE244D5 /* GShareComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A45DBFB46AA50C9986D70EEBB04B6DB /* GShareComponent-dummy.m */; };
+		77294DED4707FEBE85707CF38378BE1D /* QQApiInterfaceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 950B163D5CDA96AA54249123C74662D9 /* QQApiInterfaceObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A4FE10F3B8BC0A874966C855281D138 /* sdkdef.h in Headers */ = {isa = PBXBuildFile; fileRef = 660114338BE53594EFC763589C0ED50F /* sdkdef.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B60C5E26EC729BD18BBABF1E73EAEB72 /* GShareAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 0656AF1DAE8C2C4BC059AC7EFFBCDB36 /* GShareAlert.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F753275276CF2D93A59660566BED3172 /* GShareComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F553AFCF63DB4FDB34D10CA4637DEC /* GShareComponent.m */; };
+		FBB39766EE384280F0D561D482178FDF /* TencentOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 213EA2AFC86CF8299CC95093E697187C /* TencentOAuth.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0656AF1DAE8C2C4BC059AC7EFFBCDB36 /* GShareAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GShareAlert.h; path = GShareComponent/GShareAlert.h; sourceTree = "<group>"; };
+		213EA2AFC86CF8299CC95093E697187C /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOAuth.h; sourceTree = "<group>"; };
+		2A45DBFB46AA50C9986D70EEBB04B6DB /* GShareComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GShareComponent-dummy.m"; sourceTree = "<group>"; };
+		4893606D135B0CA5D359B6A76DC6C4AE /* GShareComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GShareComponent.xcconfig; sourceTree = "<group>"; };
+		4C8C6EC0AE0FF71E3C1F4AB5FA6ED8BC /* GShareAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GShareAlert.m; path = GShareComponent/GShareAlert.m; sourceTree = "<group>"; };
+		547E3384ABE469CB981136EE3F75F328 /* GShareComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GShareComponent-prefix.pch"; sourceTree = "<group>"; };
+		660114338BE53594EFC763589C0ED50F /* sdkdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sdkdef.h; sourceTree = "<group>"; };
+		69D2B8C00AAE82C814EAEA150C7DF90A /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterface.h; sourceTree = "<group>"; };
+		736830903C0B4D28F327F9203D6C8B9B /* libGShareComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGShareComponent.a; path = libGShareComponent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		950B163D5CDA96AA54249123C74662D9 /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterfaceObject.h; sourceTree = "<group>"; };
+		9DDEBBE837C1C491A5C2423200EC0CF7 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = GShareComponent/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		ABBF5AD5FD9BB9506F22DE3E505B1E76 /* GShareComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GShareComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1F553AFCF63DB4FDB34D10CA4637DEC /* GShareComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GShareComponent.m; path = GShareComponent/GShareComponent.m; sourceTree = "<group>"; };
+		FDC524240E3FFC997882AD39DDA0FF86 /* GShareComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GShareComponent.h; path = GShareComponent/GShareComponent.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F4B6A8A817DA7BCF9DD17C21CC99963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B70872FF2DD5FEAEA717511CFDDDB37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DDEBBE837C1C491A5C2423200EC0CF7 /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31E69A25895BD13C5910FDD46A8B90CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4893606D135B0CA5D359B6A76DC6C4AE /* GShareComponent.xcconfig */,
+				2A45DBFB46AA50C9986D70EEBB04B6DB /* GShareComponent-dummy.m */,
+				547E3384ABE469CB981136EE3F75F328 /* GShareComponent-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/GShareComponent";
+			sourceTree = "<group>";
+		};
+		4ADE73C05C987A890E4ACF4CEDB795DF /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				69D2B8C00AAE82C814EAEA150C7DF90A /* QQApiInterface.h */,
+				950B163D5CDA96AA54249123C74662D9 /* QQApiInterfaceObject.h */,
+				660114338BE53594EFC763589C0ED50F /* sdkdef.h */,
+				213EA2AFC86CF8299CC95093E697187C /* TencentOAuth.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		6C40B7240285427C989A6D9E2758BAF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				736830903C0B4D28F327F9203D6C8B9B /* libGShareComponent.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		782DD7225BFA0637BAFBA06EF0EED470 /* TencentOpenAPI.framework */ = {
+			isa = PBXGroup;
+			children = (
+				4ADE73C05C987A890E4ACF4CEDB795DF /* Headers */,
+			);
+			name = TencentOpenAPI.framework;
+			path = GShareComponent/TencentOpenAPI.framework;
+			sourceTree = "<group>";
+		};
+		BF16C16A454F00D4A499B920C83898E7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ABBF5AD5FD9BB9506F22DE3E505B1E76 /* GShareComponent.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D5FCC6836B7F9F16B5A25BCCC5C8F978 = {
+			isa = PBXGroup;
+			children = (
+				DD8D476093CF199861306B4B212D60C9 /* Frameworks */,
+				F76314A61C52CBF1E138820293FA962D /* GShareComponent */,
+				6C40B7240285427C989A6D9E2758BAF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD8D476093CF199861306B4B212D60C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F76314A61C52CBF1E138820293FA962D /* GShareComponent */ = {
+			isa = PBXGroup;
+			children = (
+				0656AF1DAE8C2C4BC059AC7EFFBCDB36 /* GShareAlert.h */,
+				4C8C6EC0AE0FF71E3C1F4AB5FA6ED8BC /* GShareAlert.m */,
+				FDC524240E3FFC997882AD39DDA0FF86 /* GShareComponent.h */,
+				C1F553AFCF63DB4FDB34D10CA4637DEC /* GShareComponent.m */,
+				0B70872FF2DD5FEAEA717511CFDDDB37 /* Frameworks */,
+				BF16C16A454F00D4A499B920C83898E7 /* Pod */,
+				31E69A25895BD13C5910FDD46A8B90CE /* Support Files */,
+				782DD7225BFA0637BAFBA06EF0EED470 /* TencentOpenAPI.framework */,
+			);
+			name = GShareComponent;
+			path = ../components/businessSupport/GShareComponent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		83B4394853DD3E65A8D1F2198C3C2A6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60C5E26EC729BD18BBABF1E73EAEB72 /* GShareAlert.h in Headers */,
+				1EC2D812EE392506575AB723588780A7 /* GShareComponent.h in Headers */,
+				5FA650D52D843D005DB230FA3B608F53 /* QQApiInterface.h in Headers */,
+				77294DED4707FEBE85707CF38378BE1D /* QQApiInterfaceObject.h in Headers */,
+				8A4FE10F3B8BC0A874966C855281D138 /* sdkdef.h in Headers */,
+				FBB39766EE384280F0D561D482178FDF /* TencentOAuth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B41D3FC79D7B1A545A977BD3D182C57 /* GShareComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA064CC727715F39C76A6D25AB16E981 /* Build configuration list for PBXNativeTarget "GShareComponent" */;
+			buildPhases = (
+				83B4394853DD3E65A8D1F2198C3C2A6B /* Headers */,
+				DDE2C1C1F8F7FA60747D07215121279A /* Sources */,
+				3F4B6A8A817DA7BCF9DD17C21CC99963 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GShareComponent;
+			productName = GShareComponent;
+			productReference = 736830903C0B4D28F327F9203D6C8B9B /* libGShareComponent.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F320370044485D2EB6EA58EA7D722D9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 301902BCFDE0995EB48B947BE541B8AE /* Build configuration list for PBXProject "GShareComponent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D5FCC6836B7F9F16B5A25BCCC5C8F978;
+			productRefGroup = 6C40B7240285427C989A6D9E2758BAF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B41D3FC79D7B1A545A977BD3D182C57 /* GShareComponent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE2C1C1F8F7FA60747D07215121279A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E966B61276A26750AB64B99A2D1195C /* GShareAlert.m in Sources */,
+				66872D078E4B06FEC739E6F35BE244D5 /* GShareComponent-dummy.m in Sources */,
+				F753275276CF2D93A59660566BED3172 /* GShareComponent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8452FA7D3212FAE291B2A99D222C2062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4893606D135B0CA5D359B6A76DC6C4AE /* GShareComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GShareComponent/GShareComponent-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GShareComponent;
+				PRODUCT_NAME = GShareComponent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B867B39222DAE1CB2196FA025786B6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4893606D135B0CA5D359B6A76DC6C4AE /* GShareComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GShareComponent/GShareComponent-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GShareComponent;
+				PRODUCT_NAME = GShareComponent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEDD411EEE57DAA42645B91E11380756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E3EB48E25ABA97027C68CF14A04AEE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		301902BCFDE0995EB48B947BE541B8AE /* Build configuration list for PBXProject "GShareComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDD411EEE57DAA42645B91E11380756 /* Debug */,
+				E3EB48E25ABA97027C68CF14A04AEE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA064CC727715F39C76A6D25AB16E981 /* Build configuration list for PBXNativeTarget "GShareComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B867B39222DAE1CB2196FA025786B6CF /* Debug */,
+				8452FA7D3212FAE291B2A99D222C2062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F320370044485D2EB6EA58EA7D722D9A /* Project object */;
+}

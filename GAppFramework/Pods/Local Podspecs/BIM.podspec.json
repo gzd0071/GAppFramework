@@ -1,0 +1,31 @@
+{
+  "name": "BIM",
+  "version": "0.1.0",
+  "summary": "BIM.",
+  "description": "BIM the convi",
+  "homepage": "https://github.com/katongzhong1/BIM",
+  "license": "MIT",
+  "authors": {
+    "wushengzhong": "wushengzhong@doumi.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/BIM.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "BIM",
+    "BIM/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "RongCloudIM/IMLib": [
+      "2.8.32"
+    ],
+    "RongCloudIM/IMKit": [
+      "2.8.32"
+    ]
+  }
+}

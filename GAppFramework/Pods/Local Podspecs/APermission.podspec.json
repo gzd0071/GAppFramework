@@ -1,0 +1,23 @@
+{
+  "name": "APermission",
+  "version": "0.1.0",
+  "summary": "APermission.",
+  "description": "APermission the convi",
+  "homepage": "https://github.com/katongzhong1/Permission",
+  "license": "MIT",
+  "authors": {
+    "guozhongda": "guozhongda@doumi.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/Permission.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "permission",
+    "permission/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

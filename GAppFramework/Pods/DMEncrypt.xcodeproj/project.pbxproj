@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C094340757E511530AFD2422F6C62C /* DMEncrypt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63BBC8F36A36BF94F083D6585C7142 /* DMEncrypt-dummy.m */; };
+		0F66503FA06063F26ABC7AECB87C008D /* DMDek.h in Headers */ = {isa = PBXBuildFile; fileRef = 596534F6560E80B6B57540A837D6DA82 /* DMDek.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30039A83ACB6AAB9D3E8D9A57592CA5F /* DMEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = B6898DE44F8A11DAD79D0E63856B4B85 /* DMEncrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A6C160E8300E566569EE1A6BED942B8 /* DMEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 04573FACEBB26B6FA59161B830E76779 /* DMEncrypt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04573FACEBB26B6FA59161B830E76779 /* DMEncrypt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMEncrypt.m; path = DMEncrypt/DMEncrypt.m; sourceTree = "<group>"; };
+		2976BBC230EEDA01C9625B81D9E4784D /* DMEncrypt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMEncrypt.xcconfig; sourceTree = "<group>"; };
+		596534F6560E80B6B57540A837D6DA82 /* DMDek.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDek.h; sourceTree = "<group>"; };
+		5B64F8E878FCB529B3B978D13112C52D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D63BBC8F36A36BF94F083D6585C7142 /* DMEncrypt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DMEncrypt-dummy.m"; sourceTree = "<group>"; };
+		A4ED9B4E0D56501390C7B57A18B79DC2 /* libdek.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libdek.a; path = DMEncrypt/support/libdek.a; sourceTree = "<group>"; };
+		A7D3AC5F55272D915B6CC3B8BA82AC43 /* DMEncrypt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DMEncrypt.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6898DE44F8A11DAD79D0E63856B4B85 /* DMEncrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMEncrypt.h; path = DMEncrypt/DMEncrypt.h; sourceTree = "<group>"; };
+		BB53ADCE11903222DFBD2CEE14A9B785 /* libDMEncrypt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDMEncrypt.a; path = libDMEncrypt.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45F1BA687EB436F2AC77CADC961D467 /* DMEncrypt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMEncrypt-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3A5D47494AC12B92130E0B191B8937D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10E2381DE2E67D1395F9C0507D586865 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				596534F6560E80B6B57540A837D6DA82 /* DMDek.h */,
+			);
+			name = support;
+			path = DMEncrypt/support;
+			sourceTree = "<group>";
+		};
+		1D65DB5F98DB30F9B5D2B77222D75A48 /* DMEncrypt */ = {
+			isa = PBXGroup;
+			children = (
+				B6898DE44F8A11DAD79D0E63856B4B85 /* DMEncrypt.h */,
+				04573FACEBB26B6FA59161B830E76779 /* DMEncrypt.m */,
+				C9B810EE507461AAEC16BA783242FC67 /* Frameworks */,
+				332A6E1FC77201C58BFF155BD7E3FB70 /* Pod */,
+				10E2381DE2E67D1395F9C0507D586865 /* support */,
+				F7F21FE55BC185B6FEDCBBF3A5E2066F /* Support Files */,
+			);
+			name = DMEncrypt;
+			path = ../components/businessSupport/DMEncrypt;
+			sourceTree = "<group>";
+		};
+		332A6E1FC77201C58BFF155BD7E3FB70 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A7D3AC5F55272D915B6CC3B8BA82AC43 /* DMEncrypt.podspec */,
+				5B64F8E878FCB529B3B978D13112C52D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4F82DCAA4AE84691D176785D40BBC4C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB53ADCE11903222DFBD2CEE14A9B785 /* libDMEncrypt.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DA3BDE7A3C30B00DD87F50E356B80AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BCF4BCFEAA039D3C979911EDCC5925E = {
+			isa = PBXGroup;
+			children = (
+				1D65DB5F98DB30F9B5D2B77222D75A48 /* DMEncrypt */,
+				6DA3BDE7A3C30B00DD87F50E356B80AD /* Frameworks */,
+				4F82DCAA4AE84691D176785D40BBC4C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9B810EE507461AAEC16BA783242FC67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4ED9B4E0D56501390C7B57A18B79DC2 /* libdek.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7F21FE55BC185B6FEDCBBF3A5E2066F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2976BBC230EEDA01C9625B81D9E4784D /* DMEncrypt.xcconfig */,
+				9D63BBC8F36A36BF94F083D6585C7142 /* DMEncrypt-dummy.m */,
+				D45F1BA687EB436F2AC77CADC961D467 /* DMEncrypt-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/DMEncrypt";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5283B33290AE555FDA20BBFA328230B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F66503FA06063F26ABC7AECB87C008D /* DMDek.h in Headers */,
+				30039A83ACB6AAB9D3E8D9A57592CA5F /* DMEncrypt.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7FD06A3EEE595C69096651982F716DAA /* DMEncrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15B88DA8A2B1D8B915DDE1E26651F5FA /* Build configuration list for PBXNativeTarget "DMEncrypt" */;
+			buildPhases = (
+				5283B33290AE555FDA20BBFA328230B3 /* Headers */,
+				73CA4C62E85BD6E6B16AF80A7D64FA77 /* Sources */,
+				F3A5D47494AC12B92130E0B191B8937D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMEncrypt;
+			productName = DMEncrypt;
+			productReference = BB53ADCE11903222DFBD2CEE14A9B785 /* libDMEncrypt.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B6607C98749D031082C20874D7036E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = A1F23D75A0E3550D45418C1BA5D5DF54 /* Build configuration list for PBXProject "DMEncrypt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BCF4BCFEAA039D3C979911EDCC5925E;
+			productRefGroup = 4F82DCAA4AE84691D176785D40BBC4C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FD06A3EEE595C69096651982F716DAA /* DMEncrypt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73CA4C62E85BD6E6B16AF80A7D64FA77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C094340757E511530AFD2422F6C62C /* DMEncrypt-dummy.m in Sources */,
+				5A6C160E8300E566569EE1A6BED942B8 /* DMEncrypt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		28B96515CCA7AD072DDF2B6A57D6394E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		339C3C3671752499A54FC36E7FB87270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2976BBC230EEDA01C9625B81D9E4784D /* DMEncrypt.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DMEncrypt/DMEncrypt-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DMEncrypt;
+				PRODUCT_NAME = DMEncrypt;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		599771D05A7ABA299C3B5675798E1CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B023877E18D13076448B01875BD0FADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2976BBC230EEDA01C9625B81D9E4784D /* DMEncrypt.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DMEncrypt/DMEncrypt-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DMEncrypt;
+				PRODUCT_NAME = DMEncrypt;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15B88DA8A2B1D8B915DDE1E26651F5FA /* Build configuration list for PBXNativeTarget "DMEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B023877E18D13076448B01875BD0FADC /* Debug */,
+				339C3C3671752499A54FC36E7FB87270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F23D75A0E3550D45418C1BA5D5DF54 /* Build configuration list for PBXProject "DMEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B96515CCA7AD072DDF2B6A57D6394E /* Debug */,
+				599771D05A7ABA299C3B5675798E1CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B6607C98749D031082C20874D7036E2 /* Project object */;
+}

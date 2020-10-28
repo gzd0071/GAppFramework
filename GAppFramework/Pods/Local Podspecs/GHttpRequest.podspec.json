@@ -1,0 +1,23 @@
+{
+  "name": "GHttpRequest",
+  "version": "0.1.0",
+  "summary": "GHttpRequest.",
+  "description": "GHttpRequest the convi",
+  "homepage": "https://github.com/katongzhong1/GHttpRequest",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/GHttpRequest.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "GHttpRequest",
+    "GHttpRequest/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

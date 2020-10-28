@@ -1,0 +1,31 @@
+{
+  "name": "DMLocation",
+  "version": "0.1.0",
+  "summary": "DMLocation.",
+  "description": "DMLocation the convi",
+  "homepage": "https://github.com/katongzhong1/DMLocation",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/DMLocation.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "DMLocation",
+    "DMLocation/**/*.{h,m,plist}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "BMKLocationKit": [
+      "1.5.0"
+    ],
+    "BaiduMapKit": [
+      "4.2.1"
+    ]
+  }
+}

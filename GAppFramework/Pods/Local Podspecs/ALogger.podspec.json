@@ -1,0 +1,23 @@
+{
+  "name": "ALogger",
+  "version": "0.1.0",
+  "summary": "ALogger.",
+  "description": "ALogger the convi",
+  "homepage": "https://github.com/katongzhong1/Logger",
+  "license": "MIT",
+  "authors": {
+    "guozhongda": "guozhongda@doumi.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/Logger.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "Logger",
+    "Logger/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

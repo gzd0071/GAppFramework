@@ -1,0 +1,61 @@
+{
+  "job_date_type" : 2,
+  "data" : [
+    {
+      "parentValue" : "2",
+      "value" : "16",
+      "key" : "job_type",
+      "name" : "送餐员",
+      "tag" : "",
+      "parent" : "餐饮"
+    },
+    {
+      "parentValue" : "2",
+      "value" : "49",
+      "key" : "job_type",
+      "name" : "快递配送",
+      "tag" : "",
+      "parent" : "物流\/仓储"
+    }
+  ],
+  "livingAddr" : {
+    "lng" : "116.30506961",
+    "lat" : "40.04777952",
+    "name" : "八维教育集团",
+    "city_id" : "12",
+    "address" : "北京市海淀区上地街道上地七街软件园南路57号"
+  },
+  "showJinxuan" : true,
+  "has_detailed_addr" : true,
+  "set_data" : [
+    {
+      "parent" : "",
+      "value" : 90001,
+      "icon" : "https:\/\/cdn.doumistatic.com\/219,01c2eeb19d88893a.png",
+      "name" : "优选",
+      "tag" : "",
+      "parentValue" : 0
+    },
+    {
+      "parent" : "",
+      "value" : 90002,
+      "icon" : "",
+      "name" : "在线教育",
+      "tag" : "",
+      "parentValue" : 0
+    },
+    {
+      "parent" : "",
+      "value" : 90003,
+      "icon" : "",
+      "name" : "盒马专区",
+      "tag" : "",
+      "parentValue" : 0
+    }
+  ],
+  "showLivingAddr" : {
+    "image" : "https:\/\/cdn.doumistatic.com\/218,01bf1e99c2b20857.png",
+    "days" : 7,
+    "status" : false
+  }
+}

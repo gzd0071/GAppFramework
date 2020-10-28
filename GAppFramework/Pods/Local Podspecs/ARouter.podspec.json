@@ -1,0 +1,23 @@
+{
+  "name": "ARouter",
+  "version": "0.0.1",
+  "summary": "ARouter.",
+  "description": "ARouter the convi",
+  "homepage": "http://temp/Router",
+  "license": "MIT",
+  "authors": {
+    "guozhongda": "guozhongda@doumi.com"
+  },
+  "source": {
+    "git": "http://temp/Router.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Router",
+    "Router/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

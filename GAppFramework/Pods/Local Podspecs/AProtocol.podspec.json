@@ -1,0 +1,23 @@
+{
+  "name": "AProtocol",
+  "version": "0.1.0",
+  "summary": "AProtocol.",
+  "description": "AProtocol the convi",
+  "homepage": "https://github.com/katongzhong1/AProtocol",
+  "license": "MIT",
+  "authors": {
+    "guozhongda": "guozhongda@doumi.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/AProtocol.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "protocol",
+    "protocol/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

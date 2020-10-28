@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BDBCB2A1A0F45E3A2EF2CEE996AFA8 /* DMAApiBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D0D651F39D259EC95F47F43FCC53E6 /* DMAApiBridge.m */; };
+		05A16A55D9E323826AD1F1E6A20AFE62 /* DMAUCPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EB1E78D125110EF0A7505A0D397168 /* DMAUCPage.m */; };
+		05AC698ED37919A2ACD0BCD6B0F25950 /* DMACache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E54D1A85CB17B3D81D0B9058D91CA25 /* DMACache.m */; };
+		0A7318536F57F3850005A6EFC2E37286 /* DMAClientUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FE9A04B252A00682FE0E8A666977DE /* DMAClientUI.m */; };
+		1178510A70F33EEFA75DEDA5C7C0961B /* DMAXMLHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D64A0CE0F8278E6752FF44E5E79095 /* DMAXMLHttpRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		191D64DB99B4792667C357974F574907 /* DMAUCApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 847C50D36DB18066865CB9C8174A4C72 /* DMAUCApi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F8D6C654BF131D4CE2013D5A5C30636 /* DMAApiBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE028968444AEC7C2EA06F04393C414 /* DMAApiBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38053AD14947D54DAAD01FACF9B2D84C /* DMAXMLHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6272426266FB7F00A85D367C8475BF /* DMAXMLHttpRequest.m */; };
+		3BA6DB70DA7247C772AADF1BD74D055B /* DMDekUpdatedDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 68508F8F0DF5E31A77923B2C635E20FB /* DMDekUpdatedDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4286EB8E2F27AF505C2BBCBC5FC6FB2C /* DMAWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F14C4596216F4508F86822FDF68030 /* DMAWidget.m */; };
+		45F349FBD8DE464A0E961CD13E01519B /* DMAClientUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DDC497E02F8479117B7B4C046778181 /* DMAClientUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		478E27366400CC590BFB33D3E6A019ED /* DMACityApi.h in Headers */ = {isa = PBXBuildFile; fileRef = C3AB333F59FE420C083141B7E643B7FE /* DMACityApi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50B58EA8AE93D525D61DB652E491AB6C /* DMUploadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2890F3BE828D9722A3F3BCE15CA23412 /* DMUploadImage.m */; };
+		5114884F80B8E157A2329E98A62C3526 /* DMHybridViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A51FC9F6A635B077626227DC40E249 /* DMHybridViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		578134D9DB1F3CE65221675D6102460C /* DMAPreferencesPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D062A162FF613339ECEB6901C13EE /* DMAPreferencesPage.m */; };
+		57C3AE3CFD00459F7E1AEA9343571290 /* DMAClientInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C33DB1DAD444D7E603455C0FA7BCC29B /* DMAClientInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C117919207DB05DE992373A766BA2A9 /* GHybrid.m in Sources */ = {isa = PBXBuildFile; fileRef = A62C883C23788F7157A13DC5D5EB5A8B /* GHybrid.m */; };
+		6C16DDEAE399CBF7BA9707BBCDD77F6B /* DMAUCApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F64FE3304BA122CE3E3A03F6F02F383 /* DMAUCApi.m */; };
+		6D931D9FDBC5FAD54E64023A800BD316 /* GHybrid.h in Headers */ = {isa = PBXBuildFile; fileRef = E9C6A69A0EF84D9F3134084AA05D573D /* GHybrid.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		80BCD90C478B14149E122E89AB7ECE84 /* DMDekTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 742AA3779437692B7FE67BF90F2F7AB1 /* DMDekTask.m */; };
+		84CCFE769EBC4831DF7FF5E6DE8D6339 /* DMAUserCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 21EA3E8D97D4CEB851E3BF63D3B34F72 /* DMAUserCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89EA1BCB6D0EE0AA1E392F1B792FA19F /* DMAWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D11ADD10DDED078E22EA9FF4A6F393 /* DMAWidget.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90A996BF580D165D43D05B24FAA38AF0 /* DMAClientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F8390B627FDC39571307E2B0BEE567 /* DMAClientInfo.m */; };
+		A0818B185A7DCD067AFB1F49B9FCA310 /* DMACityApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6322157DC02A2233011DC635B5BCFF /* DMACityApi.m */; };
+		A525DAC3A00687AB16239B8E1F630199 /* DMACache.h in Headers */ = {isa = PBXBuildFile; fileRef = DD11CAEB7275451CBB61D2DD75C37950 /* DMACache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A5ECCA9DFA808F85114A19D8BE440254 /* DMAPreferencesPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 268BBE757CCD1CC3DEA8D733EF8F64EF /* DMAPreferencesPage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2DDDF392C9823DAA4E2582FCD2A1B00 /* DMAUCPage.h in Headers */ = {isa = PBXBuildFile; fileRef = AC7AE27CAF30839619F628701805A431 /* DMAUCPage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8ABFC7A150FD48E24AE8C9F54F15A9B /* DMASafetyApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A36CA4D0CA062378578E7BCDAF3E1D4D /* DMASafetyApi.m */; };
+		C0D2D1EC34D67AA119B31781F2EFA845 /* DMALoggerApi.m in Sources */ = {isa = PBXBuildFile; fileRef = B09177E63EBDC05422F98D8D9CBF0DDF /* DMALoggerApi.m */; };
+		CA038903D4901C4226C2A0EF397C8100 /* DMALoggerApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 70ECF11D9AED3D5F9090A841FBF4EC65 /* DMALoggerApi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D394C24D3D50C39382FC97162670F18B /* DMAUserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F55ACB20EEBA64377B070B3E0AAA2D22 /* DMAUserCenter.m */; };
+		D6271245F37E2059A25DE2831AA2D77E /* DMALocationApi.h in Headers */ = {isa = PBXBuildFile; fileRef = E1555C97CE83ED29FE805EA7157A1608 /* DMALocationApi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D629638D56284D0E50968BABEF23C486 /* DMHybridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA511D23377D6A812DB56B67C570AF2 /* DMHybridViewController.m */; };
+		DC6528B6FFDD6627F158422AEC08B638 /* GHybrid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31979264AC6F482A3974343195CC18 /* GHybrid-dummy.m */; };
+		DCDB7A0B71CE62CB908936987DA16A78 /* DMASafetyApi.h in Headers */ = {isa = PBXBuildFile; fileRef = A26AAB1B322F4DBEAE52312AE277CEFE /* DMASafetyApi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD1A5BFA6B7D6F2E66D5C34ACBAF91E3 /* DMUploadImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D622ABF040A55E10D040B82AE82F124F /* DMUploadImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDE0D8FEAEF0B4EB99727413296283C4 /* DMDekTask.h in Headers */ = {isa = PBXBuildFile; fileRef = A200506596DACB4CA7A13F8FE7ADAB3F /* DMDekTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8F6A99EE8B62568B5F91B80B723823D /* DMALocationApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FDBBD67520352B3E7FE66F8B8CA5B /* DMALocationApi.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA7F869B01468766B7A01CF58BA874C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD0036D67A50FF3A4F26423D30ABDFF6 /* DMLogin.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E0AA5351C6BB8EBD6B813491B9A3E3F5;
+			remoteInfo = DMLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F14C4596216F4508F86822FDF68030 /* DMAWidget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMAWidget.m; sourceTree = "<group>"; };
+		0FA511D23377D6A812DB56B67C570AF2 /* DMHybridViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMHybridViewController.m; path = GHybrid/DMHybridViewController.m; sourceTree = "<group>"; };
+		21EA3E8D97D4CEB851E3BF63D3B34F72 /* DMAUserCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMAUserCenter.h; sourceTree = "<group>"; };
+		268BBE757CCD1CC3DEA8D733EF8F64EF /* DMAPreferencesPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMAPreferencesPage.h; sourceTree = "<group>"; };
+		2890F3BE828D9722A3F3BCE15CA23412 /* DMUploadImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMUploadImage.m; sourceTree = "<group>"; };
+		2A31979264AC6F482A3974343195CC18 /* GHybrid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHybrid-dummy.m"; sourceTree = "<group>"; };
+		36FE9A04B252A00682FE0E8A666977DE /* DMAClientUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMAClientUI.m; sourceTree = "<group>"; };
+		3E54D1A85CB17B3D81D0B9058D91CA25 /* DMACache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMACache.m; sourceTree = "<group>"; };
+		3F6FDBBD67520352B3E7FE66F8B8CA5B /* DMALocationApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMALocationApi.m; sourceTree = "<group>"; };
+		544D062A162FF613339ECEB6901C13EE /* DMAPreferencesPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMAPreferencesPage.m; sourceTree = "<group>"; };
+		54EB1E78D125110EF0A7505A0D397168 /* DMAUCPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMAUCPage.m; sourceTree = "<group>"; };
+		5D6322157DC02A2233011DC635B5BCFF /* DMACityApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMACityApi.m; sourceTree = "<group>"; };
+		68508F8F0DF5E31A77923B2C635E20FB /* DMDekUpdatedDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDekUpdatedDelegate.h; sourceTree = "<group>"; };
+		6DDC497E02F8479117B7B4C046778181 /* DMAClientUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMAClientUI.h; sourceTree = "<group>"; };
+		6F64FE3304BA122CE3E3A03F6F02F383 /* DMAUCApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMAUCApi.m; sourceTree = "<group>"; };
+		70ECF11D9AED3D5F9090A841FBF4EC65 /* DMALoggerApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMALoggerApi.h; sourceTree = "<group>"; };
+		742AA3779437692B7FE67BF90F2F7AB1 /* DMDekTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDekTask.m; sourceTree = "<group>"; };
+		8050BE8769D0743D982CEB41772588E4 /* GHybrid-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHybrid-prefix.pch"; sourceTree = "<group>"; };
+		847C50D36DB18066865CB9C8174A4C72 /* DMAUCApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMAUCApi.h; sourceTree = "<group>"; };
+		87703BBC7E8BDC6C382AA9B7A2CF5EAC /* GHybrid.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHybrid.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B2FCA848D7C7CC52ADE5DACA1954285 /* libGHybrid.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGHybrid.a; path = libGHybrid.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4372E5BA0E3FE62F3B6A2E7410BEC7 /* GHybrid.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHybrid.xcconfig; sourceTree = "<group>"; };
+		A200506596DACB4CA7A13F8FE7ADAB3F /* DMDekTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDekTask.h; sourceTree = "<group>"; };
+		A26AAB1B322F4DBEAE52312AE277CEFE /* DMASafetyApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMASafetyApi.h; sourceTree = "<group>"; };
+		A36CA4D0CA062378578E7BCDAF3E1D4D /* DMASafetyApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMASafetyApi.m; sourceTree = "<group>"; };
+		A62C883C23788F7157A13DC5D5EB5A8B /* GHybrid.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GHybrid.m; sourceTree = "<group>"; };
+		AC7AE27CAF30839619F628701805A431 /* DMAUCPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMAUCPage.h; sourceTree = "<group>"; };
+		B09177E63EBDC05422F98D8D9CBF0DDF /* DMALoggerApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMALoggerApi.m; sourceTree = "<group>"; };
+		BD0036D67A50FF3A4F26423D30ABDFF6 /* DMLogin */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DMLogin; path = DMLogin.xcodeproj; sourceTree = "<group>"; };
+		C2F8390B627FDC39571307E2B0BEE567 /* DMAClientInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMAClientInfo.m; sourceTree = "<group>"; };
+		C33DB1DAD444D7E603455C0FA7BCC29B /* DMAClientInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMAClientInfo.h; sourceTree = "<group>"; };
+		C3AB333F59FE420C083141B7E643B7FE /* DMACityApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMACityApi.h; sourceTree = "<group>"; };
+		D5A51FC9F6A635B077626227DC40E249 /* DMHybridViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMHybridViewController.h; path = GHybrid/DMHybridViewController.h; sourceTree = "<group>"; };
+		D5D64A0CE0F8278E6752FF44E5E79095 /* DMAXMLHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMAXMLHttpRequest.h; sourceTree = "<group>"; };
+		D622ABF040A55E10D040B82AE82F124F /* DMUploadImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMUploadImage.h; sourceTree = "<group>"; };
+		D8D11ADD10DDED078E22EA9FF4A6F393 /* DMAWidget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMAWidget.h; sourceTree = "<group>"; };
+		DD11CAEB7275451CBB61D2DD75C37950 /* DMACache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMACache.h; sourceTree = "<group>"; };
+		E1555C97CE83ED29FE805EA7157A1608 /* DMALocationApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMALocationApi.h; sourceTree = "<group>"; };
+		E9C6A69A0EF84D9F3134084AA05D573D /* GHybrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GHybrid.h; sourceTree = "<group>"; };
+		EDE028968444AEC7C2EA06F04393C414 /* DMAApiBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMAApiBridge.h; sourceTree = "<group>"; };
+		F0D0D651F39D259EC95F47F43FCC53E6 /* DMAApiBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMAApiBridge.m; sourceTree = "<group>"; };
+		F55ACB20EEBA64377B070B3E0AAA2D22 /* DMAUserCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMAUserCenter.m; sourceTree = "<group>"; };
+		FE6272426266FB7F00A85D367C8475BF /* DMAXMLHttpRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMAXMLHttpRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57D1148DE0F12BE6AC0AE432BCFB9C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063DDBD55A2BD30ED65928ADEDF688AE /* hybrid */ = {
+			isa = PBXGroup;
+			children = (
+				E9C6A69A0EF84D9F3134084AA05D573D /* GHybrid.h */,
+				A62C883C23788F7157A13DC5D5EB5A8B /* GHybrid.m */,
+			);
+			name = hybrid;
+			path = GHybrid/hybrid;
+			sourceTree = "<group>";
+		};
+		11676033883C75DF4DC26B4C9BAFC45D /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				DD11CAEB7275451CBB61D2DD75C37950 /* DMACache.h */,
+				3E54D1A85CB17B3D81D0B9058D91CA25 /* DMACache.m */,
+			);
+			name = cache;
+			path = cache;
+			sourceTree = "<group>";
+		};
+		1242A31802F3B606AFCB6D5A68A59FF5 /* business */ = {
+			isa = PBXGroup;
+			children = (
+				5051F83DD1E4867F6C73C20A7EF6A27B /* ucpage */,
+			);
+			name = business;
+			path = business;
+			sourceTree = "<group>";
+		};
+		3A0A5D212679000A6AD1320315BA21FC /* apibridge */ = {
+			isa = PBXGroup;
+			children = (
+				EDE028968444AEC7C2EA06F04393C414 /* DMAApiBridge.h */,
+				F0D0D651F39D259EC95F47F43FCC53E6 /* DMAApiBridge.m */,
+			);
+			name = apibridge;
+			path = apibridge;
+			sourceTree = "<group>";
+		};
+		3FB976F9AA2D86A32D4A2EF2E349FDA7 /* request */ = {
+			isa = PBXGroup;
+			children = (
+				D5D64A0CE0F8278E6752FF44E5E79095 /* DMAXMLHttpRequest.h */,
+				FE6272426266FB7F00A85D367C8475BF /* DMAXMLHttpRequest.m */,
+			);
+			name = request;
+			path = request;
+			sourceTree = "<group>";
+		};
+		5051F83DD1E4867F6C73C20A7EF6A27B /* ucpage */ = {
+			isa = PBXGroup;
+			children = (
+				AC7AE27CAF30839619F628701805A431 /* DMAUCPage.h */,
+				54EB1E78D125110EF0A7505A0D397168 /* DMAUCPage.m */,
+			);
+			name = ucpage;
+			path = ucpage;
+			sourceTree = "<group>";
+		};
+		6C3871A3BE6571C4D5AF0EA22E6B0FD7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				87703BBC7E8BDC6C382AA9B7A2CF5EAC /* GHybrid.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7EC84940449A80C5A9551AD288B7EE88 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D4372E5BA0E3FE62F3B6A2E7410BEC7 /* GHybrid.xcconfig */,
+				2A31979264AC6F482A3974343195CC18 /* GHybrid-dummy.m */,
+				8050BE8769D0743D982CEB41772588E4 /* GHybrid-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/GHybrid";
+			sourceTree = "<group>";
+		};
+		8ABBED87FA5B9838B4EAC150DCB9162F /* GHybrid */ = {
+			isa = PBXGroup;
+			children = (
+				D5A51FC9F6A635B077626227DC40E249 /* DMHybridViewController.h */,
+				0FA511D23377D6A812DB56B67C570AF2 /* DMHybridViewController.m */,
+				FFA7643D93464E0B719CC23FFDFE5010 /* Actions */,
+				95673E3035B3657F899F676FA350D1D6 /* dek */,
+				063DDBD55A2BD30ED65928ADEDF688AE /* hybrid */,
+				6C3871A3BE6571C4D5AF0EA22E6B0FD7 /* Pod */,
+				7EC84940449A80C5A9551AD288B7EE88 /* Support Files */,
+			);
+			name = GHybrid;
+			path = ../components/business/GHybrid;
+			sourceTree = "<group>";
+		};
+		95673E3035B3657F899F676FA350D1D6 /* dek */ = {
+			isa = PBXGroup;
+			children = (
+				A200506596DACB4CA7A13F8FE7ADAB3F /* DMDekTask.h */,
+				742AA3779437692B7FE67BF90F2F7AB1 /* DMDekTask.m */,
+				68508F8F0DF5E31A77923B2C635E20FB /* DMDekUpdatedDelegate.h */,
+			);
+			name = dek;
+			path = GHybrid/dek;
+			sourceTree = "<group>";
+		};
+		95E82955F8B24B464F594B17DCD6C5AF = {
+			isa = PBXGroup;
+			children = (
+				A05F0BF38E97E4374C07349FCB4B29C4 /* Dependencies */,
+				B786FDB9EA759AD03AB85472BDF1A938 /* Frameworks */,
+				8ABBED87FA5B9838B4EAC150DCB9162F /* GHybrid */,
+				ED03F9469BC29BB859444C10B6D10A57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98487884BCC54A55682F6AE0D77595A5 /* basic */ = {
+			isa = PBXGroup;
+			children = (
+				3A0A5D212679000A6AD1320315BA21FC /* apibridge */,
+				11676033883C75DF4DC26B4C9BAFC45D /* cache */,
+				3FB976F9AA2D86A32D4A2EF2E349FDA7 /* request */,
+			);
+			name = basic;
+			path = basic;
+			sourceTree = "<group>";
+		};
+		A05F0BF38E97E4374C07349FCB4B29C4 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				BD0036D67A50FF3A4F26423D30ABDFF6 /* DMLogin */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		B786FDB9EA759AD03AB85472BDF1A938 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED03F9469BC29BB859444C10B6D10A57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B2FCA848D7C7CC52ADE5DACA1954285 /* libGHybrid.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA7643D93464E0B719CC23FFDFE5010 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				C3AB333F59FE420C083141B7E643B7FE /* DMACityApi.h */,
+				5D6322157DC02A2233011DC635B5BCFF /* DMACityApi.m */,
+				C33DB1DAD444D7E603455C0FA7BCC29B /* DMAClientInfo.h */,
+				C2F8390B627FDC39571307E2B0BEE567 /* DMAClientInfo.m */,
+				6DDC497E02F8479117B7B4C046778181 /* DMAClientUI.h */,
+				36FE9A04B252A00682FE0E8A666977DE /* DMAClientUI.m */,
+				E1555C97CE83ED29FE805EA7157A1608 /* DMALocationApi.h */,
+				3F6FDBBD67520352B3E7FE66F8B8CA5B /* DMALocationApi.m */,
+				70ECF11D9AED3D5F9090A841FBF4EC65 /* DMALoggerApi.h */,
+				B09177E63EBDC05422F98D8D9CBF0DDF /* DMALoggerApi.m */,
+				268BBE757CCD1CC3DEA8D733EF8F64EF /* DMAPreferencesPage.h */,
+				544D062A162FF613339ECEB6901C13EE /* DMAPreferencesPage.m */,
+				A26AAB1B322F4DBEAE52312AE277CEFE /* DMASafetyApi.h */,
+				A36CA4D0CA062378578E7BCDAF3E1D4D /* DMASafetyApi.m */,
+				847C50D36DB18066865CB9C8174A4C72 /* DMAUCApi.h */,
+				6F64FE3304BA122CE3E3A03F6F02F383 /* DMAUCApi.m */,
+				21EA3E8D97D4CEB851E3BF63D3B34F72 /* DMAUserCenter.h */,
+				F55ACB20EEBA64377B070B3E0AAA2D22 /* DMAUserCenter.m */,
+				D8D11ADD10DDED078E22EA9FF4A6F393 /* DMAWidget.h */,
+				02F14C4596216F4508F86822FDF68030 /* DMAWidget.m */,
+				D622ABF040A55E10D040B82AE82F124F /* DMUploadImage.h */,
+				2890F3BE828D9722A3F3BCE15CA23412 /* DMUploadImage.m */,
+				98487884BCC54A55682F6AE0D77595A5 /* basic */,
+				1242A31802F3B606AFCB6D5A68A59FF5 /* business */,
+			);
+			name = Actions;
+			path = GHybrid/Actions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9F7E983E0CF78A4489BE6C1246A766DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8D6C654BF131D4CE2013D5A5C30636 /* DMAApiBridge.h in Headers */,
+				A525DAC3A00687AB16239B8E1F630199 /* DMACache.h in Headers */,
+				478E27366400CC590BFB33D3E6A019ED /* DMACityApi.h in Headers */,
+				57C3AE3CFD00459F7E1AEA9343571290 /* DMAClientInfo.h in Headers */,
+				45F349FBD8DE464A0E961CD13E01519B /* DMAClientUI.h in Headers */,
+				D6271245F37E2059A25DE2831AA2D77E /* DMALocationApi.h in Headers */,
+				CA038903D4901C4226C2A0EF397C8100 /* DMALoggerApi.h in Headers */,
+				A5ECCA9DFA808F85114A19D8BE440254 /* DMAPreferencesPage.h in Headers */,
+				DCDB7A0B71CE62CB908936987DA16A78 /* DMASafetyApi.h in Headers */,
+				191D64DB99B4792667C357974F574907 /* DMAUCApi.h in Headers */,
+				B2DDDF392C9823DAA4E2582FCD2A1B00 /* DMAUCPage.h in Headers */,
+				84CCFE769EBC4831DF7FF5E6DE8D6339 /* DMAUserCenter.h in Headers */,
+				89EA1BCB6D0EE0AA1E392F1B792FA19F /* DMAWidget.h in Headers */,
+				1178510A70F33EEFA75DEDA5C7C0961B /* DMAXMLHttpRequest.h in Headers */,
+				EDE0D8FEAEF0B4EB99727413296283C4 /* DMDekTask.h in Headers */,
+				3BA6DB70DA7247C772AADF1BD74D055B /* DMDekUpdatedDelegate.h in Headers */,
+				5114884F80B8E157A2329E98A62C3526 /* DMHybridViewController.h in Headers */,
+				DD1A5BFA6B7D6F2E66D5C34ACBAF91E3 /* DMUploadImage.h in Headers */,
+				6D931D9FDBC5FAD54E64023A800BD316 /* GHybrid.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C3290A4B18B84CEA53E826DA57D11955 /* GHybrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60831277B67602A2750000918E55E50 /* Build configuration list for PBXNativeTarget "GHybrid" */;
+			buildPhases = (
+				9F7E983E0CF78A4489BE6C1246A766DD /* Headers */,
+				8C6F2C9DE1598D40EC6E689D168C4C10 /* Sources */,
+				57D1148DE0F12BE6AC0AE432BCFB9C63 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE95BEE104441601BE1A01E2A692B41 /* PBXTargetDependency */,
+			);
+			name = GHybrid;
+			productName = GHybrid;
+			productReference = 8B2FCA848D7C7CC52ADE5DACA1954285 /* libGHybrid.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E8B3DA346400894D47CD10587A2F405 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = E3E7A69E5EBA65364F22AB36F4F5C391 /* Build configuration list for PBXProject "GHybrid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95E82955F8B24B464F594B17DCD6C5AF;
+			productRefGroup = ED03F9469BC29BB859444C10B6D10A57 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = BD0036D67A50FF3A4F26423D30ABDFF6 /* DMLogin */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C3290A4B18B84CEA53E826DA57D11955 /* GHybrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C6F2C9DE1598D40EC6E689D168C4C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BDBCB2A1A0F45E3A2EF2CEE996AFA8 /* DMAApiBridge.m in Sources */,
+				05AC698ED37919A2ACD0BCD6B0F25950 /* DMACache.m in Sources */,
+				A0818B185A7DCD067AFB1F49B9FCA310 /* DMACityApi.m in Sources */,
+				90A996BF580D165D43D05B24FAA38AF0 /* DMAClientInfo.m in Sources */,
+				0A7318536F57F3850005A6EFC2E37286 /* DMAClientUI.m in Sources */,
+				F8F6A99EE8B62568B5F91B80B723823D /* DMALocationApi.m in Sources */,
+				C0D2D1EC34D67AA119B31781F2EFA845 /* DMALoggerApi.m in Sources */,
+				578134D9DB1F3CE65221675D6102460C /* DMAPreferencesPage.m in Sources */,
+				B8ABFC7A150FD48E24AE8C9F54F15A9B /* DMASafetyApi.m in Sources */,
+				6C16DDEAE399CBF7BA9707BBCDD77F6B /* DMAUCApi.m in Sources */,
+				05A16A55D9E323826AD1F1E6A20AFE62 /* DMAUCPage.m in Sources */,
+				D394C24D3D50C39382FC97162670F18B /* DMAUserCenter.m in Sources */,
+				4286EB8E2F27AF505C2BBCBC5FC6FB2C /* DMAWidget.m in Sources */,
+				38053AD14947D54DAAD01FACF9B2D84C /* DMAXMLHttpRequest.m in Sources */,
+				80BCD90C478B14149E122E89AB7ECE84 /* DMDekTask.m in Sources */,
+				D629638D56284D0E50968BABEF23C486 /* DMHybridViewController.m in Sources */,
+				50B58EA8AE93D525D61DB652E491AB6C /* DMUploadImage.m in Sources */,
+				DC6528B6FFDD6627F158422AEC08B638 /* GHybrid-dummy.m in Sources */,
+				6C117919207DB05DE992373A766BA2A9 /* GHybrid.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAE95BEE104441601BE1A01E2A692B41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DMLogin;
+			targetProxy = FA7F869B01468766B7A01CF58BA874C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7602ED5E0FD211B167634DF8D074B18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		84743C5B579B037C170D4E9560E46A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ACFE92F941E6E1B97399F9CE355BD9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4372E5BA0E3FE62F3B6A2E7410BEC7 /* GHybrid.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GHybrid/GHybrid-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GHybrid;
+				PRODUCT_NAME = GHybrid;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4FFA564B71FD1842402ECAB60565CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4372E5BA0E3FE62F3B6A2E7410BEC7 /* GHybrid.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GHybrid/GHybrid-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GHybrid;
+				PRODUCT_NAME = GHybrid;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C60831277B67602A2750000918E55E50 /* Build configuration list for PBXNativeTarget "GHybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFE92F941E6E1B97399F9CE355BD9F5 /* Debug */,
+				B4FFA564B71FD1842402ECAB60565CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E7A69E5EBA65364F22AB36F4F5C391 /* Build configuration list for PBXProject "GHybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7602ED5E0FD211B167634DF8D074B18C /* Debug */,
+				84743C5B579B037C170D4E9560E46A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E8B3DA346400894D47CD10587A2F405 /* Project object */;
+}

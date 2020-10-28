@@ -1,0 +1,1 @@
+../../../../components/business/GBusinessDetailPage/GDetailPage/detail/model/DMDetailModel.h

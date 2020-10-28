@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		248DF62C3A7C8A35AC08998578B90889 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = AE7EA2CB16294C67025396C06F0E64F3 /* Logger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F2BB770FEABF3A4BB19807D53D58D32 /* GSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DFE4443AE033EF2162882EEA8ECFD46 /* GSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37E14ABAC3EC127FD2AF3450F55961E8 /* LoggerBeautiful.h in Headers */ = {isa = PBXBuildFile; fileRef = A281847BCBF5EF448C354E1404B36050 /* LoggerBeautiful.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4764619786C911734FAFB58E0887FEB3 /* GLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCEE810022351F1CFF833DD825BC43 /* GLogger-dummy.m */; };
+		60532A6B25FD6EB4723BDD82ABC733BF /* GSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E84FB84C5EAF5B9E949B3BB659EAA3 /* GSocket.m */; };
+		BCF5EE64F6CCE24D8FFE9F91D25BC6DD /* LoggerBeautiful.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0DB798D51E121733B333651A48C643 /* LoggerBeautiful.m */; };
+		EAFC9058CA53C96A71FD10CE92233761 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = EF36665B663F1A555DA8B43AC2A56BD2 /* Logger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		323A3D80581608DC3DC3AF830CDE788A /* GLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		36E84FB84C5EAF5B9E949B3BB659EAA3 /* GSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GSocket.m; path = GLogger/GSocket.m; sourceTree = "<group>"; };
+		57DEB7C38E562D4FEEC1720B4229A416 /* GLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLogger.xcconfig; sourceTree = "<group>"; };
+		5F0DB798D51E121733B333651A48C643 /* LoggerBeautiful.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoggerBeautiful.m; sourceTree = "<group>"; };
+		69981B730E91EF6478FFD40829DDED4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6CCCEE810022351F1CFF833DD825BC43 /* GLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLogger-dummy.m"; sourceTree = "<group>"; };
+		6DFE4443AE033EF2162882EEA8ECFD46 /* GSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GSocket.h; path = GLogger/GSocket.h; sourceTree = "<group>"; };
+		74C3217D9A74AF92D499FDD80B85ADDE /* libGLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGLogger.a; path = libGLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A281847BCBF5EF448C354E1404B36050 /* LoggerBeautiful.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoggerBeautiful.h; sourceTree = "<group>"; };
+		AE7EA2CB16294C67025396C06F0E64F3 /* Logger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Logger.h; path = GLogger/Logger.h; sourceTree = "<group>"; };
+		B695678B6E289279FC8387080E8F3636 /* GLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLogger-prefix.pch"; sourceTree = "<group>"; };
+		EF36665B663F1A555DA8B43AC2A56BD2 /* Logger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Logger.m; path = GLogger/Logger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F357DA2C11CE37578368BF7ABC1D797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31CFA837105635A37060B4D12CFBA092 = {
+			isa = PBXGroup;
+			children = (
+				A5CE85AA26D4A96DC539468426948CAC /* Frameworks */,
+				9E591E1415352373972A2C0FC735B2E9 /* GLogger */,
+				DADE4A9F03E3E9F9FA1FC6C91F6AF57E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D526E1D0F34C0B8D618613F633756ED /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				323A3D80581608DC3DC3AF830CDE788A /* GLogger.podspec */,
+				69981B730E91EF6478FFD40829DDED4A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		84DB579A80103FDF2C0728BCFE93728E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57DEB7C38E562D4FEEC1720B4229A416 /* GLogger.xcconfig */,
+				6CCCEE810022351F1CFF833DD825BC43 /* GLogger-dummy.m */,
+				B695678B6E289279FC8387080E8F3636 /* GLogger-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/GLogger";
+			sourceTree = "<group>";
+		};
+		9CA765BE40C799BCC96CF0D1411FE5F4 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				A281847BCBF5EF448C354E1404B36050 /* LoggerBeautiful.h */,
+				5F0DB798D51E121733B333651A48C643 /* LoggerBeautiful.m */,
+			);
+			name = Foundation;
+			path = GLogger/Foundation;
+			sourceTree = "<group>";
+		};
+		9E591E1415352373972A2C0FC735B2E9 /* GLogger */ = {
+			isa = PBXGroup;
+			children = (
+				6DFE4443AE033EF2162882EEA8ECFD46 /* GSocket.h */,
+				36E84FB84C5EAF5B9E949B3BB659EAA3 /* GSocket.m */,
+				AE7EA2CB16294C67025396C06F0E64F3 /* Logger.h */,
+				EF36665B663F1A555DA8B43AC2A56BD2 /* Logger.m */,
+				9CA765BE40C799BCC96CF0D1411FE5F4 /* Foundation */,
+				4D526E1D0F34C0B8D618613F633756ED /* Pod */,
+				84DB579A80103FDF2C0728BCFE93728E /* Support Files */,
+			);
+			name = GLogger;
+			path = ../components/basic/GLogger;
+			sourceTree = "<group>";
+		};
+		A5CE85AA26D4A96DC539468426948CAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DADE4A9F03E3E9F9FA1FC6C91F6AF57E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74C3217D9A74AF92D499FDD80B85ADDE /* libGLogger.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9C8A539E49ADF8FC80B753F87F3EC5BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2BB770FEABF3A4BB19807D53D58D32 /* GSocket.h in Headers */,
+				248DF62C3A7C8A35AC08998578B90889 /* Logger.h in Headers */,
+				37E14ABAC3EC127FD2AF3450F55961E8 /* LoggerBeautiful.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		806102799C442528E2CEBB47B974B00B /* GLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E980B12AEDCE7296B36FB62901112E /* Build configuration list for PBXNativeTarget "GLogger" */;
+			buildPhases = (
+				9C8A539E49ADF8FC80B753F87F3EC5BE /* Headers */,
+				36E23209833C8AE973F3A4C772F1DCB3 /* Sources */,
+				3F357DA2C11CE37578368BF7ABC1D797 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLogger;
+			productName = GLogger;
+			productReference = 74C3217D9A74AF92D499FDD80B85ADDE /* libGLogger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC7F8D7FFB736B1883C63936837FE559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 42118589EEEAF2A9FB6472F86045CC6F /* Build configuration list for PBXProject "GLogger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31CFA837105635A37060B4D12CFBA092;
+			productRefGroup = DADE4A9F03E3E9F9FA1FC6C91F6AF57E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				806102799C442528E2CEBB47B974B00B /* GLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36E23209833C8AE973F3A4C772F1DCB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4764619786C911734FAFB58E0887FEB3 /* GLogger-dummy.m in Sources */,
+				60532A6B25FD6EB4723BDD82ABC733BF /* GSocket.m in Sources */,
+				EAFC9058CA53C96A71FD10CE92233761 /* Logger.m in Sources */,
+				BCF5EE64F6CCE24D8FFE9F91D25BC6DD /* LoggerBeautiful.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64A1483D5781F8C4A77C36AD8CD7646A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		89F5619E2FF4991B3C80F8D368C02634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57DEB7C38E562D4FEEC1720B4229A416 /* GLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GLogger/GLogger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GLogger;
+				PRODUCT_NAME = GLogger;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C430BFAA053707B0F3768B0C87EE350B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FD669A8B65DF7081D1E4376B1A6AA525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57DEB7C38E562D4FEEC1720B4229A416 /* GLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GLogger/GLogger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GLogger;
+				PRODUCT_NAME = GLogger;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42118589EEEAF2A9FB6472F86045CC6F /* Build configuration list for PBXProject "GLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C430BFAA053707B0F3768B0C87EE350B /* Debug */,
+				64A1483D5781F8C4A77C36AD8CD7646A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E980B12AEDCE7296B36FB62901112E /* Build configuration list for PBXNativeTarget "GLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD669A8B65DF7081D1E4376B1A6AA525 /* Debug */,
+				89F5619E2FF4991B3C80F8D368C02634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC7F8D7FFB736B1883C63936837FE559 /* Project object */;
+}

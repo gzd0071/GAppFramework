@@ -1,0 +1,24 @@
+{
+  "name": "DMEncrypt",
+  "version": "0.1.0",
+  "summary": "DMEncrypt.",
+  "description": "DMEncrypt the convi",
+  "homepage": "https://github.com/katongzhong1/DMEncrypt",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/DMEncrypt.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "DMEncrypt",
+    "DMEncrypt/**/*.{h,m}"
+  ],
+  "vendored_libraries": "DMEncrypt/support/libdek.a",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

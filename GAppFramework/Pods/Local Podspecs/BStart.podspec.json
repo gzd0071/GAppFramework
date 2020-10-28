@@ -1,0 +1,28 @@
+{
+  "name": "BStart",
+  "version": "0.1.0",
+  "summary": "BStart.",
+  "description": "BStart the convi",
+  "homepage": "https://github.com/katongzhong1/BStart",
+  "license": "MIT",
+  "authors": {
+    "guozhongda": "guozhongda@doumi.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/BStart.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "BStart",
+    "BStart/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "DMLogin": [
+
+    ]
+  }
+}

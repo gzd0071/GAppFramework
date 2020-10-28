@@ -1,0 +1,23 @@
+{
+  "name": "DMConst",
+  "version": "0.1.0",
+  "summary": "DMConst.",
+  "description": "DMConst the convi",
+  "homepage": "https://github.com/katongzhong1/DMConst",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/DMConst.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "DMConst",
+    "DMConst/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "8.0"
+  }
+}

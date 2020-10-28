@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D8601DBEC21BBCD74E88D748D5974CC /* DMMineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E91ABD5CAE69E01EFDC0D772ED7831 /* DMMineViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		79F396B98BD518E001203F427F4FB908 /* DMDefaultHybridViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 00DAF878A6ACD97836ACA780DBEFD496 /* DMDefaultHybridViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C53F6AA3AFD3404F473E65BA0650F6F /* DMDefaultHybridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E489926DD15019BBC1ABAF546494B38B /* DMDefaultHybridViewController.m */; };
+		8068B31238209CFC0F9A85B6E35A298F /* GBusinessMine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 294EF4BA39924CEE47C4ADA914F55967 /* GBusinessMine-dummy.m */; };
+		D400D75CBE439ACB582DAC1716B1C4B5 /* DMMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465DFD28A1B516A753FE7EADA13BA497 /* DMMineViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CB3E3D90299D71AD2825E9D1F77F016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3909A5E2F36F425B4F6FF51151003A80 /* DMLogin.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E0AA5351C6BB8EBD6B813491B9A3E3F5;
+			remoteInfo = DMLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DAF878A6ACD97836ACA780DBEFD496 /* DMDefaultHybridViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMDefaultHybridViewController.h; sourceTree = "<group>"; };
+		294EF4BA39924CEE47C4ADA914F55967 /* GBusinessMine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBusinessMine-dummy.m"; sourceTree = "<group>"; };
+		340D917B4E318A105BAF7A9E381B2CAB /* GBusinessMine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBusinessMine-prefix.pch"; sourceTree = "<group>"; };
+		3909A5E2F36F425B4F6FF51151003A80 /* DMLogin */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DMLogin; path = DMLogin.xcodeproj; sourceTree = "<group>"; };
+		454D28B523FC16884D8A54CC9E87BAF5 /* libGBusinessMine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGBusinessMine.a; path = libGBusinessMine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		465DFD28A1B516A753FE7EADA13BA497 /* DMMineViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMMineViewController.m; sourceTree = "<group>"; };
+		742E28FB9027468D7DB5E2169418410A /* GBusinessMine.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBusinessMine.xcconfig; sourceTree = "<group>"; };
+		B9E91ABD5CAE69E01EFDC0D772ED7831 /* DMMineViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMMineViewController.h; sourceTree = "<group>"; };
+		BB1D9309B8EF248EC2A8C62B12D6C9A0 /* GBusinessMine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GBusinessMine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E489926DD15019BBC1ABAF546494B38B /* DMDefaultHybridViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DMDefaultHybridViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F4D51290680E01E8FD83BA8A421C5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147EF9CFF175712631015D1C83765E96 /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				B9E91ABD5CAE69E01EFDC0D772ED7831 /* DMMineViewController.h */,
+				465DFD28A1B516A753FE7EADA13BA497 /* DMMineViewController.m */,
+			);
+			name = mine;
+			path = GMine/mine;
+			sourceTree = "<group>";
+		};
+		2C0FD27ABAA90FA71A4AE7107CC4F449 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BB1D9309B8EF248EC2A8C62B12D6C9A0 /* GBusinessMine.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		34DCAC18C0F357D193E84D32EF8F848E /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				3909A5E2F36F425B4F6FF51151003A80 /* DMLogin */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		562AF069B6EFA6C52579A17DC25AEC98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				454D28B523FC16884D8A54CC9E87BAF5 /* libGBusinessMine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DA6E86A2C36EF2B27B3529CC44240B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				742E28FB9027468D7DB5E2169418410A /* GBusinessMine.xcconfig */,
+				294EF4BA39924CEE47C4ADA914F55967 /* GBusinessMine-dummy.m */,
+				340D917B4E318A105BAF7A9E381B2CAB /* GBusinessMine-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/GBusinessMine";
+			sourceTree = "<group>";
+		};
+		93F1BFE5BBA5E6AFA643A86E9B5E0CCC = {
+			isa = PBXGroup;
+			children = (
+				34DCAC18C0F357D193E84D32EF8F848E /* Dependencies */,
+				BE6F5192BB0B8656A0A2EDB4663A03A2 /* Frameworks */,
+				DEDED1BF9A7B25060A60AF93A1B2D6A8 /* GBusinessMine */,
+				562AF069B6EFA6C52579A17DC25AEC98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE6F5192BB0B8656A0A2EDB4663A03A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEDED1BF9A7B25060A60AF93A1B2D6A8 /* GBusinessMine */ = {
+			isa = PBXGroup;
+			children = (
+				F4B1E489DE15AEA5694450052EFEEC29 /* default */,
+				147EF9CFF175712631015D1C83765E96 /* mine */,
+				2C0FD27ABAA90FA71A4AE7107CC4F449 /* Pod */,
+				6DA6E86A2C36EF2B27B3529CC44240B3 /* Support Files */,
+			);
+			name = GBusinessMine;
+			path = ../components/business/GBusinessMine;
+			sourceTree = "<group>";
+		};
+		F4B1E489DE15AEA5694450052EFEEC29 /* default */ = {
+			isa = PBXGroup;
+			children = (
+				00DAF878A6ACD97836ACA780DBEFD496 /* DMDefaultHybridViewController.h */,
+				E489926DD15019BBC1ABAF546494B38B /* DMDefaultHybridViewController.m */,
+			);
+			name = default;
+			path = GMine/default;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33944FB4A8B8171EEB6973CEF6D26660 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F396B98BD518E001203F427F4FB908 /* DMDefaultHybridViewController.h in Headers */,
+				0D8601DBEC21BBCD74E88D748D5974CC /* DMMineViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9EE7ACB06ADFDB40EFC3412902BBE25D /* GBusinessMine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637A6E7E3D20DFBCE79292252443BBD4 /* Build configuration list for PBXNativeTarget "GBusinessMine" */;
+			buildPhases = (
+				33944FB4A8B8171EEB6973CEF6D26660 /* Headers */,
+				E46946F3B627DEF44C96212CE2F88256 /* Sources */,
+				1F4D51290680E01E8FD83BA8A421C5B4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF43B22D6A2A85B017DC8F515F75CA43 /* PBXTargetDependency */,
+			);
+			name = GBusinessMine;
+			productName = GBusinessMine;
+			productReference = 454D28B523FC16884D8A54CC9E87BAF5 /* libGBusinessMine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDFBF2B1FBBFC864B3E4ECD4C0D12C0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 748A0F3B14B12003AEC9D1F608F31BA9 /* Build configuration list for PBXProject "GBusinessMine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93F1BFE5BBA5E6AFA643A86E9B5E0CCC;
+			productRefGroup = 562AF069B6EFA6C52579A17DC25AEC98 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 3909A5E2F36F425B4F6FF51151003A80 /* DMLogin */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9EE7ACB06ADFDB40EFC3412902BBE25D /* GBusinessMine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E46946F3B627DEF44C96212CE2F88256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C53F6AA3AFD3404F473E65BA0650F6F /* DMDefaultHybridViewController.m in Sources */,
+				D400D75CBE439ACB582DAC1716B1C4B5 /* DMMineViewController.m in Sources */,
+				8068B31238209CFC0F9A85B6E35A298F /* GBusinessMine-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF43B22D6A2A85B017DC8F515F75CA43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DMLogin;
+			targetProxy = 4CB3E3D90299D71AD2825E9D1F77F016 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10F1DD64FAA7F77FCD9D318E83EB9E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3B53498B73CAE3FAFF00ACDF20A11EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742E28FB9027468D7DB5E2169418410A /* GBusinessMine.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GBusinessMine/GBusinessMine-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GBusinessMine;
+				PRODUCT_NAME = GBusinessMine;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A483E924A5C20A6B676B60CFEDD7B3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742E28FB9027468D7DB5E2169418410A /* GBusinessMine.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GBusinessMine/GBusinessMine-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GBusinessMine;
+				PRODUCT_NAME = GBusinessMine;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA73E538FDEB65B99F69855A6FE7C7BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637A6E7E3D20DFBCE79292252443BBD4 /* Build configuration list for PBXNativeTarget "GBusinessMine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B53498B73CAE3FAFF00ACDF20A11EF2 /* Debug */,
+				A483E924A5C20A6B676B60CFEDD7B3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		748A0F3B14B12003AEC9D1F608F31BA9 /* Build configuration list for PBXProject "GBusinessMine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA73E538FDEB65B99F69855A6FE7C7BC /* Debug */,
+				10F1DD64FAA7F77FCD9D318E83EB9E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDFBF2B1FBBFC864B3E4ECD4C0D12C0A /* Project object */;
+}

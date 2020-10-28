@@ -1,0 +1,43 @@
+{
+  "name": "ABaseLib",
+  "version": "0.1.0",
+  "summary": "ABaseLib.",
+  "description": "ABaseLib the convi",
+  "homepage": "https://github.com/katongzhong1/ABaseLib",
+  "license": "MIT",
+  "authors": {
+    "guozhongda": "guozhongda@doumi.com"
+  },
+  "source": {
+    "git": "git@github.com:katongzhong1/ABaseLib.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "ABaseLib",
+    "ABaseLib/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "AFNetworking": [
+
+    ],
+    "ReactiveObjC": [
+      "3.1.1"
+    ],
+    "YYKit": [
+      "1.0.9"
+    ],
+    "MJRefresh": [
+      "3.1.16"
+    ],
+    "SDWebImage": [
+      "5.0.2"
+    ]
+  }
+}

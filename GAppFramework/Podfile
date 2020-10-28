@@ -1,0 +1,59 @@
+source 'https://github.com/CocoaPods/Specs.git'
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+#inhibit_all_warnings!
+install! 'cocoapods',
+    disable_input_output_paths: true,
+    generate_multiple_pod_projects: true
+
+target 'GAppFramework' do
+  # Pods for Doumi
+  pod 'MMKV', '1.0.17'
+  pod 'SSZipArchive', '2.1.5'
+  pod 'SAMKeychain', '1.5.3'
+  pod 'SMPageControl', '1.2'
+  pod 'Aspects', '1.4.1'
+#  pod 'IQKeyboardManager', '6.5.4'
+  pod 'YYKit', '1.0.9',                :inhibit_warnings => true
+
+  pod "WeChatLib", :path => './components/thirdParty/WeChatLib'
+  pod "DMLogin", :path => './components/business/DMLogin'
+  # 基础组件
+  pod 'CocoaLumberjack',  :configurations => ['Debug']
+  pod 'CocoaHTTPServer',  :configurations => ['Debug']
+  pod 'CocoaAsyncSocket', :configurations => ['Debug']
+  pod 'GLogger',         :path => './components/basic/GLogger',                 :configurations => ['Debug']
+  pod 'GBaseLib',        :path => './components/basic/GBaseLib',                :inhibit_warnings => true
+  pod 'GTask',           :path => './components/basic/GTask'
+  pod 'GProtocol',       :path => './components/basic/GProtocol'
+  pod 'GHttpRequest',    :path => './components/basic/GHttpRequest'
+  pod 'GRouter',         :path => './components/basic/GRouter'
+  pod 'GPermission',     :path => './components/basic/GPermission'
+  pod 'GUILib',          :path => './components/basic/GUILib'
+  # [锚点-0] -- 脚本锚点勿动勿删
+  # 业务支撑组件
+  pod 'GMainTab',        :path => './components/basic/GMainTab'
+  pod 'DMToken',         :path => './components/businessSupport/DMToken'
+  pod 'GShareComponent', :path => './components/businessSupport/GShareComponent'
+  pod 'GHttpConfig',    :path => './components/businessSupport/GHttpConfig'
+  pod 'DMEncrypt',       :path => './components/businessSupport/DMEncrypt'
+  pod 'DMUILib',         :path => './components/businessSupport/DMUILib'
+  pod 'GLocation',      :path => './components/businessSupport/GLocation'
+  pod 'GConst',         :path => './components/businessSupport/GConst'
+  pod 'GDebugger',        :path => './components/businessSupport/GDebugger',      :configurations => ['Debug']
+  # [锚点-1] -- 脚本锚点勿动勿删
+  # 业务组件
+  pod 'GBusinessHomeList',       :path => './components/business/GBusinessHomeList'
+  pod 'GBusinessDetailPage',     :path => './components/business/GBusinessDetailPage'
+  pod 'GBusinessMine',       :path => './components/business/GBusinessMine'
+  pod 'GHybrid',        :path => './components/business/GHybrid'
+  pod 'GStart',         :path => './components/business/GStart'
+  pod 'GPush',           :path => './components/business/GPush'
+  # [锚点-2] -- 脚本锚点勿动勿删
+  target 'GAppFrameworkTests' do
+    inherit! :search_paths
+  end
+  target 'GAppFrameworkUITests' do
+    inherit! :search_paths
+  end
+end

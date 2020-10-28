@@ -1,0 +1,23 @@
+{
+  "name": "GPush",
+  "version": "0.1.0",
+  "summary": "GPush.",
+  "description": "GPush the convi",
+  "homepage": "http://temp/GPush",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "http://temp/GPush.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "GPush",
+    "GPush/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}

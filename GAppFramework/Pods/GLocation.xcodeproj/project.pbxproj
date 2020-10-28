@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1033E1AF5E9A3406F0CAC405DA076346 /* GMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4599C80B4213B07C2BA7C4C5EFE57D /* GMapView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DC514C00B2388B34E2DC200B3412D01 /* GLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = E979773E3858676652E7CBAD957332AC /* GLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		20A9AB5FF5F6C3AA36B08F79531D6966 /* GLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF1B97DF6A76FE71F259EC89017425F /* GLocation.m */; };
+		2C48A03C20FBB0E46A1F2CED4418D35B /* GLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 792C27BE5EE7C1C6D4849F0594E7B12F /* GLocation-dummy.m */; };
+		A0D23B678BC9948AA5F9C948C2886283 /* GMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE66FA24A19F5DF872C10D70F07409DF /* GMapView.m */; };
+		C74F8F346450E73FE4347CC3037DBE5F /* GALocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 123F1F594204D21E39CAFC80BA5DC19E /* GALocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3EBA5BC80F68F13A9591BC983B5C34 /* GALocation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE35A18A957F4EC799A3962C8BC44CA8 /* GALocation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5616D52991941BB890BC424214EC1C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59AFDBB2CA6C80CD4DF105FB0D627590 /* BaiduMapKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 757204F65884C1603C2AF71AED97F002;
+			remoteInfo = BaiduMapKit;
+		};
+		FA1EC773331566C87E83549227C4343A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6BD78395ABCC3B82DC23A517266B639 /* BMKLocationKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 374FBC7427BBFE615C7E04A259690B6B;
+			remoteInfo = BMKLocationKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		123F1F594204D21E39CAFC80BA5DC19E /* GALocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GALocation.h; path = GLocation/GALocation.h; sourceTree = "<group>"; };
+		59AFDBB2CA6C80CD4DF105FB0D627590 /* BaiduMapKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BaiduMapKit; path = BaiduMapKit.xcodeproj; sourceTree = "<group>"; };
+		792C27BE5EE7C1C6D4849F0594E7B12F /* GLocation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLocation-dummy.m"; sourceTree = "<group>"; };
+		81A1009291FF8AD72ABFA28D7583EDA9 /* GLocation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLocation.xcconfig; sourceTree = "<group>"; };
+		BAF1B97DF6A76FE71F259EC89017425F /* GLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GLocation.m; path = GLocation/GLocation.m; sourceTree = "<group>"; };
+		BE66FA24A19F5DF872C10D70F07409DF /* GMapView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMapView.m; path = GLocation/GMapView.m; sourceTree = "<group>"; };
+		BF900D73F98921A73ABF99147786F606 /* GLocation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GLocation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CD4599C80B4213B07C2BA7C4C5EFE57D /* GMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMapView.h; path = GLocation/GMapView.h; sourceTree = "<group>"; };
+		D6D67CE462B57617469DACF6D4AE1665 /* GLocation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLocation-prefix.pch"; sourceTree = "<group>"; };
+		E46705E272C84F202F413DF1F6E77D74 /* libGLocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGLocation.a; path = libGLocation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E979773E3858676652E7CBAD957332AC /* GLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLocation.h; path = GLocation/GLocation.h; sourceTree = "<group>"; };
+		EE35A18A957F4EC799A3962C8BC44CA8 /* GALocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GALocation.m; path = GLocation/GALocation.m; sourceTree = "<group>"; };
+		F6BD78395ABCC3B82DC23A517266B639 /* BMKLocationKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BMKLocationKit; path = BMKLocationKit.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B46F928DFFB7CD6D8B5FE25241F979CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0020D9B74D1F74F3CDE2E16D89CD1766 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				59AFDBB2CA6C80CD4DF105FB0D627590 /* BaiduMapKit */,
+				F6BD78395ABCC3B82DC23A517266B639 /* BMKLocationKit */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		0BFD757579DC790E6607F243F8E2723F /* GLocation */ = {
+			isa = PBXGroup;
+			children = (
+				123F1F594204D21E39CAFC80BA5DC19E /* GALocation.h */,
+				EE35A18A957F4EC799A3962C8BC44CA8 /* GALocation.m */,
+				E979773E3858676652E7CBAD957332AC /* GLocation.h */,
+				BAF1B97DF6A76FE71F259EC89017425F /* GLocation.m */,
+				CD4599C80B4213B07C2BA7C4C5EFE57D /* GMapView.h */,
+				BE66FA24A19F5DF872C10D70F07409DF /* GMapView.m */,
+				9A455DF299F28BE00BCC4354FEB04F4B /* Pod */,
+				C7CE41F12A6D3580C239D50C896CB195 /* Support Files */,
+			);
+			name = GLocation;
+			path = ../components/businessSupport/GLocation;
+			sourceTree = "<group>";
+		};
+		7F3E414011005847682E4C63E88A18D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E46705E272C84F202F413DF1F6E77D74 /* libGLocation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		870E34ED61098931689B13692F7D3044 = {
+			isa = PBXGroup;
+			children = (
+				0020D9B74D1F74F3CDE2E16D89CD1766 /* Dependencies */,
+				88AD79A05C85A393981A40100D95BD90 /* Frameworks */,
+				0BFD757579DC790E6607F243F8E2723F /* GLocation */,
+				7F3E414011005847682E4C63E88A18D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88AD79A05C85A393981A40100D95BD90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A455DF299F28BE00BCC4354FEB04F4B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BF900D73F98921A73ABF99147786F606 /* GLocation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C7CE41F12A6D3580C239D50C896CB195 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81A1009291FF8AD72ABFA28D7583EDA9 /* GLocation.xcconfig */,
+				792C27BE5EE7C1C6D4849F0594E7B12F /* GLocation-dummy.m */,
+				D6D67CE462B57617469DACF6D4AE1665 /* GLocation-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/GLocation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E5D90A8374DF75537B32D442C2A3EF5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74F8F346450E73FE4347CC3037DBE5F /* GALocation.h in Headers */,
+				1DC514C00B2388B34E2DC200B3412D01 /* GLocation.h in Headers */,
+				1033E1AF5E9A3406F0CAC405DA076346 /* GMapView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E83595FDDFBBC5AA6EB9BE59A6DE32AD /* GLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7B93FCC2B9A45A4D9C91E524553010 /* Build configuration list for PBXNativeTarget "GLocation" */;
+			buildPhases = (
+				E5D90A8374DF75537B32D442C2A3EF5F /* Headers */,
+				B45A659EDED1C3CD30358008956C7CF6 /* Sources */,
+				B46F928DFFB7CD6D8B5FE25241F979CC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F7F9422D4DB487FE1DC64352CAE543 /* PBXTargetDependency */,
+				C7F0B4CFA3A59E8BE6FA36D7A757CA5A /* PBXTargetDependency */,
+			);
+			name = GLocation;
+			productName = GLocation;
+			productReference = E46705E272C84F202F413DF1F6E77D74 /* libGLocation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32DF71FFCEB37D851254EC7F179FB9A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = F1AC081D95C94579536AFB92A92B18A8 /* Build configuration list for PBXProject "GLocation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 870E34ED61098931689B13692F7D3044;
+			productRefGroup = 7F3E414011005847682E4C63E88A18D7 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = F6BD78395ABCC3B82DC23A517266B639 /* BMKLocationKit */;
+				},
+				{
+					ProjectRef = 59AFDBB2CA6C80CD4DF105FB0D627590 /* BaiduMapKit */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E83595FDDFBBC5AA6EB9BE59A6DE32AD /* GLocation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B45A659EDED1C3CD30358008956C7CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3EBA5BC80F68F13A9591BC983B5C34 /* GALocation.m in Sources */,
+				2C48A03C20FBB0E46A1F2CED4418D35B /* GLocation-dummy.m in Sources */,
+				20A9AB5FF5F6C3AA36B08F79531D6966 /* GLocation.m in Sources */,
+				A0D23B678BC9948AA5F9C948C2886283 /* GMapView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7F0B4CFA3A59E8BE6FA36D7A757CA5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaiduMapKit;
+			targetProxy = 5616D52991941BB890BC424214EC1C12 /* PBXContainerItemProxy */;
+		};
+		D6F7F9422D4DB487FE1DC64352CAE543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BMKLocationKit;
+			targetProxy = FA1EC773331566C87E83549227C4343A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20FF346BB6442ED677D3345AD426BC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CE3F73EFCD23EB85948CF1D96FB76483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A1009291FF8AD72ABFA28D7583EDA9 /* GLocation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GLocation/GLocation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GLocation;
+				PRODUCT_NAME = GLocation;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E34F8D2BEB61A04B6D4CC089EC5184D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A1009291FF8AD72ABFA28D7583EDA9 /* GLocation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GLocation/GLocation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GLocation;
+				PRODUCT_NAME = GLocation;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F54B943C2F5A623210AC4D8D0134E2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1AC081D95C94579536AFB92A92B18A8 /* Build configuration list for PBXProject "GLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FF346BB6442ED677D3345AD426BC8C /* Debug */,
+				F54B943C2F5A623210AC4D8D0134E2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7B93FCC2B9A45A4D9C91E524553010 /* Build configuration list for PBXNativeTarget "GLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34F8D2BEB61A04B6D4CC089EC5184D4 /* Debug */,
+				CE3F73EFCD23EB85948CF1D96FB76483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32DF71FFCEB37D851254EC7F179FB9A7 /* Project object */;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "GTask",
+  "version": "0.0.1",
+  "summary": "GTask.",
+  "description": "GTask the convi",
+  "homepage": "http://temp/GTask",
+  "license": "MIT",
+  "authors": {
+    "iOS_Developer_G": "iOS_Developer_G@xxxxx.com"
+  },
+  "source": {
+    "git": "http://temp/GTask.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "GTask",
+    "GTask/GTask/core/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}
