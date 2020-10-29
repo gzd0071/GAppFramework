@@ -7,13 +7,10 @@
 //
 
 #import "AppDelegate.h"
-#import <AFNetworking/AFNetworkActivityIndicatorManager.h>
+#import <Foundation/Foundation.h>
 #import <GLogger/Logger.h>
 #import <GStart/DMWechat.h>
-#import <ReactiveObjC/RACmetamacros.h>
 #import <GPush/GPush.h>
-#import <ReactiveObjC/RACSignal+Operations.h>
-#import <ReactiveObjC/RACSignal.h>
 #ifdef NSFoundationVersionNumber_iOS_9_x_Max
 #import <UserNotifications/UserNotifications.h>
 #endif
