@@ -11,6 +11,8 @@
 #import <SMPageControl/SMPageControl.h>
 #import "DMHListModel.h"
 #import <GBaseLib/GConvenient.h>
+#import <SDWebImage/SDWebImage.h>
+#import <SDWebImage/SDImageTransformer.h>
 
 
 #define kMER_WIDTH 120
@@ -122,7 +124,12 @@
 - (UIView *)carousel:(iCarousel *)carousel viewForItemAtIndex:(NSInteger)index
          reusingView:(UIImageView *)view {
     if (!view) view = [[UIImageView alloc] initWithFrame:carousel.bounds];
-    [view setImageWithURL:[NSURL URLWithString:self.model.list[index].image]];
+//    [view setImageWithURL:[NSURL URLWithString:self.model.list[index].image]];
+    SDWebImageMutableContext *sdContext = [SDWebImageMutableContext dictionary];
+    SDImageRotationTransformer *sdimageRotationTransformer = [SDImageRotationTransformer transformerWithAngle:45.0f fitSize:YES];
+    SDImageRoundCornerTransformer *sdimageRoundCornerTransformer = [SDImageRoundCornerTransformer transformerWithRadius:20.0f corners:UIRectCornerTopLeft | UIRectCornerBottomRight | UIRectCornerTopRight borderWidth:1.0f borderColor:nil];
+    sdContext[SDWebImageContextImageTransformer] = [SDImagePipelineTransformer transformerWithTransformers:@[sdimageRoundCornerTransformer, sdimageRotationTransformer]];
+    [view sd_setImageWithURL:[NSURL URLWithString:self.model.list[index].image] placeholderImage:nil options:0 context:sdContext];
     @weakify(self);
     [view addTapGesture:^{
         @strongify(self);

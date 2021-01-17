@@ -178,6 +178,7 @@
 }
 
 - (void)updateFrames {
+    [_salary sizeToFit];
     [_salaryUnit sizeToFit];
     [_merName sizeToFit];
     CGFloat height = self.model.height;
@@ -187,7 +188,7 @@
     _postNote.frame   = CGRectMake(16, _title.bottom+16, noteW, self.model.noteH+1);
     _tagsView.frame   = CGRectMake(16, _postNote.bottom+(hasPad?12:0), SCREEN_WIDTH-32, self.model.tagsH);
     _salaryUnit.frame = CGRectMake(SCREEN_WIDTH-16-_salaryUnit.width, 42, _salaryUnit.width, _salaryUnit.height);
-    _salary.frame     = CGRectMake(SCREEN_WIDTH-216-_salaryUnit.width, 42, 200, 14);
+    _salary.frame     = CGRectMake(SCREEN_WIDTH- 16 -_salaryUnit.width - _salary.width, 42, _salary.width, 14);
     _postArea.frame   = CGRectMake(self.tagLabel.hidden ? 16 : 50, 20, 200, 12);
     _merName.frame    = CGRectMake(48, height-39, MIN(_merName.width, 140.0), _merName.height);
     _merLine.frame    = CGRectMake(_merName.right+5, height-36, 1, 8);
@@ -237,6 +238,7 @@
     UILabel *label = [UILabel new];
     label.font = FONT(12);
     label.textColor = HEX(@"808080", @"AFAFB0");
+    label.backgroundColor = [UIColor whiteColor];
     return label;
 }
 
@@ -244,6 +246,7 @@
     UILabel *label = [UILabel new];
     label.font = FONT(12);
     label.textColor = HEX(@"404040", @"dddddd");
+    label.backgroundColor = [UIColor whiteColor];
     return label;
 }
 
@@ -259,6 +262,7 @@
         _title.font = FONT_BOLD(16);
         _title.textColor = HEX(@"404040", @"dddddd");
         _title.numberOfLines = 2;
+        _title.backgroundColor = [UIColor whiteColor];
     }
     return _title;
 }
@@ -269,6 +273,7 @@
         _salary.font = FONT_BOLD(14);
         _salary.textColor = HEX(@"ff8800", @"DD9504");
         _salary.textAlignment = NSTextAlignmentRight;
+        _salary.backgroundColor = [UIColor whiteColor];
     }
     return _salary;
 }
@@ -279,6 +284,8 @@
         _salaryUnit.font = FONT_BOLD(12);
         _salaryUnit.textColor = HEX(@"ff8800", @"DD9504");
         _salaryUnit.textAlignment = NSTextAlignmentRight;
+        _salaryUnit.backgroundColor = [UIColor whiteColor];
+
     }
     return _salaryUnit;
 }
@@ -289,6 +296,7 @@
         _merIcon.layer.cornerRadius =  10;
         _merIcon.clipsToBounds = YES;
         _merIcon.contentMode = UIViewContentModeScaleAspectFill;
+        _merIcon.backgroundColor = [UIColor whiteColor];
     }
     return _merIcon;
 }
@@ -306,6 +314,7 @@
         _btn.layer.borderColor = HEX(@"ff8800", @"DD9504").CGColor;
         _btn.layer.borderWidth = HALFPixal;
         _btn.titleLabel.font = FONT(14);
+        _btn.titleLabel.backgroundColor = [UIColor whiteColor];
         [_btn setTitleColor:HEX(@"ff8800", @"DD9504") forState:UIControlStateNormal];
         [_btn setTitleColor:HEX(@"ff8800", @"DD9504") forState:UIControlStateSelected];
         [_btn setTitleColor:HEX(@"999999", @"989899") forState:UIControlStateDisabled];

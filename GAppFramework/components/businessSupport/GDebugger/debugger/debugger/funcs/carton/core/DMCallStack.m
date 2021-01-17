@@ -27,7 +27,7 @@ static mach_port_t _DMMainThreadId;
 @implementation DMCallStack
 
 + (void)load {
-//    _DMMainThreadId = mach_thread_self();
+    _DMMainThreadId = mach_thread_self();
 }
 
 ///> 获取某线程的栈信息 

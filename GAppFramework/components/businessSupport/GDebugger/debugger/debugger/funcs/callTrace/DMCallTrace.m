@@ -31,7 +31,7 @@
 @implementation DMCallTrace
 
 + (void)load {
-//    [self start];
+    [self start];
 }
 
 + (void)start {

@@ -124,6 +124,7 @@
     UILabel *label = [UILabel new];
     label.font = FONT(14);
     label.textColor = HEX(@"404040", @"dddddd");
+    label.backgroundColor = [UIColor whiteColor];
     return label;
 }
 

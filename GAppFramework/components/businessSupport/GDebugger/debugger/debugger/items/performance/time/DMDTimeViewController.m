@@ -145,9 +145,9 @@
     } else if (pad >= 1) {
         return [NSString stringWithFormat:@"%.2fs", pad];
     } else if (pad >= 0.001) {
-           return [NSString stringWithFormat:@"%ldms", (long)(old * 1000)];
+           return [NSString stringWithFormat:@"%ldms", (long)(pad * 1000)];
        } else {
-           return [NSString stringWithFormat:@"%ldμs", (long)(old * 1000000)];
+           return [NSString stringWithFormat:@"%ldμs", (long)(pad * 1000000)];
        }
 }
 

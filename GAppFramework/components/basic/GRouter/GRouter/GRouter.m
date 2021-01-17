@@ -11,6 +11,7 @@
 #import <GTask/GInvokeBlock.h>
 #import <GProtocol/ProtocolExtend.h>
 #import <GTask/GTask+Private.h>
+#import <ReactiveObjC/RACmetamacros.h>
 
 NSString * const RouterDefaultHandler = @"krouterdefault";
 
