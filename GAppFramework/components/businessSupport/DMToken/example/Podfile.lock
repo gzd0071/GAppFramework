@@ -1,0 +1,67 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - DMEncrypt (0.1.0):
+    - YYKit
+  - DMToken (0.0.1):
+    - Bolts
+    - DMEncrypt
+    - HttpRequest
+    - SAMKeychain
+  - HttpRequest (0.1.0):
+    - AFNetworking
+    - Bolts
+    - YYKit
+  - SAMKeychain (1.5.3)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - DMToken (from `../../DMToken`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Bolts
+    - SAMKeychain
+    - YYKit
+  https://github.com/katongzhong1/ComponentsSpecs:
+    - DMEncrypt
+    - HttpRequest
+
+EXTERNAL SOURCES:
+  DMToken:
+    :path: "../../DMToken"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  DMEncrypt: deb5f39d82371a09f2a7bbabf944a7eddf17d333
+  DMToken: 0525a4946dd7e488cb87ede72cae905addfd55fd
+  HttpRequest: df0dfeeed86c0b3358a138cb87af80da7caba624
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: c592f94608cb127bcbd8acbe439d79db01445776
+
+COCOAPODS: 1.7.2

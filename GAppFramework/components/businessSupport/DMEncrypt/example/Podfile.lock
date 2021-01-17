@@ -1,0 +1,26 @@
+PODS:
+  - DMEncrypt (0.0.1):
+    - YYKit (= 1.0.9)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - DMEncrypt (from `../../DMEncrypt`)
+  - YYKit (= 1.0.9)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YYKit
+
+EXTERNAL SOURCES:
+  DMEncrypt:
+    :path: "../../DMEncrypt"
+
+SPEC CHECKSUMS:
+  DMEncrypt: a79e5378b0657eb02262fdeeb3d26fafebbd79dd
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 757b1ea76b8b7174ce9a9761f11f28cc6519112c
+
+COCOAPODS: 1.7.2
